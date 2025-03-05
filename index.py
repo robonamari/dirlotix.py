@@ -22,9 +22,8 @@ load_dotenv(dotenv_path=".env")
 
 
 def load_translation(language):
-    file_path = f"translations/{language}.yaml"
-    if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
+    if os.path.exists(f"translations/{language}.yaml"):
+        with open(f"translations/{language}.yaml", "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
     return {}
 
@@ -64,8 +63,6 @@ def index(lang):
                     if os.path.dirname(directory)
                     else f"/{lang}"
                 ),
-                "size": "",
-                "date": "",
             }
         ]
         if directory != os.path.dirname(__file__)
@@ -74,7 +71,7 @@ def index(lang):
     for file in sorted(
         [file for file in os.listdir(directory) if not file.startswith(".")]
     ):
-        if file in ["index.py"]:
+        if file in ["index.py", "translations"]:
             continue
         file_path = os.path.join(directory, file)
         if os.path.isfile(file_path):
@@ -131,8 +128,6 @@ def index(lang):
                     "icon": "fas fa-folder-open",
                     "name": file,
                     "link": f"/{lang}/?dir={os.path.relpath(file_path, os.path.dirname(__file__))}",
-                    "size": "",
-                    "date": "",
                 }
             )
     return render_template_string(
@@ -193,14 +188,6 @@ def index(lang):
     )
 
 
-@app.route("/favicon.ico")
-def favicon():
-    return Response(
-        requests.get(os.getenv("favicon"), stream=True).content,
-        mimetype="image/x-icon",
-    )
-
-
 @app.route("/<path:filename>")
 def download_file(filename):
     file_path = os.path.join(os.path.dirname(__file__), filename)
@@ -218,6 +205,14 @@ def download_file(filename):
             return send_file(file_path, as_attachment=True)
     else:
         return abort(404)
+
+
+@app.route("/favicon.ico")
+def favicon():
+    return Response(
+        requests.get(os.getenv("favicon"), stream=True).content,
+        mimetype="image/x-icon",
+    )
 
 
 @app.errorhandler(Exception)
