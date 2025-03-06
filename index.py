@@ -3,7 +3,7 @@ import mimetypes
 import os
 import re
 
-import requests
+import aiohttp
 import yaml
 from dotenv import load_dotenv
 from flask import (
@@ -50,6 +50,7 @@ def index(lang):
     translations = load_translation(lang)
     font_family = os.getenv("font_family")
     favicon = os.getenv("favicon")
+    theme_color = os.getenv("theme_color")
     directory = request.args.get("dir") or os.path.dirname(__file__)
     if not os.path.isdir(directory):
         return abort(404)
@@ -185,6 +186,7 @@ def index(lang):
         translations=translations,
         font_family=font_family,
         favicon=favicon,
+        theme_color=theme_color,
     )
 
 
@@ -208,11 +210,10 @@ def download_file(filename):
 
 
 @app.route("/favicon.ico")
-def favicon():
-    return Response(
-        requests.get(os.getenv("favicon"), stream=True).content,
-        mimetype="image/x-icon",
-    )
+async def favicon():
+    async with aiohttp.ClientSession() as session:
+        async with session.get(os.getenv("favicon")) as response:
+            return Response(await response.read(), mimetype="image/x-icon")
 
 
 @app.errorhandler(Exception)
