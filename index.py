@@ -25,7 +25,7 @@ def load_translation(language):
     if os.path.exists(f"translations/{language}.yaml"):
         with open(f"translations/{language}.yaml", "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
-    return {}
+    raise FileNotFoundError(f"Translation file not found: translations/{language}.yaml")
 
 
 @app.route("/", methods=["GET"])
@@ -39,11 +39,10 @@ def redirect_to_default_lang():
 
 @app.route("/<lang>/", methods=["GET"])
 def index(lang):
-    yaml_pattern = re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE)
     valid_languages = {
         filename[:-5]
         for filename in os.listdir("translations")
-        if yaml_pattern.match(filename)
+        if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
     }
     if lang not in valid_languages:
         abort(404)
@@ -77,8 +76,8 @@ def index(lang):
         file_path = os.path.join(directory, file)
         if os.path.isfile(file_path):
             mime_type, _ = mimetypes.guess_type(file_path)
+            icon_class = "fas fa-file"
             if mime_type:
-                icon_class = "fas fa-file"
                 if mime_type.startswith("video"):
                     icon_class = "fas fa-video"
                 elif mime_type.startswith("image"):
@@ -109,9 +108,6 @@ def index(lang):
                     icon_class = "fab fa-js"
                 elif mime_type.startswith("text/plain"):
                     icon_class = "fas fa-file-alt"
-            else:
-                icon_class = "fas fa-file"
-
             file_list.append(
                 {
                     "icon": icon_class,
@@ -190,7 +186,7 @@ def index(lang):
     )
 
 
-@app.route("/<path:filename>")
+@app.route("/<path:filename>", methods=["GET"])
 def download_file(filename):
     file_path = os.path.join(os.path.dirname(__file__), filename)
     if os.path.isfile(file_path):
@@ -203,13 +199,11 @@ def download_file(filename):
             "application",
         ]:
             return send_file(file_path, mimetype=mime_type)
-        else:
-            return send_file(file_path, as_attachment=True)
-    else:
-        return abort(404)
+        return send_file(file_path, as_attachment=True)
+    return abort(404)
 
 
-@app.route("/favicon.ico")
+@app.route("/favicon.ico", methods=["GET"])
 async def favicon():
     async with aiohttp.ClientSession() as session:
         async with session.get(os.getenv("favicon")) as response:
