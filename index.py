@@ -70,7 +70,7 @@ def index(lang):
         else []
     )
     for file in sorted(
-        [file for file in os.listdir(directory) if not file.startswith(".")]
+        {file for file in os.listdir(directory) if not file.startswith(".")}
     ):
         if file in os.getenv("ignore_files", "").split(","):
             continue
