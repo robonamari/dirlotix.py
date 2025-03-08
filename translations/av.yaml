@@ -1,0 +1,12 @@
+head:
+  dir: ltr
+  description: "Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн хъалаалаьш."
+  title: "Дигитална библиотека"
+body:
+  search_placeholder: "Йуьзга..."
+  file: "Файл"
+  name: "Наме"
+  size: "Размер"
+  last_modified: "Ньина лаьмолаьш"
+directory_listing: "Директори листи"
+Parent_Directory: "Юкъуйан Фолдер"
