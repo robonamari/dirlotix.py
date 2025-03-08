@@ -312,13 +312,13 @@ def download_file(filename):
             return abort(403)
     if os.path.isfile(file_path):
         mime_type, _ = mimetypes.guess_type(file_path)
-        if mime_type and mime_type.split("/")[0] in [
+        if mime_type and mime_type.split("/")[0] in {
             "image",
             "audio",
             "video",
             "text",
             "application",
-        ]:
+        }:
             return send_file(file_path, mimetype=mime_type)
         return send_file(file_path, as_attachment=True)
     return abort(404)
