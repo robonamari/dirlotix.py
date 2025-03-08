@@ -1,4 +1,5 @@
 import datetime
+import glob
 import mimetypes
 import os
 import re
@@ -16,7 +17,7 @@ from flask import (
     send_file,
 )
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="")
 __import__("flask_compress").Compress(app)
 load_dotenv(dotenv_path=".env")
 
@@ -45,7 +46,7 @@ def index(lang):
         if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
     }
     if lang not in valid_languages:
-        abort(404)
+        return download_file(lang)
     translations = load_translation(lang)
     font_family = os.getenv("font_family")
     favicon = os.getenv("favicon")
@@ -71,7 +72,7 @@ def index(lang):
     for file in sorted(
         [file for file in os.listdir(directory) if not file.startswith(".")]
     ):
-        if file in ["index.py", "translations"]:
+        if file in os.getenv("ignore_files", "").split(","):
             continue
         file_path = os.path.join(directory, file)
         if os.path.isfile(file_path):
@@ -129,7 +130,7 @@ def index(lang):
             )
     return render_template_string(
         """<!doctypehtml>
-         <html dir="{{ lang }}" lang="{{ translations["head"]["lang"] }}">
+         <html dir="{{ translations["head"]["dir"] }}" lang="{{ lang }}">
 
          <head>
           <meta charset="UTF-8">
@@ -232,4 +233,7 @@ if __name__ == "__main__":
         port=os.getenv("port"),
         use_reloader=os.getenv("use_reloader"),
         debug=os.getenv("debug"),
+        extra_files=glob.glob(
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), "*")
+        ),
     )
