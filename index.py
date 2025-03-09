@@ -38,7 +38,7 @@ def redirect_to_default_lang():
     return redirect(new_url, code=302)
 
 
-@app.route("/<lang>/", methods=["GET"])
+@app.route("/<lang>", methods=["GET"])
 def index(lang):
     valid_languages = {
         filename[:-5]
@@ -60,7 +60,7 @@ def index(lang):
                 "icon": "fas fa-level-up-alt",
                 "name": translations["Parent_Directory"],
                 "link": (
-                    f"/{lang}/?dir={os.path.dirname(directory)}"
+                    f"/{lang}?dir={os.path.dirname(directory)}"
                     if os.path.dirname(directory)
                     else f"/{lang}"
                 ),
@@ -125,14 +125,15 @@ def index(lang):
                 {
                     "icon": "fas fa-folder-open",
                     "name": file,
-                    "link": f"/{lang}/?dir={os.path.relpath(file_path, os.path.dirname(__file__))}",
+                    "link": f"/{lang}?dir={os.path.relpath(file_path, os.path.dirname(__file__))}",
                 }
             )
     return render_template_string(
         """
-        <!doctype html>
+<!doctype html>
 <html dir="{{ translations['head']['dir'] }}" lang="{{ lang }}">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>{{ translations['directory_listing'] }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -149,152 +150,149 @@ def index(lang):
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-      body {
+        body {
         font-family: {{ font_family }};
         margin: 20px;
         background-color: #f9f9f9;
         color: #333;
-      }
-      h1 {
+        }
+        h1 {
         text-align: center;
         color: #555;
-      }
-      .table-container {
+        }
+        .table-container {
         max-width: 100%;
         margin: 0 auto;
         overflow-x: auto;
-      }
-      table {
+        }
+        table {
         border-collapse: collapse;
         width: 100%;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, .1);
         margin-bottom: 20px;
-      }
-      td, th {
+        }
+        td, th {
         padding: 12px;
         text-align: left;
         border-bottom: 1px solid #ddd;
-      }
-      th {
+        }
+        th {
         background-color: #f2f2f2;
         cursor: pointer;
-      }
-      th.sortable:hover {
+        }
+        th.sortable:hover {
         background-color: #e0e0e0;
-      }
-      .icon {
+        }
+        .icon {
         text-align: center;
         width: 30px;
-      }
-      a {
+        }
+        a {
         text-decoration: none;
         color: #007bff;
         font-weight: 700;
-      }
-      a:hover {
+        }
+        a:hover {
         text-decoration: underline;
-      }
-      .search-bar {
+        }
+        .search-bar {
         margin-bottom: 20px;
         text-align: center;
-      }
-      .search-bar input[type="text"] {
+        }
+        .search-bar input[type="text"] {
         width: 300px;
         max-width: 80%;
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 4px;
-      }
-      .search-bar button {
+        }
+        .search-bar button {
         padding: 10px 20px;
         border: none;
         background-color: #007bff;
         color: #fff;
         border-radius: 4px;
         cursor: pointer;
-      }
-      .search-bar button:hover {
-        background-color: #0056b3;
-      }
-      @media (max-width: 576px) {
-        .search-bar input[type="text"] {
-          width: 80%;
         }
-      }
+        .search-bar button:hover {
+        background-color: #0056b3;
+        }
+        @media (max-width: 576px) {
+        .search-bar input[type="text"] {
+        width: 80%;
+        }
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>{{ translations['directory_listing'] }}</h1>
-    <div class="search-bar">
-      <input oninput="filterTable(this.value)" placeholder="{{ translations['body']['search_placeholder'] }}">
-    </div>
+    <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{ translations['body']['search_placeholder'] }}"> </div>
     <div class="table-container">
-      <table class="table table-hover table-striped">
-        <thead>
-          <tr>
-            <th class="icon">{{ translations['body']['file'] }}</th>
-            <th class="sortable" onclick="sortTable(1)">{{ translations['body']['name'] }}</th>
-            <th class="sortable" onclick="sortTable(2)">{{ translations['body']['size'] }}</th>
-            <th class="sortable" onclick="sortTable(3)">{{ translations['body']['last_modified'] }}</th>
-          </tr>
-        </thead>
-        <tbody id="fileTableBody">
-          {% for file in file_list %}
-          <tr>
-            <td class="icon"><i class="{{ file.icon }}"></i></td>
-            <td><a href="{{ file.link }}">{{ file.name }}</a></td>
-            <td>{{ file.size }}</td>
-            <td>{{ file.date }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="icon">{{ translations['body']['file'] }}</th>
+                    <th class="sortable" onclick="sortTable(1)">{{ translations['body']['name'] }}</th>
+                    <th class="sortable" onclick="sortTable(2)">{{ translations['body']['size'] }}</th>
+                    <th class="sortable" onclick="sortTable(3)">{{ translations['body']['last_modified'] }}</th>
+                </tr>
+            </thead>
+            <tbody id="fileTableBody"> {% for file in file_list %} <tr>
+                    <td class="icon"><i class="{{ file.icon }}"></i></td>
+                    <td><a href="{{ file.link }}">{{ file.name }}</a></td>
+                    <td>{{ file.size }}</td>
+                    <td>{{ file.date }}</td>
+                </tr> {% endfor %} </tbody>
+        </table>
     </div>
     <script>
-      function sortTable(e) {
+        function sortTable(e) {
         const tbody = document.querySelector("table tbody");
         const rows = Array.from(tbody.rows);
         const isSameColumn = e === window.lastSortedColumnIndex;
         const isAsc = isSameColumn && window.lastSortOrder === "asc";
         const sortedRows = rows.sort((a, b) => {
-          let aText = a.cells[e].innerText.toLowerCase();
-          let bText = b.cells[e].innerText.toLowerCase();
-          if (e === 2) { // Size
-            aText = parseFloat(aText);
-            bText = parseFloat(bText);
-          } else if (e === 3) { // Last modified
-            aText = new Date(aText);
-            bText = new Date(bText);
-          }
-          if (isAsc) {
-            return aText > bText ? -1 : aText < bText ? 1 : 0;
-          } else {
-            return aText > bText ? 1 : aText < bText ? -1 : 0;
-          }
+        let aText = a.cells[e].innerText.toLowerCase();
+        let bText = b.cells[e].innerText.toLowerCase();
+        if (e === 2) { // Size
+        aText = parseFloat(aText);
+        bText = parseFloat(bText);
+        } else if (e === 3) { // Last modified
+        aText = new Date(aText);
+        bText = new Date(bText);
+        }
+        if (isAsc) {
+        return aText > bText ? -1 : aText < bText ? 1 : 0;
+        } else {
+        return aText > bText ? 1 : aText < bText ? -1 : 0;
+        }
         });
         while (tbody.firstChild) {
-          tbody.removeChild(tbody.firstChild);
+        tbody.removeChild(tbody.firstChild);
         }
         sortedRows.forEach(row => tbody.appendChild(row));
         window.lastSortedColumnIndex = e;
         window.lastSortOrder = isSameColumn && isAsc ? "desc" : "asc";
         const parentDirRow = sortedRows.find(row => row.cells[1].innerText === "Parent Directory");
         if (parentDirRow) {
-          tbody.prepend(parentDirRow);
+        tbody.prepend(parentDirRow);
         }
-      }
+        }
 
-      function filterTable(filterText) {
+        function filterTable(filterText) {
         document.querySelectorAll("#fileTableBody tr").forEach(row => {
-          row.cells[1].innerText.toLowerCase().includes(filterText.toLowerCase())
-            ? row.style.display = ""
-            : row.style.display = "none";
+        row.cells[1].innerText.toLowerCase().includes(filterText.toLowerCase())
+        ? row.style.display = ""
+        : row.style.display = "none";
         });
-      }
+        }
     </script>
-  </body>
-</html>""",
+</body>
+
+</html>
+""",
         file_list=file_list,
         lang=lang,
         translations=translations,
