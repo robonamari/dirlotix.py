@@ -1,13 +1,14 @@
-name: Auto React
+name: 🚀 React to Release
 
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types: [published]
 
 jobs:
   react:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 🚀 React with Rocket Emoji
         run: |
