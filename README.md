@@ -13,10 +13,9 @@ This project is a file manager web application built with Python and Flask. It a
 - Browse and view files and directories.
 - Support for various file types (images, videos, audio, text, PDFs, and more).
 - Search and sort files by name, size, or last modified date.
-- Multi-language support with dynamic language loading via YAML files.
+- Support for multiple languages with dynamic loading via YAML files (based on the ISO 639-1 standard, covering approximately 136 languages) (Coming Soon).
 - Configurable theme colors, fonts, and favicon.
 - Error handling and redirection for various HTTP errors.
-
 ## Self-host Configuration
 <details>
 <summary>4 Steps to Host Your Own Dirlotix-py</summary>

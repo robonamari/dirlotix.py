@@ -1,0 +1,39 @@
+name: Auto Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  create_release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Get tag name
+        id: get_tag
+        run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      - name: Create zip archive
+        run: zip -r "Dirlotixpy-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "SECURITY.md" ".gitignore"
+
+      - name: Create tar.gz archive
+        run: tar --exclude=.github --exclude=.git --exclude=SECURITY.md --exclude=.gitignore --exclude="Dirlotixpy-${TAG_NAME}.zip" --ignore-failed-read -czf "Dirlotixpy-${TAG_NAME}.tar.gz" .
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: "${{ env.TAG_NAME }}"
+          files: |
+            Dirlotixpy-${{ env.TAG_NAME }}.zip
+            Dirlotixpy-${{ env.TAG_NAME }}.tar.gz
