@@ -1,0 +1,12 @@
+head:
+  dir: ltr
+  description: "Ikusi eta deskargatu fitxategiak, etab., Ezaugarri aurreratuekin eta erabiltzaile-interfaze sinple eta eraginkorrarekin."
+  title: "Liburutegi Digitala"
+body:
+  search_placeholder: "Bilatu..."
+  file: "Fitxategia"
+  name: "Izena"
+  size: "Tamaina"
+  last_modified: "Azken aldaketa"
+directory_listing: "Direktorio-zerrenda"
+Parent_Directory: "Aurreko Karpeta"
