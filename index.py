@@ -189,6 +189,7 @@ def index(lang):
 
 @app.route("/<path:filename>", methods=["GET"])
 def download_file(filename):
+    file_path = os.path.normpath(os.path.join(os.path.dirname(__file__), filename))
     file_path = os.path.join(os.path.dirname(__file__), filename)
     if os.path.isfile(file_path):
         mime_type, _ = mimetypes.guess_type(file_path)
