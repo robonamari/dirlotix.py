@@ -23,8 +23,15 @@ load_dotenv(dotenv_path=".env")
 
 
 def load_translation(language):
-    if os.path.exists(f"translations/{language}.yaml"):
-        with open(f"translations/{language}.yaml", "r", encoding="utf-8") as f:
+    file_path = os.path.normpath(
+        os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "translations",
+            f"{language}.yaml",
+        )
+    )
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
     raise FileNotFoundError(f"Translation file not found: translations/{language}.yaml")
 
