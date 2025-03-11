@@ -304,7 +304,7 @@ def index(lang):
 
 @app.route("/<path:filename>", methods=["GET"])
 def download_file(filename):
-    file_path = os.path.join(os.path.dirname(__file__), filename)
+    file_path = os.path.normpath(os.path.join(os.path.dirname(__file__), filename))
     for part in filename.split("/"):
         if part in set(os.getenv("ignore_files", "").split(",")):
             return abort(403)
