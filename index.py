@@ -58,8 +58,10 @@ def index(lang):
     font_family = os.getenv("font_family")
     favicon = os.getenv("favicon")
     theme_color = os.getenv("theme_color")
-    directory = request.args.get("dir") or os.path.dirname(__file__)
-    if not os.path.isdir(directory):
+    safe_root = os.path.dirname(__file__)
+    directory = request.args.get("dir") or safe_root
+    directory = os.path.normpath(os.path.join(safe_root, directory))
+    if not directory.startswith(safe_root) or not os.path.isdir(directory):
         return abort(404)
     file_list = (
         [
