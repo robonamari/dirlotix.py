@@ -12,40 +12,41 @@
 
 ---
 
-This project is a file manager web application built with Python and Flask. It allows users to browse and download files on a server, view directory listings, and interact with different file types. The application also supports multi-language functionality and allows configuration of various settings like theme colors, fonts, and favicon.
+این پروژه یک برنامه مدیریت فایل تحت وب است که با Python و Flask ساخته شده است. این برنامه به کاربران امکان می دهد تا فایل های موجود در سرور را مرور و دانلود کنند، لیست دایرکتوری ها را مشاهده کنند و با انواع مختلف فایل ها تعامل داشته باشند. همچنین، این برنامه از قابلیت چندزبانه پشتیبانی می کند و به کاربران اجازه می دهد تنظیمات مختلفی مانند رنگ های تم، فونت ها و فاوآیکن را پیکربندی کنند.
 
-## Features
-- Browse and view files and directories.
-- Support for various file types (images, videos, audio, text, PDFs, and more).
-- Search and sort files by name, size, or last modified date.
-- Support for multiple languages with dynamic loading via YAML files (based on the ISO 639-1 standard, covering approximately 136 languages) (Coming Soon).
-- Configurable theme colors, fonts, and favicon.
-- Error handling and redirection for various HTTP errors.
-## Self-host Configuration
+## ویژگی ها  
+- مرور و مشاهده فایل ها و دایرکتوری ها.  
+- پشتیبانی از انواع مختلف فایل ها (تصاویر، ویدئوها، صدا، متن، PDF و موارد دیگر).  
+- جستجو و مرتب سازی فایل ها بر اساس نام، اندازه یا تاریخ آخرین تغییر.  
+- پشتیبانی از چندین زبان با بارگذاری داینامیک از طریق فایل های YAML (بر اساس استاندارد ISO 639-1، شامل تقریباً 136 زبان) (به زودی).  
+- قابلیت تنظیم رنگ های تم، فونت ها و فاوآیکن.  
+- مدیریت خطاها و ریدایرکت برای خطاهای مختلف HTTP.
+
+## تنظیمات میزبانی شخصی
 <details>
-<summary>4 Steps to Host Your Own Dirlotix-py</summary>
+<summary>4 مرحله برای میزبانی Dirlotix-py روی سرور شخصی</summary>
 
-### 1. Clone the Repository
+### 1. کلون کردن مخزن
 ```bash
 git clone https://github.com/robonamari/Dirlotix-py
 ```
 
-### 2. Install Python and Dependencies
-Install Python 3.7 or above, then install the required Python dependencies:
+### 2. نصب پایتون و وابستگی ها  
+پایتون 3.7 یا بالاتر را نصب کنید، سپس وابستگی های مورد نیاز را نصب کنید:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure the Script
-1. Rename **.env.example** to **.env**.
-2. The full descriptions of the environment variables are written inside the `.env` file, and you need to fill them out accordingly.
+### 3. تنظیم اسکریپت  
+1. نام **.env.example** را به **.env** تغییر دهید.  
+2. توضیحات کامل متغیرهای محیطی داخل فایل `.env` نوشته شده اند، آن ها را مطابق نیاز تکمیل کنید.  
 
-### 4. Run the Script
+### 4. اجرای اسکریپت
 ```bash
 python index.py
 ```
 
-### Done!
-Your script should be fully configured and ready to run!
+### انجام شد!  
+اسکریپت شما باید به طور کامل تنظیم شده و آماده اجرا باشد!
 
 </details>
