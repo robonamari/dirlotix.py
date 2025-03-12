@@ -1,3 +1,8 @@
+<div align="center">
+
+[**🇮🇷 فارسی**](README_fa.md)
+</div>
+
 <p align="center">
     <img src="https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat" alt="Code Size">
     <img src="https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat" alt="Total lines">
