@@ -148,10 +148,10 @@ def index(lang):
     <meta charset="UTF-8">
     <title>{{ translations['directory_listing'] }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="{{ theme_color }}">
-    <meta name="title" content="{{ translations['head']['title'] }} - {{ ' '.join(request.host.split(':')[0].split('.')[:-1]) }}">
+    <meta name="title" content="{{ directory_listing }} - {{ ' '.join(request.host.split(':')[0].split('.')[:-1]) }}">
     <meta name="description" content="{{ translations['head']['description'] }}">
-    <meta property="og:title" content="{{ translations['head']['title'] }} - {{ ' '.join(request.host.split(':')[0].split('.')[:-1]) }}">
+    <meta name="theme-color" content="{{ theme_color }}">
+    <meta property="og:title" content="{{ directory_listing }} - {{ ' '.join(request.host.split(':')[0].split('.')[:-1]) }}">
     <meta property="og:description" content="{{ translations['head']['description'] }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ request.url_root }}">
