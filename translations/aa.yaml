@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Eegora iyo sooraha faylasha, iwm, iyadoo leh astaamo horumarsan iyo interface isticmaale fudud oo waxtar leh."
-  title: "Maktabadda Dijitaalka"
 body:
   search_placeholder: "Raadi..."
   file: "Fayl"

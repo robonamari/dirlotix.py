@@ -1,7 +1,6 @@
 head:
   dir: rtl
   description: "عرض وتنزيل الملفات، إلخ، مع ميزات متقدمة وواجهة مستخدم بسيطة وفعالة."
-  title: "المكتبة الرقمية"
 body:
   search_placeholder: "بحث..."
   file: "ملف"

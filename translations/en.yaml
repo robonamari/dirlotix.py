@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "View and download files, etc., with advanced features and a simple, efficient user interface."
-  title: "Digital Library"
 body:
   search_placeholder: "Search..."
   file: "File"

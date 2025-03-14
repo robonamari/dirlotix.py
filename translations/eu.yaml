@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Ikusi eta deskargatu fitxategiak, etab., Ezaugarri aurreratuekin eta erabiltzaile-interfaze sinple eta eraginkorrarekin."
-  title: "Liburutegi Digitala"
 body:
   search_placeholder: "Bilatu..."
   file: "Fitxategia"

@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një ndërfaqe përdoruesi të thjeshtë dhe efikase."
-  title: "Biblioteka Digjitale"
 body:
   search_placeholder: "Kërko..."
   file: "Skedar"

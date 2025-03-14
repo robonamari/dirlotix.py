@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Fayil le, ka dɔɔnin ka kɔrɔma, tɔɔrɔ, ni dɔɔnin ka sigi ɲininkari, ka tɛgɛ faamuya, lafiɲɛ ko."
-  title: "Dijital Boli"
 body:
   search_placeholder: "Sari..."
   file: "Fayil"

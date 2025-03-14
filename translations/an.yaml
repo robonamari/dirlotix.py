@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Mira y descarga archivos, etc., con características avanzadas y una interfaz de usuario simple y eficiente."
-  title: "Biblioteca Digital"
 body:
   search_placeholder: "Buscar..."
   file: "Archivo"

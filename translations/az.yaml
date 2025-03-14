@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "Faylları görüntüləyin və yükləyin və s., qabaqcıl xüsusiyyətlər və sadə, effektiv istifadəçi interfeysi ilə."
-  title: "Rəqəmsal Kitabxana"
 body:
   search_placeholder: "Axtar..."
   file: "Fayl"

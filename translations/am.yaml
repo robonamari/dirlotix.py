@@ -1,7 +1,6 @@
 head:
   dir: ltr
   description: "ፋይሎችን እና ሌሎችን በውስጥ ባለ ባለሞያ ባህሪዎች እና ቀላል፣ እንቆቅልሽ ተጠቃሚ ተወዳድሮ ማዕከል ጭነት እንዲያስችል።"
-  title: "ዲጂታል ቤተ-መናበሪ"
 body:
   search_placeholder: "ፈልግ..."
   file: "ፋይል"
