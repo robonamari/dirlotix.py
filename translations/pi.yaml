@@ -1,0 +1,11 @@
+head:
+  dir: ltr
+  description: "Pāṭhāniyo ca itthīyo ca anuṭṭhāyiṃsū, anekappakāraṃ bhāvitaṃ ca upayogavantaṃ kāyena sāmaggiyā."
+body:
+  search_placeholder: "Paccavekkha..."
+  file: "Pāṭha"
+  name: "Nāma"
+  size: "Sāra"
+  last_modified: "Punaṅkāraṇā"
+directory_listing: "Pāṭhālisto"
+Parent_Directory: "Aṭṭhādiso"
