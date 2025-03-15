@@ -1,0 +1,11 @@
+head:
+  dir: ltr
+  description: "फाइलों और अन्य संसाधनों को उन्नत सुविधाओं और एक सरल और उपयोगकर्ता-मित्र इंटरफ़ेस के साथ देखें और डाउनलोड करें।"
+body:
+  search_placeholder: "खोजें..."
+  file: "फ़ाइल"
+  name: "नाम"
+  size: "आकार"
+  last_modified: "अंतिम संशोधन"
+directory_listing: "निर्देशिका सूची"
+Parent_Directory: "मूल निर्देशिका"
