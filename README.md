@@ -18,7 +18,7 @@ This project is a file manager web application built with Python and Flask. It a
 - Browse and view files and directories.
 - Support for various file types (images, videos, audio, text, PDFs, and more).
 - Search and sort files by name, size, or last modified date.
-- Support for multiple languages with dynamic loading via YAML files (based on the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) standard, covering approximately 181 languages) (Coming Soon).
+- Support for multiple languages with dynamic loading via YAML files (based on the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) standard, covering approximately 181 languages).
 - Configurable theme colors, fonts, and favicon.
 - Error handling and redirection for various HTTP errors.
 ## Self-host Configuration
