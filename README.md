@@ -6,7 +6,7 @@
 <p align="center">
     <img src="https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat" alt="Code Size">
     <img src="https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat" alt="Total lines">
-    <img src="https://img.shields.io/badge/python-%5E3.9-blue" alt="Python Versions">
+    <img src="https://img.shields.io/badge/python-%5E3.8-blue" alt="Python Versions">
     <img src="https://img.shields.io/github/license/robonamari/Dirlotix-py" alt="GitHub license">
 </p>
 
@@ -18,7 +18,7 @@ This project is a file manager web application built with Python and Flask. It a
 - Browse and view files and directories.
 - Support for various file types (images, videos, audio, text, PDFs, and more).
 - Search and sort files by name, size, or last modified date.
-- Support for multiple languages with dynamic loading via YAML files (based on the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) standard, covering approximately 181 languages).
+- Support for all living languages with dynamic loading via YAML files (based on the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) standard, covering approximately 176 languages).
 - Configurable theme colors, fonts, and favicon.
 - Error handling and redirection for various HTTP errors.
 ## Self-host Configuration
