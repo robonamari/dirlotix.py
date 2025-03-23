@@ -32,7 +32,7 @@ git clone https://github.com/robonamari/Dirlotix-py
 ```
 
 ### 2. نصب پایتون و وابستگی ها
-پایتون 3.7 یا بالاتر را نصب کنید، سپس وابستگی های مورد نیاز را نصب کنید:
+پایتون را نصب کنید، سپس وابستگی های مورد نیاز را نصب کنید:
 ```bash
 pip install -r requirements.txt
 ```
