@@ -3,6 +3,7 @@ import glob
 import mimetypes
 import os
 import re
+from typing import Any, Dict, List
 
 import aiohttp
 import yaml
@@ -22,16 +23,19 @@ __import__("flask_compress").Compress(app)
 load_dotenv(dotenv_path=".env")
 
 
-def load_translation(language):
+def load_translation(language: str) -> Dict[str, Any]:
+    """
+    Load the translation file for the given language.
+
+    :param language: Language code as a string (e.g., "en").
+    :return: Dictionary containing the loaded translations.
+    :raises ValueError: If the file path is invalid.
+    :raises FileNotFoundError: If the translation file does not exist.
+    """
     base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "translations")
-    file_path = os.path.normpath(
-        os.path.join(
-            base_path,
-            f"{language}.yaml",
-        )
-    )
+    file_path = os.path.normpath(os.path.join(base_path, f"{language}.yaml"))
     if not file_path.startswith(base_path):
-        raise Exception("Invalid translation file path")
+        raise ValueError("Invalid translation file path")
     if os.path.exists(file_path):
         with open(file_path, encoding="utf-8") as f:
             return yaml.safe_load(f)
@@ -39,17 +43,35 @@ def load_translation(language):
 
 
 @app.route("/", methods=["GET"])
-def redirect_to_default_lang():
-    query_string = request.query_string.decode("utf-8")
-    new_url = "/en"
+def redirect_to_default_lang() -> Response:
+    """
+    Redirects to the default language ('/en') while preserving the query string if present.
+
+    :return: A Flask response object with a 302 redirect.
+    """
+    query_string: str = request.query_string.decode("utf-8")
+    new_url: str = "/en"
     if query_string:
         new_url += f"?{query_string}"
     return redirect(new_url, code=302)
 
 
 @app.route("/<lang>", methods=["GET"])
-def index(lang):
-    valid_languages = {
+def index(lang: str) -> Any:
+    """
+    Render a directory listing page for the given language.
+
+    This function:
+      - Validates the language against available translation files.
+      - Loads the translation file.
+      - Determines the directory to list (defaulting to the app's root).
+      - Builds a file/folder list with associated icons, sizes, and last-modified dates.
+      - Renders the directory listing page.
+
+    :param lang: Two-letter language code.
+    :return: Rendered HTML page or an error response.
+    """
+    valid_languages: set[str] = {
         filename[:-5]
         for filename in os.listdir("translations")
         if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
@@ -57,16 +79,17 @@ def index(lang):
     if lang not in valid_languages:
         return download_file(lang)
     translations = load_translation(lang)
-    font_family = os.getenv("font_family")
-    favicon = os.getenv("favicon")
-    theme_color = os.getenv("theme_color")
-    safe_root = os.path.dirname(__file__)
-    directory = request.args.get("dir") or safe_root
+    font_family: str = os.getenv("font_family")
+    favicon: str = os.getenv("favicon")
+    theme_color: str = os.getenv("theme_color")
+    safe_root: str = os.path.dirname(__file__)
+    directory: str = request.args.get("dir") or safe_root
     directory = os.path.normpath(os.path.join(safe_root, directory))
     if not directory.startswith(safe_root) or not os.path.isdir(directory):
         return abort(404)
-    file_list = (
-        [
+    file_list: List[Dict[str, Any]] = []
+    if directory != safe_root:
+        file_list.append(
             {
                 "icon": "fas fa-level-up-alt",
                 "name": translations["Parent_Directory"],
@@ -76,14 +99,10 @@ def index(lang):
                     else f"/{lang}"
                 ),
             }
-        ]
-        if directory != os.path.dirname(__file__)
-        else []
-    )
-    for file in sorted(
-        {file for file in os.listdir(directory) if not file.startswith(".")}
-    ):
-        if file in os.getenv("ignore_files", "").split(","):
+        )
+    ignore_files = set(os.getenv("ignore_files", "").split(","))
+    for file in sorted({f for f in os.listdir(directory) if not f.startswith(".")}):
+        if file in ignore_files:
             continue
         file_path = os.path.join(directory, file)
         if os.path.isfile(file_path):
@@ -120,12 +139,16 @@ def index(lang):
                     icon_class = "fab fa-js"
                 elif mime_type.startswith("text/plain"):
                     icon_class = "fas fa-file-alt"
+            size_bytes = os.path.getsize(file_path)
+            idx = max(0, min(4, (size_bytes.bit_length() - 1) // 10))
+            size_unit = ["B", "KB", "MB", "GB", "TB"][idx]
+            size_value = size_bytes / (1024**idx)
             file_list.append(
                 {
                     "icon": icon_class,
                     "name": file,
-                    "link": f"/{os.path.relpath(file_path, os.path.dirname(__file__))}",
-                    "size": f'{os.path.getsize(file_path) / (1024 ** (index := max(0, min(4, (os.path.getsize(file_path).bit_length() - 1) // 10)))):.2f}{"B KB MB GB TB".split()[index]}',
+                    "link": f"/{os.path.relpath(file_path, safe_root)}",
+                    "size": f"{size_value:.2f}{size_unit}",
                     "date": datetime.datetime.fromtimestamp(
                         os.path.getmtime(file_path)
                     ).strftime("%Y-%m-%d %H:%M:%S"),
@@ -136,7 +159,7 @@ def index(lang):
                 {
                     "icon": "fas fa-folder-open",
                     "name": file,
-                    "link": f"/{lang}?dir={os.path.relpath(file_path, os.path.dirname(__file__))}",
+                    "link": f"/{lang}?dir={os.path.relpath(file_path, safe_root)}",
                 }
             )
     return render_template_string(
@@ -241,13 +264,20 @@ def index(lang):
 
 
 @app.route("/<path:filename>", methods=["GET"])
-def download_file(filename):
-    safe_root = os.path.dirname(__file__)
-    file_path = os.path.normpath(os.path.join(safe_root, filename))
+def download_file(filename: str) -> Response:
+    """
+    Serve a file for download while ensuring safe path handling and aborting if access is disallowed.
+
+    :param filename: The relative path to the file requested.
+    :return: A Flask response object serving the file or an abort response if conditions are not met.
+    """
+    safe_root: str = os.path.dirname(__file__)
+    file_path: str = os.path.normpath(os.path.join(safe_root, filename))
     if not file_path.startswith(safe_root):
         return abort(403)
+    ignore_files = set(os.getenv("ignore_files", "").split(","))
     for part in filename.split("/"):
-        if part in set(os.getenv("ignore_files", "").split(",")):
+        if part in ignore_files:
             return abort(403)
     if os.path.isfile(file_path):
         mime_type, _ = mimetypes.guess_type(file_path)
@@ -264,15 +294,28 @@ def download_file(filename):
 
 
 @app.route("/favicon.ico", methods=["GET"])
-async def favicon():
+async def favicon() -> Response:
+    """
+    Asynchronously fetch and return the favicon from the URL specified in the environment variable.
+
+    :return: A Flask Response object containing the favicon with the correct MIME type.
+    """
+    favicon_url: str = os.getenv("favicon")
     async with aiohttp.ClientSession() as session:
-        async with session.get(os.getenv("favicon")) as response:
-            return Response(await response.read(), mimetype="image/x-icon")
+        async with session.get(favicon_url) as response:
+            content: bytes = await response.read()
+            return Response(content, mimetype="image/x-icon")
 
 
 @app.errorhandler(Exception)
-def handle_error(error):
-    error_pages = {
+def handle_error(error: Exception) -> Any:
+    """
+    Redirects to a custom error page based on the error code.
+
+    :param error: The exception that was raised.
+    :return: A redirect response to the appropriate error page.
+    """
+    error_pages: dict[int, str] = {
         400: "400",
         401: "401",
         403: "403",
@@ -280,10 +323,9 @@ def handle_error(error):
         500: "500",
         503: "503",
     }
-    return redirect(
-        f"https://error.robonamari.com/{error_pages.get(getattr(error, 'code', 500), '500')}",
-        code=302,
-    )
+    error_code: int = getattr(error, "code", 500)
+    error_page: str = error_pages.get(error_code, "500")
+    return redirect(f"https://error.robonamari.com/{error_page}", code=302)
 
 
 if __name__ == "__main__":
