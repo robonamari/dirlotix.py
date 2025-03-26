@@ -33,7 +33,7 @@ def load_translation(language):
     if not file_path.startswith(base_path):
         raise Exception("Invalid translation file path")
     if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
+        with open(file_path, encoding="utf-8") as f:
             return yaml.safe_load(f)
     raise FileNotFoundError(f"Translation file not found: translations/{language}.yaml")
 
