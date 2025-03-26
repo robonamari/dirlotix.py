@@ -188,16 +188,16 @@ def index(lang: str) -> Any:
 </head>
 
 <body>
-  <h1>{{ translations['directory_listing'] }}</h1>
+  <h1>{{translations['directory_listing']}}</h1>
   <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{translations['body']['search_placeholder']}}"> </div>
   <div class="table-container">
     <table class="table table-hover table-striped">
       <thead>
         <tr>
-          <th class="icon">{{ translations['body']['file'] }}</th>
-          <th class="sortable" onclick="sortTable(1)">{{ translations['body']['name'] }}</th>
-          <th class="sortable" onclick="sortTable(2)">{{ translations['body']['size'] }}</th>
-          <th class="sortable" onclick="sortTable(3)">{{ translations['body']['last_modified'] }}</th>
+          <th class="icon">{{translations['body']['file']}}</th>
+          <th class="sortable" onclick="sortTable(1)">{{translations['body']['name']}}</th>
+          <th class="sortable" onclick="sortTable(2)">{{translations['body']['size']}}</th>
+          <th class="sortable" onclick="sortTable(3)">{{translations['body']['last_modified']}}</th>
         </tr>
       </thead>
       <tbody id="fileTableBody"> {% for file in file_list %} <tr>
