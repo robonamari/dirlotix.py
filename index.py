@@ -28,18 +28,18 @@ def load_translation(language: str) -> Dict[str, Any]:
     Load the translation file for the given language.
 
     :param language: Language code as a string (e.g., "en").
-    :return: Dictionary containing the loaded translations.
+    :return: Dictionary containing the loaded languages.
     :raises ValueError: If the file path is invalid.
     :raises FileNotFoundError: If the translation file does not exist.
     """
-    base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "translations")
+    base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "languages")
     file_path = os.path.normpath(os.path.join(base_path, f"{language}.yml"))
     if not file_path.startswith(base_path):
         raise ValueError("Invalid translation file path")
     if os.path.exists(file_path):
         with open(file_path, encoding="utf-8") as f:
             return yaml.safe_load(f)
-    raise FileNotFoundError(f"Translation file not found: translations/{language}.yml")
+    raise FileNotFoundError(f"Translation file not found: languages/{language}.yml")
 
 
 @app.route("/", methods=["GET"])
@@ -73,12 +73,12 @@ def index(lang: str) -> Any:
     """
     valid_languages: set[str] = {
         filename[:-5]
-        for filename in os.listdir("translations")
+        for filename in os.listdir("languages")
         if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
     }
     if lang not in valid_languages:
         return download_file(lang)
-    translations = load_translation(lang)
+    languages = load_translation(lang)
     font_family: str = os.getenv("font_family")
     favicon: str = os.getenv("favicon")
     theme_color: str = os.getenv("theme_color")
@@ -92,7 +92,7 @@ def index(lang: str) -> Any:
         file_list.append(
             {
                 "icon": "fas fa-level-up-alt",
-                "name": translations["Parent_Directory"],
+                "name": languages["Parent_Directory"],
                 "link": (
                     f"/{lang}?dir={os.path.dirname(directory)}"
                     if os.path.dirname(directory)
@@ -165,17 +165,17 @@ def index(lang: str) -> Any:
     return render_template_string(
         """
 <!doctype html>
-<html dir="{{translations['head']['dir']}}" lang="{{lang}}">
+<html dir="{{languages['head']['dir']}}" lang="{{lang}}">
 
 <head>
   <meta charset="UTF-8">
-  <title>{{translations['directory_listing']}}</title>
+  <title>{{languages['directory_listing']}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="title" content="{{directory_listing}} - {{' '.join(request.host.split(':')[0].split('.')[:-1])}}">
-  <meta name="description" content="{{translations['head']['description']}}">
+  <meta name="description" content="{{languages['head']['description']}}">
   <meta name="theme-color" content="{{theme_color}}">
   <meta property="og:title" content="{{directory_listing}} - {{' '.join(request.host.split(':')[0].split('.')[:-1])}}">
-  <meta property="og:description" content="{{translations['head']['description']}}">
+  <meta property="og:description" content="{{languages['head']['description']}}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{request.url_root}}">
   <meta property="og:image" content="{{favicon}}">
@@ -188,16 +188,16 @@ def index(lang: str) -> Any:
 </head>
 
 <body>
-  <h1>{{translations['directory_listing']}}</h1>
-  <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{translations['body']['search_placeholder']}}"> </div>
+  <h1>{{languages['directory_listing']}}</h1>
+  <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{languages['body']['search_placeholder']}}"> </div>
   <div class="table-container">
     <table class="table table-hover table-striped">
       <thead>
         <tr>
-          <th class="icon">{{translations['body']['file']}}</th>
-          <th class="sortable" onclick="sortTable(1)">{{translations['body']['name']}}</th>
-          <th class="sortable" onclick="sortTable(2)">{{translations['body']['size']}}</th>
-          <th class="sortable" onclick="sortTable(3)">{{translations['body']['last_modified']}}</th>
+          <th class="icon">{{languages['body']['file']}}</th>
+          <th class="sortable" onclick="sortTable(1)">{{languages['body']['name']}}</th>
+          <th class="sortable" onclick="sortTable(2)">{{languages['body']['size']}}</th>
+          <th class="sortable" onclick="sortTable(3)">{{languages['body']['last_modified']}}</th>
         </tr>
       </thead>
       <tbody id="fileTableBody"> {% for file in file_list %} <tr>
@@ -256,7 +256,7 @@ def index(lang: str) -> Any:
 """,
         file_list=file_list,
         lang=lang,
-        translations=translations,
+        languages=languages,
         font_family=font_family,
         favicon=favicon,
         theme_color=theme_color,
