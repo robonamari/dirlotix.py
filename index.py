@@ -33,13 +33,13 @@ def load_translation(language: str) -> Dict[str, Any]:
     :raises FileNotFoundError: If the translation file does not exist.
     """
     base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "languages")
-    file_path = os.path.normpath(os.path.join(base_path, f"{language}.yml"))
+    file_path = os.path.normpath(os.path.join(base_path, f"{language}.yaml"))
     if not file_path.startswith(base_path):
         raise ValueError("Invalid translation file path")
     if os.path.exists(file_path):
         with open(file_path, encoding="utf-8") as f:
             return yaml.safe_load(f)
-    raise FileNotFoundError(f"Translation file not found: languages/{language}.yml")
+    raise FileNotFoundError(f"Translation file not found: languages/{language}.yaml")
 
 
 @app.route("/", methods=["GET"])
