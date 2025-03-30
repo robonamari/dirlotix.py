@@ -20,7 +20,7 @@ from flask import (
 
 app = Flask(__name__, static_folder="")
 __import__("flask_compress").Compress(app)
-load_dotenv(dotenv_path=".env")
+load_dotenv(".env")
 
 
 def load_translation(language: str) -> Dict[str, Any]:
