@@ -14,32 +14,28 @@ body:
         Example: On the homepage, the Start button text.
     validations:
       required: true
-
   - type: textarea
     id: current
     attributes:
       label: 📝 Current text
       description: What does the current text say?
       placeholder: |
-        Example: The button currently says آغاز, which feels too formal.
+        Example: The button currently says "Begin", which feels too formal.
     validations:
       required: true
-
   - type: textarea
     id: suggestion
     attributes:
       label: ✅ Suggested translation
       description: What do you think it should say instead?
-      placeholder: |
-        Example: I suggest شروع – it's more natural and widely used.
+      placeholder: I suggest "Start" – it's more natural and widely used.
     validations:
       required: true
-
   - type: input
     id: language
     attributes:
       label: 🌐 Language
-      description: Which language is this related to? (e.g., English, Persian)
-      placeholder: English (en)
+      description: Which language is this related to? (e.g., English, en)
+      placeholder: English
     validations:
       required: true
