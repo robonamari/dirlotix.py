@@ -9,7 +9,7 @@ body:
     id: location
     attributes:
       label: 📍 Location of the text
-      description: Where is the translation problem or missing translation? Be specific. You can provide a URL path or section name.
+      description: You can provide a URL path or section name.
       placeholder: |
         Example: /home or /about-page. If you want to change an existing translation, mention the specific section; if you want to add a new translation, specify the location where it should be added.
     validations:
