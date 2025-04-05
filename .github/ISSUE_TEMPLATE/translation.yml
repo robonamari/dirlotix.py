@@ -31,9 +31,9 @@ body:
     id: problem
     attributes:
       label: ❗ What is the issue?
-      description: Describe the problem with the current translation or why a new translation is needed. If you're adding a new translation, explain why it's required.
+      description: Describe the problem with the current translation or why a new translation is needed.
       placeholder: |
-        Example: The button text is too formal and unclear for the user. If you're adding a new translation, describe the need for it.
+        Example: The button text is too formal and unclear for the user. (If you're adding a new translation, describe the need for it.)
     validations:
       required: true
 
