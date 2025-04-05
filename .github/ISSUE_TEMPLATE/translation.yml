@@ -1,5 +1,5 @@
 name: translation
-title: "[Translation] "
+title: "[Translation]"
 description: Contribute to translations or report localization issues
 labels: [translation]
 assignees: []
@@ -10,8 +10,7 @@ body:
     attributes:
       label: 📍 Location of the text
       description: Where is the translation problem or missing translation? Be specific.
-      placeholder: |
-        Example: On the homepage, the Start button text.
+      placeholder: Example: On the homepage, the Start button text.
     validations:
       required: true
   - type: textarea
@@ -19,8 +18,7 @@ body:
     attributes:
       label: 📝 Current text
       description: What does the current text say?
-      placeholder: |
-        Example: The button currently says "Begin", which feels too formal.
+      placeholder: Example: The button currently says "Begin", which feels too formal.
     validations:
       required: true
   - type: textarea
@@ -28,7 +26,7 @@ body:
     attributes:
       label: ✅ Suggested translation
       description: What do you think it should say instead?
-      placeholder: I suggest "Start" – it's more natural and widely used.
+      placeholder: Example: I suggest "Start" – it's more natural and widely used.
     validations:
       required: true
   - type: input
@@ -36,6 +34,6 @@ body:
     attributes:
       label: 🌐 Language
       description: Which language is this related to? (e.g., English, en)
-      placeholder: English
+      placeholder: Example: English
     validations:
       required: true
