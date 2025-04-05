@@ -11,7 +11,7 @@ body:
       label: 📍 Location of the text
       description: Where is the translation problem or missing translation? Be specific. You can provide a URL path or section name.
       placeholder: |
-        Example: /example-page
+        Example: /home
     validations:
       required: true
   - type: textarea
