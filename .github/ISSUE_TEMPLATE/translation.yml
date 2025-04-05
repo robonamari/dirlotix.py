@@ -13,14 +13,16 @@ body:
       placeholder: |
         Example: /home
     validations:
-      required: true
+      required: false
+      maxLength: 50
+      minLength: 1 
   - type: textarea
-    id: current
+    id: problem
     attributes:
-      label: 📝 Current text
-      description: What does the current text say?
+      label: ❗ What is the issue?
+      description: Describe what the problem with the current translation is. Why does it need improvement?
       placeholder: |
-        Example: The button currently says "Begin", which feels too formal.
+        Example: The button text is too formal and unclear for the user.
     validations:
       required: true
   - type: textarea
@@ -32,12 +34,12 @@ body:
         Example: I suggest "Start" – it's more natural and widely used.
     validations:
       required: true
-  - type: input
-    id: language
+  - type: textarea
+    id: current
     attributes:
-      label: 🌐 Language
-      description: Which language is this related to?
+      label: 📝 Current text
+      description: What does the current text say?
       placeholder: |
-        Example: English
+        Example: The button currently says "Begin", which feels too formal.
     validations:
       required: true
