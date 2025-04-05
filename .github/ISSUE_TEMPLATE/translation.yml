@@ -11,35 +11,48 @@ body:
       label: 📍 Location of the text
       description: Where is the translation problem or missing translation? Be specific. You can provide a URL path or section name.
       placeholder: |
-        Example: /home
+        Example: /home or /about-page. If you want to change an existing translation, mention the specific section; if you want to add a new translation, specify the location where it should be added.
     validations:
       required: false
       maxLength: 50
-      minLength: 1 
-  - type: textarea
-    id: problem
-    attributes:
-      label: ❗ What is the issue?
-      description: Describe what the problem with the current translation is. Why does it need improvement?
-      placeholder: |
-        Example: The button text is too formal and unclear for the user.
-    validations:
-      required: true
-  - type: textarea
-    id: suggestion
-    attributes:
-      label: ✅ Suggested translation
-      description: What do you think it should say instead?
-      placeholder: |
-        Example: I suggest "Start" – it's more natural and widely used.
-    validations:
-      required: true
+      minLength: 1
+
   - type: textarea
     id: current
     attributes:
       label: 📝 Current text
-      description: What does the current text say?
+      description: What does the current text say? (If you're adding a new translation, you can leave this blank.)
       placeholder: |
-        Example: The button currently says "Begin", which feels too formal.
+        Example: The button currently says "Begin", which feels too formal. (Leave blank if you're adding a new translation.)
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: ❗ What is the issue?
+      description: Describe the problem with the current translation or why a new translation is needed. If you're adding a new translation, explain why it's required.
+      placeholder: |
+        Example: The button text is too formal and unclear for the user. If you're adding a new translation, describe the need for it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: ✅ Suggested translation
+      description: What do you think it should say instead? (If you're adding a new translation, suggest the full text.)
+      placeholder: |
+        Example: I suggest "Start" – it's more natural and widely used. (If you're adding a new translation, provide the full translated text.)
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: 🌐 Language
+      description: Which language is this related to?
+      placeholder: |
+        Example: English
     validations:
       required: true
