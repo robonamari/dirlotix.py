@@ -9,8 +9,9 @@ body:
     id: location
     attributes:
       label: 📍 Location of the text
-      description: Where is the translation problem or missing translation? Be specific.
-      placeholder: Example: On the homepage, the Start button text.
+      description: Where is the translation problem or missing translation? Be specific. You can provide a URL path or section name.
+      placeholder: |
+        Example: /example-page
     validations:
       required: true
   - type: textarea
@@ -18,7 +19,8 @@ body:
     attributes:
       label: 📝 Current text
       description: What does the current text say?
-      placeholder: Example: The button currently says "Begin", which feels too formal.
+      placeholder: |
+        Example: The button currently says "Begin", which feels too formal.
     validations:
       required: true
   - type: textarea
@@ -26,14 +28,16 @@ body:
     attributes:
       label: ✅ Suggested translation
       description: What do you think it should say instead?
-      placeholder: Example: I suggest "Start" – it's more natural and widely used.
+      placeholder: |
+        Example: I suggest "Start" – it's more natural and widely used.
     validations:
       required: true
   - type: input
     id: language
     attributes:
       label: 🌐 Language
-      description: Which language is this related to? (e.g., English, en)
-      placeholder: Example: English
+      description: Which language is this related to?
+      placeholder: |
+        Example: English
     validations:
       required: true
