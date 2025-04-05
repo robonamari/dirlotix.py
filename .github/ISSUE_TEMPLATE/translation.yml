@@ -39,7 +39,7 @@ body:
     id: language
     attributes:
       label: 🌐 Language
-      description: Which language is this related to? (e.g., Persian, French, etc.)
-      placeholder: Persian (fa)
+      description: Which language is this related to? (e.g., English, Persian)
+      placeholder: English (en)
     validations:
       required: true
