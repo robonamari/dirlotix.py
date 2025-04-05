@@ -10,8 +10,8 @@ body:
     attributes:
       label: 📍 Location of the text
       description: Where is the translation problem or missing translation? Be specific.
-      placeholder: >
-        Example: On the homepage, the "Start" button text.
+      placeholder: |
+        Example: On the homepage, the Start button text.
     validations:
       required: true
 
@@ -20,8 +20,8 @@ body:
     attributes:
       label: 📝 Current text
       description: What does the current text say?
-      placeholder: >
-        Example: The button currently says "آغاز", which feels too formal.
+      placeholder: |
+        Example: The button currently says آغاز, which feels too formal.
     validations:
       required: true
 
@@ -30,8 +30,8 @@ body:
     attributes:
       label: ✅ Suggested translation
       description: What do you think it should say instead?
-      placeholder: >
-        Example: I suggest "شروع" – it's more natural and widely used.
+      placeholder: |
+        Example: I suggest شروع – it's more natural and widely used.
     validations:
       required: true
 
@@ -40,6 +40,6 @@ body:
     attributes:
       label: 🌐 Language
       description: Which language is this related to? (e.g., Persian, French, etc.)
-      placeholder: Example: Persian (fa)
+      placeholder: Persian (fa)
     validations:
       required: true
