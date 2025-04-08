@@ -60,13 +60,7 @@ def redirect_to_default_lang() -> Response:
 def index(lang: str) -> Any:
     """
     Render a directory listing page for the given language.
-
-    This function:
-      - Validates the language against available translation files.
-      - Loads the translation file.
-      - Determines the directory to list (defaulting to the app's root).
-      - Builds a file/folder list with associated icons, sizes, and last-modified dates.
-      - Renders the directory listing page.
+    Validates language, loads translation, lists directory contents, and renders the page.
 
     :param lang: Two-letter language code.
     :return: Rendered HTML page or an error response.
@@ -109,36 +103,23 @@ def index(lang: str) -> Any:
             mime_type, _ = mimetypes.guess_type(file_path)
             icon_class = "fas fa-file"
             if mime_type:
-                if mime_type.startswith("video"):
-                    icon_class = "fas fa-video"
-                elif mime_type.startswith("image"):
-                    icon_class = "fas fa-image"
-                elif mime_type.startswith("audio"):
-                    icon_class = "fas fa-music"
-                elif mime_type.endswith("python"):
-                    icon_class = "fab fa-python"
-                elif mime_type == "application/pdf":
-                    icon_class = "fas fa-file-pdf"
-                elif mime_type.startswith("application/msword"):
-                    icon_class = "fas fa-file-word"
-                elif mime_type.startswith("application/vnd.ms-excel"):
-                    icon_class = "fas fa-file-excel"
-                elif mime_type.startswith("application/vnd.ms-powerpoint"):
-                    icon_class = "fas fa-file-powerpoint"
-                elif mime_type.startswith("application/zip") or mime_type.startswith(
-                    "application/x-rar-compressed"
-                ):
-                    icon_class = "fas fa-file-archive"
-                elif mime_type == "text/html":
-                    icon_class = "fab fa-html5"
-                elif mime_type == "text/css":
-                    icon_class = "fab fa-css3"
-                elif mime_type == "application/json":
-                    icon_class = "fas fa-file-code"
-                elif mime_type == "application/javascript":
-                    icon_class = "fab fa-js"
-                elif mime_type.startswith("text/plain"):
-                    icon_class = "fas fa-file-alt"
+                icon_class = {
+                    "video": "fas fa-video",
+                    "image": "fas fa-image",
+                    "audio": "fas fa-music",
+                    "python": "fab fa-python",
+                    "application/pdf": "fas fa-file-pdf",
+                    "application/msword": "fas fa-file-word",
+                    "application/vnd.ms-excel": "fas fa-file-excel",
+                    "application/vnd.ms-powerpoint": "fas fa-file-powerpoint",
+                    "application/zip": "fas fa-file-archive",
+                    "application/x-rar-compressed": "fas fa-file-archive",
+                    "text/html": "fab fa-html5",
+                    "text/css": "fab fa-css3",
+                    "application/json": "fas fa-file-code",
+                    "application/javascript": "fab fa-js",
+                    "text/plain": "fas fa-file-alt",
+                }.get(mime_type.split("/")[0], icon_class)
             size_bytes = os.path.getsize(file_path)
             idx = max(0, min(4, (size_bytes.bit_length() - 1) // 10))
             size_unit = ["B", "KB", "MB", "GB", "TB"][idx]
@@ -150,8 +131,8 @@ def index(lang: str) -> Any:
                     "link": f"/{os.path.relpath(file_path, safe_root)}",
                     "size": f"{size_value:.2f}{size_unit}",
                     "date": datetime.datetime.fromtimestamp(
-                        os.path.getmtime(file_path)
-                    ).strftime("%Y-%m-%d %H:%M:%S"),
+                        os.path.getmtime(file_path), tz=datetime.timezone.utc
+                    ).strftime("%Y-%m-%dT%H:%M:%S+00:00"),
                 }
             )
         else:
@@ -204,7 +185,7 @@ def index(lang: str) -> Any:
           <td class="icon"><i class="{{file.icon}}"></i></td>
           <td><a href="{{file.link}}">{{file.name}}</a></td>
           <td>{{file.size}}</td>
-          <td>{{file.date}}</td>
+          <td><time class="local-time" datetime="{{file.date}}">{{file.date}}</time></td>
         </tr> {% endfor %} </tbody>
     </table>
   </div>
@@ -241,7 +222,6 @@ def index(lang: str) -> Any:
     tbody.prepend(parentDirRow);
     }
     }
-
     function filterTable(filterText) {
     document.querySelectorAll("#fileTableBody tr").forEach(row => {
     row.cells[1].innerText.toLowerCase().includes(filterText.toLowerCase())
@@ -249,6 +229,7 @@ def index(lang: str) -> Any:
     : row.style.display = "none";
     });
     }
+    document.querySelectorAll(".local-time").forEach((function(t){const e=t.getAttribute("datetime"),n=new Date(e);isNaN(n.getTime())?t.textContent="":t.textContent=n.toLocaleString()}));
   </script>
 </body>
 
