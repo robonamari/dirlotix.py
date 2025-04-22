@@ -1,9 +1,9 @@
-name: Auto Release
+name: Release Automation
 
 on:
   push:
     tags:
-      - "v*"
+      - "v*.*.*"
 
 jobs:
   create_release:
