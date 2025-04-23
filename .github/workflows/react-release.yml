@@ -4,11 +4,12 @@ on:
   release:
     types: [created]
 
+permissions:
+  contents: write
+
 jobs:
   react:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: 🚀 React with Rocket Emoji
         run: |
