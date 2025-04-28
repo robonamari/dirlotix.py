@@ -27,7 +27,7 @@ def load_translation(language: str) -> Dict[str, Any]:
     """
     Load the translation file for the given language.
 
-    :param language: Language code as a string (e.g., "en").
+    :param language: Language code as a string (e.g., en).
     :return: Dictionary containing the loaded languages.
     :raises ValueError: If the file path is invalid.
     :raises FileNotFoundError: If the translation file does not exist.
@@ -73,9 +73,9 @@ def index(lang: str) -> Any:
     if lang not in valid_languages:
         return download_file(lang)
     languages = load_translation(lang)
-    font_family: str = os.getenv("font_family")
-    favicon: str = os.getenv("favicon")
-    theme_color: str = os.getenv("theme_color")
+    font_family: str = os.getenv("FONT_FAMILY")
+    favicon: str = os.getenv("FAVICON")
+    theme_color: str = os.getenv("THEME_COLOR")
     safe_root: str = os.path.dirname(__file__)
     directory: str = request.args.get("dir") or safe_root
     directory = os.path.normpath(os.path.join(safe_root, directory))
@@ -94,7 +94,7 @@ def index(lang: str) -> Any:
                 ),
             }
         )
-    ignore_files = set(os.getenv("ignore_files", "").split(","))
+    ignore_files = set(os.getenv("IGNORE_FILES").split(","))
     for file in sorted({f for f in os.listdir(directory) if not f.startswith(".")}):
         if file in ignore_files:
             continue
@@ -311,10 +311,10 @@ def handle_error(error: Exception) -> Any:
 
 if __name__ == "__main__":
     app.run(
-        host=os.getenv("host"),
-        port=os.getenv("port"),
-        use_reloader=os.getenv("use_reloader"),
-        debug=os.getenv("debug"),
+        host=os.getenv("HOST"),
+        port=os.getenv("PORT"),
+        use_reloader=os.getenv("USE_RELOADER"),
+        debug=os.getenv("DEBUG"),
         extra_files=glob.glob(
             os.path.join(os.path.dirname(os.path.abspath(__file__)), "*")
         ),
