@@ -23,7 +23,7 @@ __import__("flask_compress").Compress(app)
 load_dotenv(".env")
 
 
-def load_translation(language: str) -> Dict[str, Any]:
+async def load_translation(language: str) -> Dict[str, Any]:
     """
     Load the translation file for the given language.
 
@@ -43,7 +43,7 @@ def load_translation(language: str) -> Dict[str, Any]:
 
 
 @app.route("/", methods=["GET"])
-def redirect_to_default_lang() -> Response:
+async def redirect_to_default_lang() -> Response:
     """
     Redirects to the default language ('/en') while preserving the query string if present.
 
@@ -57,7 +57,7 @@ def redirect_to_default_lang() -> Response:
 
 
 @app.route("/<lang>", methods=["GET"])
-def index(lang: str) -> Any:
+async def index(lang: str) -> Any:
     """
     Render a directory listing page for the given language.
     Validates language, loads translation, lists directory contents, and renders the page.
@@ -71,8 +71,8 @@ def index(lang: str) -> Any:
         if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
     }
     if lang not in valid_languages:
-        return download_file(lang)
-    languages = load_translation(lang)
+        return await download_file(lang)
+    languages = await load_translation(lang)
     font_family: str = os.getenv("FONT_FAMILY")
     favicon: str = os.getenv("FAVICON")
     theme_color: str = os.getenv("THEME_COLOR")
@@ -245,7 +245,7 @@ def index(lang: str) -> Any:
 
 
 @app.route("/<path:filename>", methods=["GET"])
-def download_file(filename: str) -> Response:
+async def download_file(filename: str) -> Response:
     """
     Serve a file for download while ensuring safe path handling and aborting if access is disallowed.
 
@@ -289,7 +289,7 @@ async def favicon() -> Response:
 
 
 @app.errorhandler(Exception)
-def handle_error(error: Exception) -> Any:
+async def handle_error(error: Exception) -> Any:
     """
     Redirects to a custom error page based on the error code.
 
