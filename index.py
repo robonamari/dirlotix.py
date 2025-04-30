@@ -191,45 +191,55 @@ async def index(lang: str) -> Any:
   </div>
   <script>
     function sortTable(e) {
-    const tbody = document.querySelector("table tbody");
-    const rows = Array.from(tbody.rows);
-    const isSameColumn = e === window.lastSortedColumnIndex;
-    const isAsc = isSameColumn && window.lastSortOrder === "asc";
-    const sortedRows = rows.sort((a, b) => {
-    let aText = a.cells[e].innerText.toLowerCase();
-    let bText = b.cells[e].innerText.toLowerCase();
-    if (e === 2) { // Size
-    aText = parseFloat(aText);
-    bText = parseFloat(bText);
-    } else if (e === 3) { // Last modified
-    aText = new Date(aText);
-    bText = new Date(bText);
-    }
-    if (isAsc) {
-    return aText > bText ? -1 : aText < bText ? 1 : 0;
-    } else {
-    return aText > bText ? 1 : aText < bText ? -1 : 0;
-    }
-    });
-    while (tbody.firstChild) {
-    tbody.removeChild(tbody.firstChild);
-    }
-    sortedRows.forEach(row => tbody.appendChild(row));
-    window.lastSortedColumnIndex = e;
-    window.lastSortOrder = isSameColumn && isAsc ? "desc" : "asc";
-    const parentDirRow = sortedRows.find(row => row.cells[1].innerText === "Parent Directory");
-    if (parentDirRow) {
-    tbody.prepend(parentDirRow);
-    }
+        const tbody = document.querySelector("table tbody");
+        const rows = Array.from(tbody.rows);
+        const isSameColumn = e === window.lastSortedColumnIndex;
+        const isAsc = isSameColumn && window.lastSortOrder === "asc";
+        const sortedRows = rows.sort((a, b) => {
+            let aValue = a.cells[e];
+            let bValue = b.cells[e];
+            let aText = aValue.innerText.toLowerCase();
+            let bText = bValue.innerText.toLowerCase();
+            if (e === 2) { // Size
+                aText = parseFloat(aText);
+                bText = parseFloat(bText);
+            } else if (e === 3) { // Last modified
+                aText = new Date(aValue.querySelector('time')?.getAttribute('datetime') || aText);
+                bText = new Date(bValue.querySelector('time')?.getAttribute('datetime') || bText);
+            }
+            if (isAsc) {
+                return aText > bText ? -1 : aText < bText ? 1 : 0;
+            } else {
+                return aText > bText ? 1 : aText < bText ? -1 : 0;
+            }
+        });
+        while (tbody.firstChild) {
+            tbody.removeChild(tbody.firstChild);
+        }
+        sortedRows.forEach(row => tbody.appendChild(row));
+        window.lastSortedColumnIndex = e;
+        window.lastSortOrder = isSameColumn && isAsc ? "desc" : "asc";
+        const parentDirRow = sortedRows.find(row => row.cells[1].innerText === "Parent Directory");
+        if (parentDirRow) {
+            tbody.prepend(parentDirRow);
+        }
     }
     function filterTable(filterText) {
-    document.querySelectorAll("#fileTableBody tr").forEach(row => {
-    row.cells[1].innerText.toLowerCase().includes(filterText.toLowerCase())
-    ? row.style.display = ""
-    : row.style.display = "none";
-    });
+        document.querySelectorAll("#fileTableBody tr").forEach(row => {
+            row.cells[1].innerText.toLowerCase().includes(filterText.toLowerCase())
+                ? row.style.display = ""
+                : row.style.display = "none";
+        });
     }
-    document.querySelectorAll(".local-time").forEach((function(t){const e=t.getAttribute("datetime"),n=new Date(e);isNaN(n.getTime())?t.textContent="":t.textContent=n.toLocaleString()}));
+    document.querySelectorAll(".local-time").forEach((t) => {
+        const e = t.getAttribute("datetime");
+        const n = new Date(e);
+        if (!isNaN(n.getTime())) {
+            t.textContent = n.toLocaleString();
+        } else {
+            t.textContent = "";
+        }
+    });
   </script>
 </body>
 
