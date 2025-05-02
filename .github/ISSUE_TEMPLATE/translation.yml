@@ -9,13 +9,12 @@ body:
     id: location
     attributes:
       label: 📍Location of the text
-      description: You can provide a URL path or section name.
-      placeholder: |
-        Example: /home or /about-page. If you want to change an existing translation, mention the specific section; if you want to add a new translation, specify the location where it should be added.
+      description: Which section is this related to?
+      placeholder: (e.g., index, index.html, the yellow button in the footer of the homepage)
     validations:
       required: false
-      maxLength: 50
       minLength: 1
+      maxLength: 50
 
   - type: textarea
     id: current
@@ -55,3 +54,5 @@ body:
       placeholder: (e.g., en, English)
     validations:
       required: true
+      minLength: 2
+
