@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: location
     attributes:
-      label: 📍 Location of the text
+      label: 📍Location of the text
       description: You can provide a URL path or section name.
       placeholder: |
         Example: /home or /about-page. If you want to change an existing translation, mention the specific section; if you want to add a new translation, specify the location where it should be added.
@@ -20,7 +20,7 @@ body:
   - type: textarea
     id: current
     attributes:
-      label: 📝 Current text
+      label: 📝Current text
       description: What does the current text say?
       placeholder: |
         Example: The button currently says "Begin", which feels too formal. (Leave blank if you're adding a new translation.)
@@ -30,7 +30,7 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: ❗ What is the issue?
+      label: ❗What is the issue?
       description: Describe the problem with the current translation or why a new translation is needed.
       placeholder: |
         Example: The button text is too formal and unclear for the user. (If you're adding a new translation, describe the need for it.)
@@ -40,7 +40,7 @@ body:
   - type: textarea
     id: suggestion
     attributes:
-      label: ✅ Suggested translation
+      label: ✅Suggested translation
       description: What do you think it should say instead?
       placeholder: |
         Example: I suggest "Start" – it's more natural and widely used. (If you're adding a new translation, provide the full translated text.)
@@ -50,9 +50,8 @@ body:
   - type: input
     id: language
     attributes:
-      label: 🌐 Language
+      label: 🌐Language
       description: Which language is this related to?
-      placeholder: |
-        Example: English
+      placeholder: (e.g., en, English)
     validations:
       required: true
