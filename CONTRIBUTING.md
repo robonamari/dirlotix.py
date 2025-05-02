@@ -17,7 +17,7 @@ If you run into a bug, here are a few tips to make your report as helpful as pos
 Pull requests are always welcome! Here’s how to make sure yours fits in smoothly:
 
 - Keep your changes focused — one topic per PR is ideal.
-- Try to follow the style of the existing code. We mostly stick to **PEP 8**, with a soft line limit of **125 characters**.
+- Try to follow the style of the existing code.
 - If your change adds functionality, adding or updating docstrings and tests is a big plus.
 
 Clean, focused PRs are easier to review — and more likely to get merged quickly.
