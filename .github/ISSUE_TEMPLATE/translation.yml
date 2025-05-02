@@ -9,8 +9,8 @@ body:
     id: location
     attributes:
       label: 📍Location of the text
-      description: Which section is this related to?
-      placeholder: (e.g., index, index.html, the yellow button in the footer of the homepage)
+      description: Which section is this related to? (If unknown, leave it empty.)
+      placeholder: (e.g., /, index.html, the yellow button in the footer of the homepage)
     validations:
       required: false
       minLength: 1
