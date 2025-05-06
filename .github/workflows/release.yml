@@ -18,7 +18,6 @@ jobs:
         with:
           fetch-depth: 1
       - name: Get tag name
-        id: get_tag
         run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
       - name: Create zip archive
         run: zip -r "Dirlotixpy-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "README.md" "SECURITY.md" ".gitignore"
