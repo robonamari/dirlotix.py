@@ -20,9 +20,9 @@ jobs:
       - name: Get tag name
         run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
       - name: Create zip archive
-        run: zip -r "Dirlotixpy-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "README.md" "SECURITY.md" ".gitignore"
+        run: zip -r "Dirlotixpy-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "README.md" "SECURITY.md" "CONTRIBUTING.md" "CODE_OF_CONDUCT.md" ".gitignore"
       - name: Create tar.gz archive
-        run: tar --exclude=.github --exclude=.git --exclude=README.md --exclude=SECURITY.md --exclude=.gitignore --exclude="Dirlotixpy-${TAG_NAME}.zip" --ignore-failed-read -czf "Dirlotixpy-${TAG_NAME}.tar.gz" .
+        run: tar --exclude=.github --exclude=.git --exclude=README.md --exclude=SECURITY.md --exclude=CONTRIBUTING.md --exclude=CODE_OF_CONDUCT.md --exclude=.gitignore --exclude="Dirlotixpy-${TAG_NAME}.zip" --ignore-failed-read -czf "Dirlotixpy-${TAG_NAME}.tar.gz" .
       - name: Upload Release
         uses: softprops/action-gh-release@v2
         with:
