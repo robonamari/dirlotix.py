@@ -1,11 +1,11 @@
 head:
-  dir: rtl
-  description: "مشاهده و دانلود فایل‌ها و غیره... با امکانات برتر و رابط کاربری ساده و کارآمد."
+  dir: سبزسزس
+  description: ""
 body:
-  search_placeholder: "جستجو..."
-  file: "فایل"
-  name: "نام"
-  size: "اندازه"
-  last_modified: "آخرین تغییر"
-directory_listing: "لیست پوشه ها"
-Parent_Directory: "پوشه قبلی"
+  search_placeholder: "Search..."
+  file: "File"
+  name: "Name"
+  size: "Size"
+  last_modified: "Last Modified"
+directory_listing: "Directory Listing"
+Parent_Directory: "Previous Folder"
