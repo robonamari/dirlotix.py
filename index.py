@@ -33,13 +33,13 @@ async def load_translation(language: str) -> Dict[str, Any]:
     :raises FileNotFoundError: If the translation file does not exist.
     """
     base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "languages")
-    file_path = os.path.normpath(os.path.join(base_path, f"{language}.yaml"))
+    file_path = os.path.normpath(os.path.join(base_path, f"{language}.yml"))
     if not file_path.startswith(base_path):
         raise ValueError("Invalid translation file path")
     if os.path.exists(file_path):
         with open(file_path, encoding="utf-8") as f:
             return yaml.safe_load(f)
-    raise FileNotFoundError(f"Translation file not found: languages/{language}.yaml")
+    raise FileNotFoundError(f"Translation file not found: languages/{language}.yml")
 
 
 @app.route("/", methods=["GET"])
@@ -66,9 +66,9 @@ async def index(lang: str) -> Any:
     :return: Rendered HTML page or an error response.
     """
     valid_languages: set[str] = {
-        filename[:-5]
+        filename[:-4]
         for filename in os.listdir("languages")
-        if re.compile(r"^[a-z]{2}\.yaml$", re.IGNORECASE).match(filename)
+        if re.compile(r"^[a-z]{2}\.yml$", re.IGNORECASE).match(filename)
     }
     if lang not in valid_languages:
         return await download_file(lang)
