@@ -29,5 +29,5 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           name: "${{ env.TAG_NAME }}"
           files: |
-            Dirlotixpy-${{ env.TAG_NAME }}.zip
-            Dirlotixpy-${{ env.TAG_NAME }}.tar.gz
+            dirlotixpy-${{ env.TAG_NAME }}.zip
+            dirlotixpy-${{ env.TAG_NAME }}.tar.gz
