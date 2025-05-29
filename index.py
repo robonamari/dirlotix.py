@@ -27,10 +27,15 @@ async def load_translation(language: str) -> Dict[str, Any]:
     """
     Load the translation file for the given language.
 
-    :param language: Language code as a string (e.g., en).
-    :return: Dictionary containing the loaded languages.
-    :raises ValueError: If the file path is invalid.
-    :raises FileNotFoundError: If the translation file does not exist.
+    Args:
+        language (str): Language code (e.g., 'en').
+
+    Returns:
+        Dict[str, Any]: Dictionary with translation data.
+
+    Raises:
+        ValueError: If the file path is invalid.
+        FileNotFoundError: If the translation file does not exist.
     """
     base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "languages")
     file_path = os.path.normpath(os.path.join(base_path, f"{language}.yml"))
@@ -45,9 +50,10 @@ async def load_translation(language: str) -> Dict[str, Any]:
 @app.route("/", methods=["GET"])
 async def redirect_to_default_lang() -> Response:
     """
-    Redirects to the default language ('/en') while preserving the query string if present.
+    Redirect to the default language '/en' preserving query string if present.
 
-    :return: A Flask response object with a 302 redirect.
+    Returns:
+        Response: A Flask redirect response (302).
     """
     query_string: str = request.query_string.decode("utf-8")
     new_url: str = "/en"
@@ -257,10 +263,13 @@ async def index(lang: str) -> Any:
 @app.route("/<path:filename>", methods=["GET"])
 async def download_file(filename: str) -> Response:
     """
-    Serve a file for download while ensuring safe path handling and aborting if access is disallowed.
+    Serve a file securely for download or inline display based on MIME type.
 
-    :param filename: The relative path to the file requested.
-    :return: A Flask response object serving the file or an abort response if conditions are not met.
+    Args:
+        filename (str): Relative file path requested.
+
+    Returns:
+        Response: Flask response serving the file or aborts if access denied.
     """
     safe_root: str = os.path.dirname(__file__)
     file_path: str = os.path.normpath(os.path.join(safe_root, filename))
@@ -287,9 +296,10 @@ async def download_file(filename: str) -> Response:
 @app.route("/favicon.ico", methods=["GET"])
 async def favicon() -> Response:
     """
-    Asynchronously fetch and return the favicon from the URL specified in the environment variable.
+    Fetch favicon asynchronously from the URL in environment variable.
 
-    :return: A Flask Response object containing the favicon with the correct MIME type.
+    Returns:
+        Response: Flask response containing the favicon data.
     """
     favicon_url: str = os.getenv("favicon")
     async with aiohttp.ClientSession() as session:
@@ -301,10 +311,13 @@ async def favicon() -> Response:
 @app.errorhandler(Exception)
 async def handle_error(error: Exception) -> Any:
     """
-    Redirects to a custom error page based on the error code.
+    Redirect to a custom error page based on HTTP error code.
 
-    :param error: The exception that was raised.
-    :return: A redirect response to the appropriate error page.
+    Args:
+        error (Exception): Raised exception.
+
+    Returns:
+        Any: Redirect response to error page.
     """
     error_pages: dict[int, str] = {
         400: "400",
