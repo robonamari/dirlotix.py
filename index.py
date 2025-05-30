@@ -2,7 +2,6 @@ import datetime
 import glob
 import mimetypes
 import os
-import re
 from typing import Any, Dict
 
 import aiohttp
@@ -70,7 +69,7 @@ async def index(lang: str) -> Any:
     valid_languages = {
         f[:-4]
         for f in os.listdir("languages")
-        if re.fullmatch(r"[a-z]{2}\.yml", f, re.I)
+        if f.endswith(".yml") and len(f) == 6 and f[:-4].isalpha()
     }
     if lang not in valid_languages:
         return await download_file(lang)
