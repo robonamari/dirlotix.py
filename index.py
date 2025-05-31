@@ -156,7 +156,7 @@ async def download_file(filename: str) -> Response:
     Returns:
         Response: Flask response serving the file or aborts if access denied.
     """
-    safe_root: str = os.path.dirname(__file__)
+    safe_root: str = os.path.join(os.path.dirname(__file__), "downloads")
     file_path: str = os.path.normpath(os.path.join(safe_root, filename))
     if not file_path.startswith(safe_root):
         return abort(403)
