@@ -51,7 +51,7 @@ async def index(lang: str) -> Any:
     if lang not in valid_languages:
         return await download_file(lang)
     languages = await load_translation(lang)
-    safe_root = os.path.dirname(__file__)
+    safe_root = os.path.join(os.path.dirname(__file__), "downloads")
     directory = os.path.normpath(os.path.join(safe_root, request.args.get("dir", "")))
     if not directory.startswith(safe_root) or not os.path.isdir(directory):
         return abort(404)
@@ -129,6 +129,22 @@ async def index(lang: str) -> Any:
         favicon=os.getenv("FAVICON"),
         theme_color=os.getenv("THEME_COLOR"),
     )
+
+
+@app.route("/LICENSE", methods=["GET"])
+def show_license() -> Response:
+    """
+    Serve the LICENSE file as plain text.
+
+    Returns:
+        Response: Flask response containing LICENSE content.
+    """
+    license_path = os.path.join(os.path.dirname(__file__), "LICENSE")
+    if not os.path.isfile(license_path):
+        return abort(404)
+    with open(license_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return Response(content, mimetype="text/plain")
 
 
 @app.route("/<path:filename>", methods=["GET"])
