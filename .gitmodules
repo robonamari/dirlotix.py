@@ -1,0 +1,3 @@
+[submodule "downloads"]
+	path = downloads
+	url = https://github.com/robonamari/dirlotix.py.git
