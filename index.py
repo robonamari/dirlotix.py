@@ -18,16 +18,14 @@ load_dotenv(".env")
 @app.route("/", methods=["GET"])
 async def redirect_to_default_lang() -> Response:
     """
-    Redirect to the default language '/en' preserving query string if present.
+    Redirect to the default language '/en' preserving query string if any.
 
     Returns:
-        Response: A Flask redirect response (302).
+        Response: Redirect response (302) to '/en'.
     """
-    query_string: str = request.query_string.decode("utf-8")
-    new_url: str = "/en"
-    if query_string:
-        new_url += f"?{query_string}"
-    return redirect(new_url, code=302)
+    qs = request.query_string.decode()
+    url = "/en" + (f"?{qs}" if qs else "")
+    return redirect(url, code=302)
 
 
 @app.route("/<lang>", methods=["GET"])
