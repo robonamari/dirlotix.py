@@ -13,6 +13,8 @@
 
 ---
 
+<img src="/.github/banner.png" alt="banner">
+
 This project is a file manager web application built with Python and Flask. It allows users to browse and download files on a server, view directory listings, and interact with different file types. The application also supports multi-language functionality and allows configuration of various settings like theme colors, fonts, and favicon.
 
 ## Features
