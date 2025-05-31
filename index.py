@@ -10,7 +10,7 @@ from flask import Flask, Response, abort, redirect, render_template, request, se
 
 from utils.translation import load_translation
 
-app = Flask(__name__, static_folder="")
+app = Flask(__name__)
 __import__("flask_compress").Compress(app)
 load_dotenv(".env")
 
