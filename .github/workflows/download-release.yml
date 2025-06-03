@@ -11,50 +11,33 @@ permissions:
   id-token: write
 
 jobs:
-  download-extract-push:
+  deploy-preview:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout preview branch
       uses: actions/checkout@v4
       with:
         ref: preview
-    - name: Get latest release tag name
-      id: get_tag
+    - name: Get latest release and download asset
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        TAG=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases | jq -r '.[0].tag_name')
+        TAG=$(gh release list --limit 1 --repo "${{ github.repository }}" | awk '{print $1}')
+        gh release download "$TAG" --repo "${{ github.repository }}" --pattern "Dirlotix-*.zip"
         echo "TAG_NAME=$TAG" >> $GITHUB_ENV
-    - name: Clean preview directory
+    - name: Clean preview branch
       run: |
         find . -mindepth 1 ! -regex '^./\.git\(/.*\)?' -exec rm -rf {} +
-    - name: Download release zip asset
+    - name: Extract zip and cleanup
       run: |
-        ASSET_URL=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ env.TAG_NAME }} \
-          | jq -r '.assets[] | select(.name | test("^Dirlotix-.*\\.zip$")) | .browser_download_url' | head -n 1)
-        if [ -z "$ASSET_URL" ]; then
-          echo "Error: No release asset matching Dirlotix-*.zip found"
-          exit 1
-        fi
-        ZIP_NAME=$(basename "$ASSET_URL")
-        curl -L "$ASSET_URL" -o "$ZIP_NAME"
-        echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
-    - name: Check downloaded files
-      run: ls -lah
-    - name: Extract zip
-      run: |
-        unzip "$ZIP_NAME" -d .
-        rm "$ZIP_NAME"
-    - name: Create downloads folder and copy extracted files
-      run: |
-        mkdir -p downloads
-        shopt -s extglob
-        cp -r !(downloads) downloads/
-      shell: bash
-    - name: Commit and push changes to preview branch
+        unzip Dirlotix-*.zip -d .
+        rm Dirlotix-*.zip
+    - name: Commit and push to preview
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git add .
-        git commit -m "Deploy release ${{ github.event.release.tag_name }} to preview branch" || exit 0
+        git commit -m "Deploy ${{ env.TAG_NAME }} to preview" || exit 0
         git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }} HEAD:preview
