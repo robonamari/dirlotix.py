@@ -38,7 +38,6 @@
         margin: 20px;
         background-color: #f9f9f9;
         color: #333;
-        min-width: 992px
       }
 
       a {
@@ -405,6 +404,12 @@
       }
 
       @media(max-width:576px) {
+        table {
+          width: 100%;
+          min-width: unset;
+          font-size: 0.85rem;
+        }
+
         .search-bar input[type="text"] {
           width: 80%
         }
