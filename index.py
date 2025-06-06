@@ -11,7 +11,7 @@ from flask_compress import Compress
 
 from utils.translation import load_translation
 
-app = Flask(__name__, static_folder="assets", static_url_path="/assets")
+app = Flask(__name__, static_url_path="/assets", static_folder="assets")
 Compress(app)
 load_dotenv(".env")
 
