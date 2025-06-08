@@ -1,4 +1,4 @@
-name: 📦Auto Release
+name: Auto Release
 
 on:
   push:
