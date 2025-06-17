@@ -43,15 +43,15 @@ async def redirect_to_default_lang() -> Response:
     return redirect(url, code=302)
 
 
-@app.route("/<lang>", methods=["GET"])
-async def index(lang: str) -> Union[str, Response]:
+@app.route("/<lang_code>", methods=["GET"])
+async def index(lang_code: str) -> Union[str, Response]:
     """
     Render directory listing page for the given language.
 
     Validates the language, loads translation, lists directory contents, and renders page.
 
     Args:
-        lang (str): Two-letter language code.
+        lang_code (str): Two-letter language code.
 
     Returns:
         Any: Rendered HTML or error response.
@@ -61,9 +61,9 @@ async def index(lang: str) -> Union[str, Response]:
         for f in os.listdir("languages")
         if f.endswith(".yml") and len(f) == 6 and f[:-4].isalpha()
     }
-    if lang not in valid_languages:
-        return await download_file(lang)
-    languages = await load_translation(lang)
+    if lang_code not in valid_languages:
+        return await download_file(lang_code)
+    languages = await load_translation(lang_code)
     safe_root = os.path.join(os.path.dirname(__file__), "downloads")
     directory = os.path.normpath(os.path.join(safe_root, request.args.get("dir", "")))
     if not directory.startswith(safe_root) or not os.path.isdir(directory):
@@ -72,9 +72,9 @@ async def index(lang: str) -> Union[str, Response]:
     if directory != safe_root:
         parent_dir = os.path.dirname(directory)
         link = (
-            f"/{lang}"
+            f"/{lang_code}"
             if parent_dir == safe_root
-            else f"/{lang}?dir={os.path.relpath(parent_dir, safe_root)}"
+            else f"/{lang_code}?dir={os.path.relpath(parent_dir, safe_root)}"
         )
         file_list.append(
             {
@@ -130,13 +130,13 @@ async def index(lang: str) -> Union[str, Response]:
                 {
                     "icon": "fas fa-folder-open",
                     "name": name,
-                    "link": f"/{lang}?dir={os.path.relpath(file_path, safe_root)}",
+                    "link": f"/{lang_code}?dir={os.path.relpath(file_path, safe_root)}",
                 }
             )
     return render_template(
         "index.min.html",
         file_list=file_list,
-        lang=lang,
+        lang=lang_code,
         languages=languages,
         font_family=os.getenv("FONT_FAMILY"),
         favicon=os.getenv("FAVICON"),
