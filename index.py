@@ -5,16 +5,7 @@ import os
 from typing import Any, Union
 
 from dotenv import load_dotenv
-from flask import (
-    Flask,
-    Response,
-    abort,
-    redirect,
-    render_template,
-    request,
-    send_file,
-    send_from_directory,
-)
+from flask import Flask, Response, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
 
 from utils.translation import load_translation
@@ -38,8 +29,7 @@ async def redirect_to_default_lang() -> Response:
     Returns:
         Response: Redirect response (302) to '/en'.
     """
-    qs = request.query_string.decode()
-    url = "/en" + (f"?{qs}" if qs else "")
+    url = "/en" + (request.full_path[1:] if "?" in request.full_path else "")
     return redirect(url, code=302)
 
 
@@ -155,7 +145,7 @@ def show_license() -> Response:
     Raises:
         404: If the LICENSE file is not found.
     """
-    return send_from_directory(".", "LICENSE", mimetype="text/plain")
+    return send_file("LICENSE", mimetype="text/plain")
 
 
 @app.route("/<path:filename>", methods=["GET"])
