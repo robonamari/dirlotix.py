@@ -4,16 +4,21 @@ import mimetypes
 import os
 from typing import Any
 
-import aiohttp
 from dotenv import load_dotenv
 from flask import Flask, Response, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
 
 from utils.translation import load_translation
 
-app = Flask(__name__, static_url_path="/assets", static_folder="assets")
-Compress(app)
 load_dotenv(".env")
+
+app = Flask(__name__, static_url_path="/assets", static_folder="assets")
+app.add_url_rule(
+    "/favicon.ico",
+    endpoint="favicon",
+    redirect_to=os.getenv("favicon"),
+)
+Compress(app)
 
 
 @app.route("/", methods=["GET"])
@@ -177,21 +182,6 @@ async def download_file(filename: str) -> Response:
             return send_file(file_path, mimetype=mime_type)
         return send_file(file_path, as_attachment=True)
     return abort(404)
-
-
-@app.route("/favicon.ico", methods=["GET"])
-async def favicon() -> Response:
-    """
-    Fetch favicon asynchronously from the URL in environment variable.
-
-    Returns:
-        Response: Flask response containing the favicon data.
-    """
-    favicon_url: str = os.getenv("favicon")
-    async with aiohttp.ClientSession() as session:
-        async with session.get(favicon_url) as response:
-            content: bytes = await response.read()
-            return Response(content, mimetype="image/x-icon")
 
 
 @app.errorhandler(Exception)
