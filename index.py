@@ -2,10 +2,19 @@ import datetime
 import glob
 import mimetypes
 import os
-from typing import Any
+from typing import Any, Union
 
 from dotenv import load_dotenv
-from flask import Flask, Response, abort, redirect, render_template, request, send_file
+from flask import (
+    Flask,
+    Response,
+    abort,
+    redirect,
+    render_template,
+    request,
+    send_file,
+    send_from_directory,
+)
 from flask_compress import Compress
 
 from utils.translation import load_translation
@@ -35,7 +44,7 @@ async def redirect_to_default_lang() -> Response:
 
 
 @app.route("/<lang>", methods=["GET"])
-async def index(lang: str) -> Any:
+async def index(lang: str) -> Union[str, Response]:
     """
     Render directory listing page for the given language.
 
@@ -141,18 +150,16 @@ def show_license() -> Response:
     Serve the LICENSE file as plain text.
 
     Returns:
-        Response: Flask response containing LICENSE content.
+        Response: Flask response containing the content of the LICENSE file with 'text/plain' MIME type.
+
+    Raises:
+        404: If the LICENSE file is not found.
     """
-    license_path = os.path.join(os.path.dirname(__file__), "LICENSE")
-    if not os.path.isfile(license_path):
-        return abort(404)
-    with open(license_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    return Response(content, mimetype="text/plain")
+    return send_from_directory(".", "LICENSE", mimetype="text/plain")
 
 
 @app.route("/<path:filename>", methods=["GET"])
-async def download_file(filename: str) -> Response:
+async def download_file(filename: str) -> Union[Response, Any]:
     """
     Serve a file securely for download or inline display based on MIME type.
 
@@ -187,13 +194,13 @@ async def download_file(filename: str) -> Response:
 @app.errorhandler(Exception)
 async def handle_error(error: Exception) -> Any:
     """
-    Redirect to a custom error page based on HTTP error code.
+    Handle exceptions and redirect to a custom error page based on HTTP status code.
 
     Args:
-        error (Exception): Raised exception.
+        error (Exception): The raised exception.
 
     Returns:
-        Any: Redirect response to error page.
+        Response: Redirect response to a custom error page.
     """
     error_pages: dict[int, str] = {
         400: "400",
