@@ -7,6 +7,7 @@ from typing import Any, Union
 from dotenv import load_dotenv
 from flask import Flask, Response, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
+from waitress import serve
 
 from utils.translation import load_translation
 
@@ -197,12 +198,20 @@ async def handle_error(error: Exception) -> Any:
 
 
 if __name__ == "__main__":
-    app.run(
-        host=os.getenv("HOST"),
-        port=os.getenv("PORT"),
-        use_reloader=os.getenv("USE_RELOADER"),
-        debug=os.getenv("DEBUG"),
-        extra_files=glob.glob(
-            os.path.join(os.path.dirname(os.path.abspath(__file__)), "*")
-        ),
-    )
+    mode = os.getenv("MODE")
+    if mode == "development":
+        app.run(
+            host=os.getenv("HOST"),
+            port=os.getenv("PORT"),
+            debug=True,
+            use_reloader=True,
+            extra_files=glob.glob(
+                os.path.join(os.path.dirname(__file__), "**", "*"), recursive=True
+            ),
+        )
+    elif mode == "production":
+        serve(app, host=os.getenv("HOST"), port=os.getenv("PORT"))
+    else:
+        raise RuntimeError(
+            f"Invalid MODE '{mode}'. Must be 'development' or 'production'."
+        )
