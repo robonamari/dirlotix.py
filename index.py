@@ -210,6 +210,9 @@ if __name__ == "__main__":
             ),
         )
     elif mode == "production":
+        print(
+            f"Starting server on {os.getenv("HOST")}:{os.getenv("PORT")} in production mode"
+        )
         serve(app, host=os.getenv("HOST"), port=os.getenv("PORT"))
     else:
         raise RuntimeError(
