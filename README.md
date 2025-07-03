@@ -51,7 +51,6 @@ pip install -r requirements.txt
 2. The full descriptions of the environment variables are written inside the `.env` file, and you need to fill them out accordingly.
 3. Create a folder named `downloads` and put all files, directories, or anything you want to make downloadable inside that folder.
 
-
 ### 4. Run the Script
 
 ```bash
