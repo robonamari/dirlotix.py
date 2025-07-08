@@ -1,17 +1,18 @@
 <div align="center">
 
-</div>
+[**🇺🇸 English**](../../README.md)
 
-<p align="center">
-  <img src="https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat" alt="Code Size">
-  <img src="https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat" alt="Total lines">
-  <img src="https://img.shields.io/badge/python-%5E3.9-blue" alt="Python Versions">
-  <img src="https://img.shields.io/github/license/robonamari/Dirlotix-py" alt="GitHub license">
-</p>
+![حجم کد](https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat)
+![تعداد خطوط](https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat)
+![نسخه Python](https://img.shields.io/badge/python-%5E3.9-blue)
+![مجوز گیت هاب](https://img.shields.io/github/license/robonamari/Dirlotix-py)
 
 ---
 
-<img src="/.github/banner.png" alt="بنر">
+![بنر](/.github/banner.png)
+
+</div>
+
 <p dir="rtl">
 
 این پروژه یک برنامه مدیریت فایل تحت وب است که با Python و Flask ساخته شده است. این برنامه به کاربران امکان می دهد تا فایل های موجود در سرور را مرور و دانلود کنند، لیست دایرکتوری ها را مشاهده کنند و با انواع مختلف فایل ها تعامل داشته باشند. همچنین، این برنامه از قابلیت چندزبانه پشتیبانی می کند و به کاربران اجازه می دهد تنظیمات مختلفی مانند رنگ های تم، فونت ها و فاوآیکن را پیکربندی کنند.
