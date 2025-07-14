@@ -137,7 +137,7 @@ async def index(lang_code: str) -> Union[str, Response]:
 
 
 @app.route("/LICENSE", methods=["GET"])
-def show_license() -> Response:
+async def show_license() -> Response:
     """
     Serve the LICENSE file as plain text.
 
