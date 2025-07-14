@@ -18,7 +18,7 @@ app = Flask(__name__, static_folder="assets")
 app.add_url_rule(
     "/favicon.ico",
     endpoint="favicon",
-    redirect_to=os.getenv("favicon"),
+    redirect_to=os.getenv("FAVICON"),
 )
 Compress(app)
 
