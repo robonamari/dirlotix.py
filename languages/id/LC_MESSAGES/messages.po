@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Cari..."
+
+msgid "File"
+msgstr "Berkas"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Size"
+msgstr "Ukuran"
+
+msgid "Last Modified"
+msgstr "Terakhir diubah"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Lihat dan unduh file serta lainnya dengan fitur canggih dan antarmuka yang sederhana serta ramah pengguna."
+
+msgid "Directory Listing"
+msgstr "Daftar direktori"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Direktori induk"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Kërko..."
+
+msgid "File"
+msgstr "Skedar"
+
+msgid "Name"
+msgstr "Emri"
+
+msgid "Size"
+msgstr "Madhësia"
+
+msgid "Last Modified"
+msgstr "E modifikuar për herë të fundit"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një ndërfaqe përdoruesi të thjeshtë dhe efikase."
+
+msgid "Directory Listing"
+msgstr "Lista e Drejtimeve"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Dosja Para"

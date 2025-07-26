@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Yâ..."
+
+msgid "File"
+msgstr "File"
+
+msgid "Name"
+msgstr "Nâmo"
+
+msgid "Size"
+msgstr "Bâza"
+
+msgid "Last Modified"
+msgstr "Bâza ôdô"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a ngâli na sângo na zîngo."
+
+msgid "Directory Listing"
+msgstr "Lîsto to file"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Bâko to file"

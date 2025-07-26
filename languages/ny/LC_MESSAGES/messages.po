@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Saka..."
+
+msgid "File"
+msgstr "Fayilo"
+
+msgid "Name"
+msgstr "Dzina"
+
+msgid "Size"
+msgstr "Kukula"
+
+msgid "Last Modified"
+msgstr "Zasinthidwa komaliza"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso mawonekedwe osavuta kugwiritsa ntchito."
+
+msgid "Directory Listing"
+msgstr "Mndandanda wa mafoloda"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Chikwatu choyambirira"

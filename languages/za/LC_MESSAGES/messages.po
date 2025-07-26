@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Caeuq..."
+
+msgid "File"
+msgstr "Ndawmbuk"
+
+msgid "Name"
+msgstr "Mingz"
+
+msgid "Size"
+msgstr "Lajmban"
+
+msgid "Last Modified"
+msgstr "Gvangq daengz"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih dangq suij, goengq ndaej rox baeuj."
+
+msgid "Directory Listing"
+msgstr "Ndawmbuk doekdaeuj"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Bouxndaw doekdaeuj"

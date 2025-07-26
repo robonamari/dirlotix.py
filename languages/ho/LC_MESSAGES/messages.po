@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Lukim..."
+
+msgid "File"
+msgstr "Faeila"
+
+msgid "Name"
+msgstr "Nem"
+
+msgid "Size"
+msgstr "Saiz"
+
+msgid "Last Modified"
+msgstr "Last tim we em bin senisim"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Lukim na daunlodim faeila na moa, long ol gutpela fetas na wanpela i go easy long user."
+
+msgid "Directory Listing"
+msgstr "Lis bilong folder"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Folder bilong parent"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Wethia..."
+
+msgid "File"
+msgstr "File"
+
+msgid "Name"
+msgstr "Wĩhĩ"
+
+msgid "Size"
+msgstr "Wendo"
+
+msgid "Last Modified"
+msgstr "Kĩrĩa kĩrĩa"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Wona na dhawuniloda mafaayela na kũrĩa mĩtũrũmũ ya mbere na kĩhoto kĩrĩa gĩkũyũ gĩtari."
+
+msgid "Directory Listing"
+msgstr "Lĩstĩ wa majina"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Majina wa mũndũ"

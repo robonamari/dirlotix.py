@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "گەڕان..."
+
+msgid "File"
+msgstr "پەڕگە"
+
+msgid "Name"
+msgstr "ناو"
+
+msgid "Size"
+msgstr "قەبارە"
+
+msgid "Last Modified"
+msgstr "دوایین گۆڕانکاری"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "پەڕگەکان ببینە و داگرتن، لەگەڵ تایبەتمەندییە باشترەکان و ڕووکاری بەکارهێنانی سادە و ئاسان."
+
+msgid "Directory Listing"
+msgstr "لیستی بوخچەکان"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "بوخچەی سەرەکی"

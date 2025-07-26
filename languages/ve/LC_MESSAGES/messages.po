@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Tshimbidza..."
+
+msgid "File"
+msgstr "Fayili"
+
+msgid "Name"
+msgstr "Dzina"
+
+msgid "Size"
+msgstr "U fhira"
+
+msgid "Last Modified"
+msgstr "U bvishelwa"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Vhona na u download-a mafayili na zwiṅwe zwiṅwe nga ndi zwine zwa konewa na u shumisa zwine zwa nga vha zwi easy na zwi user-friendly."
+
+msgid "Directory Listing"
+msgstr "Letshele la directory"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Directory ya vhadzulo"

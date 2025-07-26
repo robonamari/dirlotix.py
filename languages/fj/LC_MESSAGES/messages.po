@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Sogo..."
+
+msgid "File"
+msgstr "Faile"
+
+msgid "Name"
+msgstr "Yaca"
+
+msgid "Size"
+msgstr "Bale"
+
+msgid "Last Modified"
+msgstr "Sega ni vakadewataka"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Raica ka kauta tani na faile kei na kena veika tale eso e na veika vakacakacaka ena i tukutuku ni veika tale eso kei na nodra vakaibalebale na veika."
+
+msgid "Directory Listing"
+msgstr "Lisi ni veivakatau"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Vakatavulici ni veivakatau"

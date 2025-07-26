@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Díí naaltsoos..."
+
+msgid "File"
+msgstr "Ádah naashá"
+
+msgid "Name"
+msgstr "Tʼáá íiyisí"
+
+msgid "Size"
+msgstr "Tʼáá ajiłii"
+
+msgid "Last Modified"
+msgstr "Díí baa hólǫ́ holne'"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Díí naaltsoos yáhoot'ééłgo ádah naashá, doo áádóó baa hólǫ́ holne' doo nihá naashá, áłah naashá."
+
+msgid "Directory Listing"
+msgstr "Díí naaltsoos bii'ígíí"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Adoo tʼááłáʼí naaltsoos"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Որոնել..."
+
+msgid "File"
+msgstr "Ֆայլ"
+
+msgid "Name"
+msgstr "Անվանում"
+
+msgid "Size"
+msgstr "Չափը"
+
+msgid "Last Modified"
+msgstr "Վերջին անգամ փոփոխված"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Դիտել և ներբեռնել ֆայլեր և այլն՝ առաջադեմ հատկություններով և պարզ, արդյունավետ օգտագործողի ինտերֆեյսով:"
+
+msgid "Directory Listing"
+msgstr "Պատկերացնվող գրադարան"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Անցյալ պանակ"

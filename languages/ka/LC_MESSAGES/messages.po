@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "ძიება..."
+
+msgid "File"
+msgstr "ფაილი"
+
+msgid "Name"
+msgstr "სახელი"
+
+msgid "Size"
+msgstr "ზომა"
+
+msgid "Last Modified"
+msgstr "ბოლო ცვლილება"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "მოუსმინეთ და ჩამოტვირთეთ ფაილები და სხვა შესწორებული ფუნქციებით და მარტივი, მომხმარებელს მეგობრული ინტერფეისით."
+
+msgid "Directory Listing"
+msgstr "კატალოგების სია"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "მაღალ კატალოგი"

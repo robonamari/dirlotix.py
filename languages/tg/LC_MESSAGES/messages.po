@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Ҷустуҷӯ..."
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Name"
+msgstr "Ном"
+
+msgid "Size"
+msgstr "Ҳаҷм"
+
+msgid "Last Modified"
+msgstr "Охирин тағйирот"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва дӯстона ба корбар бинед ва боргирӣ кунед."
+
+msgid "Directory Listing"
+msgstr "Рӯйхати директория"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Директорияи волид"

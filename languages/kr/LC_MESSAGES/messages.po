@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Nema..."
+
+msgid "File"
+msgstr "Faayel"
+
+msgid "Name"
+msgstr "Suna"
+
+msgid "Size"
+msgstr "Girma"
+
+msgid "Last Modified"
+msgstr "Ƙarshe canza"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
+
+msgid "Directory Listing"
+msgstr "Jerin kundin adireshi"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Kundin adireshin mahaifi"

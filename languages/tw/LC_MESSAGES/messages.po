@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Hwehwɛ..."
+
+msgid "File"
+msgstr "Faayil"
+
+msgid "Name"
+msgstr "Din"
+
+msgid "Size"
+msgstr "Bɔdɔ"
+
+msgid "Last Modified"
+msgstr "Afe a edi kan a ɛda so"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye ne adwumakuo a ɛyɛ nkɔsoɔ."
+
+msgid "Directory Listing"
+msgstr "Nhyiamu faako no"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Faako a edi kan no"

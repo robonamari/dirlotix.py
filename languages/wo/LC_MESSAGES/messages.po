@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Wut..."
+
+msgid "File"
+msgstr "Dencukaay"
+
+msgid "Name"
+msgstr "Tur"
+
+msgid "Size"
+msgstr "Yaatuwaay"
+
+msgid "Last Modified"
+msgstr "Jumteluji ji mujj"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Gis ak telecharger fitil yi ak beneen yu nekk ak jumtukaay yu gën am solo ak yomb ci jëfandikoo."
+
+msgid "Directory Listing"
+msgstr "Lista biir jumboog"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Jumboog bu mag"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Niinwen..."
+
+msgid "File"
+msgstr "Daga"
+
+msgid "Name"
+msgstr "Dooda"
+
+msgid "Size"
+msgstr "Mikwendam"
+
+msgid "Last Modified"
+msgstr "Dooda ezhigad"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Giiwedin weweni bimaadiziwin, gii-pi-giizhigad a'aw maamawiwaad, ezhi-maawandoowewin miinawaa gaa-izhi-gikinowin."
+
+msgid "Directory Listing"
+msgstr "Akiwenzii"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Noodin"

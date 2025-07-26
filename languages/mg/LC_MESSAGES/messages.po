@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Karoka..."
+
+msgid "File"
+msgstr "Rakitra"
+
+msgid "Name"
+msgstr "Anarana"
+
+msgid "Size"
+msgstr "Habe"
+
+msgid "Last Modified"
+msgstr "Fanovana farany"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Jereo sy trohy ireo rakitra sy zavatra hafa miaraka amin'ny fiasa mandroso sy fisehoana tsotra sy mora ampiasaina."
+
+msgid "Directory Listing"
+msgstr "Lisitra an'ireo lahatahiry"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Lahatahiry ray"

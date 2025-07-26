@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Raadi..."
+
+msgid "File"
+msgstr "Fayl"
+
+msgid "Name"
+msgstr "Magac"
+
+msgid "Size"
+msgstr "Cabbir"
+
+msgid "Last Modified"
+msgstr "Laga beddelay ugu dambeyn"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Eegora iyo sooraha faylasha, iwm, iyadoo leh astaamo horumarsan iyo interface isticmaale fudud oo waxtar leh."
+
+msgid "Directory Listing"
+msgstr "Liiska Galka"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Galka Hore"

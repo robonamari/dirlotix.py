@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "ڳوليو..."
+
+msgid "File"
+msgstr "فائل"
+
+msgid "Name"
+msgstr "نالو"
+
+msgid "Size"
+msgstr "سائيز"
+
+msgid "Last Modified"
+msgstr "آخري ترميم"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان ڏسو ۽ ڊائون لوڊ ڪريو."
+
+msgid "Directory Listing"
+msgstr "ڊائريڪٽري لسٽنگ"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "والد ڊائريڪٽري"

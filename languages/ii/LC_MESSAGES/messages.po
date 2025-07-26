@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "ꌠꈤ..."
+
+msgid "File"
+msgstr "ꌠꁧ"
+
+msgid "Name"
+msgstr "ꈩ"
+
+msgid "Size"
+msgstr "ꑘꂿ"
+
+msgid "Last Modified"
+msgstr "ꀋꎿꑘꄿ"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "ꋍꄿꀋꉆꌠꀋꎿꑘꁧꂿꁨꌠ, ꀊꎿꀋꑘꀀꂿꑘꈩꄉꀋꎿꑘꀋꁧꌠ."
+
+msgid "Directory Listing"
+msgstr "ꂿꑘꎿꑘ"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "ꀀꎿꑘ"
