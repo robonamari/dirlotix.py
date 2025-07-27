@@ -19,6 +19,13 @@ jobs:
           fetch-depth: 1
       - name: Get tag name
         run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+      - name: Convert .po to .mo files
+        run: |
+          sudo apt-get install -y gettext
+          find languages -name "*.po" | while read -r po; do
+            mo="${po%.po}.mo"
+            msgfmt "$po" -o "$mo"
+          done
       - name: Create zip archive
         run: zip -r "Dirlotix-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "README.md" ".gitignore"
       - name: Create tar.gz archive
