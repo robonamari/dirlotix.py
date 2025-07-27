@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "ፈልግ..."
+
+msgid "File"
+msgstr "ፋይል"
+
+msgid "Name"
+msgstr "ስም"
+
+msgid "Size"
+msgstr "መጠን"
+
+msgid "Last Modified"
+msgstr "በመጨረሻ የተለዋዋጭ"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "ፋይሎችን እና ሌሎችን በውስጥ ባለ ባለሞያ ባህሪዎች እና ቀላል፣ እንቆቅልሽ ተጠቃሚ ተወዳድሮ ማዕከል ጭነት እንዲያስችል።"
+
+msgid "Directory Listing"
+msgstr "ማውጫ ዝርዝር"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "ቀደም ያለው ፋይል"

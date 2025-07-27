@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Luka..."
+
+msgid "File"
+msgstr "Fayele"
+
+msgid "Name"
+msgstr "Dina"
+
+msgid "Size"
+msgstr "Bule"
+
+msgid "Last Modified"
+msgstr "Lumu lwabu lulamwibwe"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Tala mpe telechaja ba fayele n’a biloko binso, na misala mya malonga mpe etaleli ya pete ya kosalela."
+
+msgid "Directory Listing"
+msgstr "Ditabu dia ba dikanda"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Dikanda dikulu"

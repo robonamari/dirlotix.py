@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Uqaġigivik..."
+
+msgid "File"
+msgstr "Iḷisaqtuaq"
+
+msgid "Name"
+msgstr "Atqa"
+
+msgid "Size"
+msgstr "Aŋiŋñaq"
+
+msgid "Last Modified"
+msgstr "Akuni uqaqtiqtuq"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Uqautchiginiaq files atuqtuatlu takuyagaksraq, atautchikun atuqtuaq nalupqisigikpiñ."
+
+msgid "Directory Listing"
+msgstr "Aqpaġivik atausiq"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Iḷutqun aqpaġvik"

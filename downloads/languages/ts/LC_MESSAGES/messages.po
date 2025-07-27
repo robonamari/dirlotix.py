@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Funda..."
+
+msgid "File"
+msgstr "Fayela"
+
+msgid "Name"
+msgstr "Vito"
+
+msgid "Size"
+msgstr "Vun'we"
+
+msgid "Last Modified"
+msgstr "Loko swi endliwa"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Hlamusela na ku tirhisa swilo leswi humaka eka mafayela na swilo swin'wana hi ku tirha swi tlhela swi olova eka muxaka wa ntirho"
+
+msgid "Directory Listing"
+msgstr "Luhlu ra ma folder"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Folda ya Vukulu"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Meklēt..."
+
+msgid "File"
+msgstr "Fails"
+
+msgid "Name"
+msgstr "Nosaukums"
+
+msgid "Size"
+msgstr "Izmērs"
+
+msgid "Last Modified"
+msgstr "Pēdējās izmaiņas"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Skatīt un lejupielādēt failus un citus resursus ar uzlabotām funkcijām un vienkāršu, ērtu lietotāja saskarni."
+
+msgid "Directory Listing"
+msgstr "Mapju saraksts"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Augšējā mape"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Cweri..."
+
+msgid "File"
+msgstr "Fitchî"
+
+msgid "Name"
+msgstr "No"
+
+msgid "Size"
+msgstr "Grandeu"
+
+msgid "Last Modified"
+msgstr "Dierin candjmint"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, eyet ene intrface simpl' et ezåy åyidî."
+
+msgid "Directory Listing"
+msgstr "Djivêye des ridants"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Ridant måjhon"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Shintja..."
+
+msgid "File"
+msgstr "File"
+
+msgid "Name"
+msgstr "Otu"
+
+msgid "Size"
+msgstr "Onda"
+
+msgid "Last Modified"
+msgstr "Oshilongo shilonga"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Tjivara na ohipa ka dondjera file na okavete oteye, oya no ombinga otjiwebuta no oshiyenge shilikumba."
+
+msgid "Directory Listing"
+msgstr "Oshikola sha mapuka"
+
+msgid "ltr"
+msgstr "rtl"
+
+msgid "Previous Folder"
+msgstr "Omapuka otji webuta"

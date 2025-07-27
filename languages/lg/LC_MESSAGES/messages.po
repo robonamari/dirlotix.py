@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Londa..."
+
+msgid "File"
+msgstr "Fayiro"
+
+msgid "Name"
+msgstr "Erinnya"
+
+msgid "Size"
+msgstr "Obungi"
+
+msgid "Last Modified"
+msgstr "Okuddeko okw'omuwendo"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu egy'enjawulo n'enkolagana etali n'ekyangu."
+
+msgid "Directory Listing"
+msgstr "Lukuusi lw'amaaka"
+
+msgid "ltr"
+msgstr "rtl"
+
+msgid "Previous Folder"
+msgstr "Amaaka agasooka"

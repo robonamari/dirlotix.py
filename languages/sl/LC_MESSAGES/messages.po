@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Iskanje..."
+
+msgid "File"
+msgstr "Datoteka"
+
+msgid "Name"
+msgstr "Ime"
+
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Last Modified"
+msgstr "Zadnja sprememba"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Ogled in prenos datotek ter drugih virov z naprednimi funkcijami in preprostim ter uporabniku prijaznim vmesnikom."
+
+msgid "Directory Listing"
+msgstr "Seznam map"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Prejšnja mapa"

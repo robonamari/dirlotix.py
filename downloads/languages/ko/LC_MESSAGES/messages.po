@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "검색..."
+
+msgid "File"
+msgstr "파일"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Size"
+msgstr "크기"
+
+msgid "Last Modified"
+msgstr "마지막 수정"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "파일 및 기타 콘텐츠를 고급 기능과 간단하며 사용자 친화적인 인터페이스를 통해 보고 다운로드하세요."
+
+msgid "Directory Listing"
+msgstr "디렉토리 목록"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "상위 디렉토리"

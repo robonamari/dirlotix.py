@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "ಹುಡುಕಿ..."
+
+msgid "File"
+msgstr "ಫೈಲ್"
+
+msgid "Name"
+msgstr "ಹೆಸರು"
+
+msgid "Size"
+msgstr "ಆಕಾರ"
+
+msgid "Last Modified"
+msgstr "ಕೊನೆಯ ಮಾರ್ಪಡింపు"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "ಫೈಲ್‌ಗಳು ಮತ್ತು ಇತರೆಗಳನ್ನು ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಮತ್ತು ಸರಳ, ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಇಂಟರ್ಫೇಸ್‌ನೊಂದಿಗೆ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+
+msgid "Directory Listing"
+msgstr "ಡೈರೆಕ್ಟರಿ ಪಟ್ಟಿ"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "ಪೋಷಕ ಡೈರೆಕ್ಟರಿ"

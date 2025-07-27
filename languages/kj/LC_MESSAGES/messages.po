@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Lombwela..."
+
+msgid "File"
+msgstr "Ofaila"
+
+msgid "Name"
+msgstr "Eto"
+
+msgid "Size"
+msgstr "Ongushu"
+
+msgid "Last Modified"
+msgstr "Otandi yalwe kehe"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Omonana no okutambula oofaila nayi ihe ya vule na omapulo ga tokola ni mo omukongo iwa nawa."
+
+msgid "Directory Listing"
+msgstr "Oludato lwoma direkotori"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Direkotori lyokununa"

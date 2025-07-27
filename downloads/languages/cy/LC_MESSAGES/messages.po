@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Chwilio..."
+
+msgid "File"
+msgstr "Ffeil"
+
+msgid "Name"
+msgstr "Enw"
+
+msgid "Size"
+msgstr "Maint"
+
+msgid "Last Modified"
+msgstr "Newidiwyd ddiwethaf"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Gweld a lawrlwytho ffeiliau a mwy gyda nodweddion gwell a rhyngwyneb defnyddiwr syml a hawdd ei ddefnyddio."
+
+msgid "Directory Listing"
+msgstr "Rhestr cyfeiriadur"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Cyfeiriadur rhiant"

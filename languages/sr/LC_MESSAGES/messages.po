@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Pretraga..."
+
+msgid "File"
+msgstr "Fajl"
+
+msgid "Name"
+msgstr "Ime"
+
+msgid "Size"
+msgstr "Veličina"
+
+msgid "Last Modified"
+msgstr "Poslednja izmena"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Pogledajte i preuzmite fajlove i druge resurse sa naprednim funkcijama i jednostavnim i korisnički prijateljskim interfejsom."
+
+msgid "Directory Listing"
+msgstr "Lista direktorijuma"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Nadređeni direktorijum"

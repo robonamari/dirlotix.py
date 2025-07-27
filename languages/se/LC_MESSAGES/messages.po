@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Ruohtadit..."
+
+msgid "File"
+msgstr "Fálla"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Size"
+msgstr "Stábbi"
+
+msgid "Last Modified"
+msgstr "Sista modifisering"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Geahččat ja dalvut fállaid ja ođđasiid ja dahje veahkkinat bearrádusaid ja dasa dušše ja gullan interfeissi."
+
+msgid "Directory Listing"
+msgstr "Diraktoriid lágán"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Álgu diraktori"

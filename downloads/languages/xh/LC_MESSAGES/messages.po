@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Phendla..."
+
+msgid "File"
+msgstr "Ifayile"
+
+msgid "Name"
+msgstr "Igama"
+
+msgid "Size"
+msgstr "Ubungakanani"
+
+msgid "Last Modified"
+msgstr "Utshintsho lokugqibela"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Jonga kwaye ukhuphele iifayile nezinye izinto ezinophuculo kunye nojongano olulula nolusebenziseka lula."
+
+msgid "Directory Listing"
+msgstr "Uluhlu lwefayile"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Uluhlu olungundoqo"

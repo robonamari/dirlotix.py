@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Sari..."
+
+msgid "File"
+msgstr "Fayil"
+
+msgid "Name"
+msgstr "Dɛn"
+
+msgid "Size"
+msgstr "Sankɔ"
+
+msgid "Last Modified"
+msgstr "Dɔɔnin lafiɲɛ"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Fayil le, ka dɔɔnin ka kɔrɔma, tɔɔrɔ, ni dɔɔnin ka sigi ɲininkari, ka tɛgɛ faamuya, lafiɲɛ ko."
+
+msgid "Directory Listing"
+msgstr "Boli tɔɔrɔ"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Kɔrɔkɔ"

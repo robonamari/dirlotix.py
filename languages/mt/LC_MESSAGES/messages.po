@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Fittex..."
+
+msgid "File"
+msgstr "Fajl"
+
+msgid "Name"
+msgstr "Isem"
+
+msgid "Size"
+msgstr "Daqs"
+
+msgid "Last Modified"
+msgstr "L-aħħar modifika"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs sempliċi u faċli għall-utent."
+
+msgid "Directory Listing"
+msgstr "Lista tal-fajls"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Direttorju preċedenti"

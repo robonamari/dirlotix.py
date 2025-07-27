@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Sykje..."
+
+msgid "File"
+msgstr "Bestân"
+
+msgid "Name"
+msgstr "Namme"
+
+msgid "Size"
+msgstr "Grutte"
+
+msgid "Last Modified"
+msgstr "Lêst ferâldere"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Sjoch en downloaden bestannen en mear mei ferbettere funksjes en in ienfâldige, brûkerfreonlike ynterface."
+
+msgid "Directory Listing"
+msgstr "Maplist"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Boppe-dokumint"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Luka..."
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Name"
+msgstr "Nkombo"
+
+msgid "Size"
+msgstr "Monene"
+
+msgid "Last Modified"
+msgstr "Bobongwani ya suka"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli ya pete mpe ya malamu."
+
+msgid "Directory Listing"
+msgstr "Lista ya ba dosié"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Dosié ya likoló"

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Rapu..."
+
+msgid "File"
+msgstr "Kōnae"
+
+msgid "Name"
+msgstr "Ingoa"
+
+msgid "Size"
+msgstr "Rahi"
+
+msgid "Last Modified"
+msgstr "Hōtaka whakamutunga"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Tirohia me tango kōnae me ētahi atu rauemi me ngā āheinga matatini me te atanga whakamahi pātea me māmā."
+
+msgid "Directory Listing"
+msgstr "Rārangi kōpaki"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Kōpaki matua"

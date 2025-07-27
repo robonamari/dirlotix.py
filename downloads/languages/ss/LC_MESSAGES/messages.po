@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Sesha..."
+
+msgid "File"
+msgstr "Ifayela"
+
+msgid "Name"
+msgstr "Igama"
+
+msgid "Size"
+msgstr "Usayizi"
+
+msgid "Last Modified"
+msgstr "Ukushintsha Okugcina"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Buka futhi ulande amafayela nezinye izinsiza ngokusebenza okuphambili nesixhumi esibonakalayo esilula nesilungile kumsebenzisi."
+
+msgid "Directory Listing"
+msgstr "Uhlu lwezikhala"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Ifolda Yesizalo"

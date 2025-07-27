@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Cuardach..."
+
+msgid "File"
+msgstr "Comhad"
+
+msgid "Name"
+msgstr "Ainm"
+
+msgid "Size"
+msgstr "Méid"
+
+msgid "Last Modified"
+msgstr "Athraithe go deireanach"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Féach agus íoslódáil comhaid agus eile le gnéithe feabhsaithe agus comhéadan simplí atá éasca le húsáid."
+
+msgid "Directory Listing"
+msgstr "Liosta comhadlann"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Príomhchomhadlann"

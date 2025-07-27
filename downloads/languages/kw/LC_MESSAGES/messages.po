@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Kledh..."
+
+msgid "File"
+msgstr "Feyl"
+
+msgid "Name"
+msgstr "Hwedh"
+
+msgid "Size"
+msgstr "Meur"
+
+msgid "Last Modified"
+msgstr "Glastowgh diworth"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n omro dhe worthevyans ynterfeyns siwynn."
+
+msgid "Directory Listing"
+msgstr "Raglyver dyrekter"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Raglyver prys"

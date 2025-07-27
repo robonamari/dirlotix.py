@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Axtar..."
+
+msgid "File"
+msgstr "Fayl"
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "Size"
+msgstr "Ölçü"
+
+msgid "Last Modified"
+msgstr "Sonuncu dəyişiklik"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Faylları görüntüləyin və yükləyin və s., qabaqcıl xüsusiyyətlər və sadə, effektiv istifadəçi interfeysi ilə."
+
+msgid "Directory Listing"
+msgstr "Qovluq siyahısı"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Əvvəlki Qovluq"

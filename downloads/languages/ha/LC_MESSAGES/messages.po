@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Nema..."
+
+msgid "File"
+msgstr "Fayil"
+
+msgid "Name"
+msgstr "Suna"
+
+msgid "Size"
+msgstr "Girma"
+
+msgid "Last Modified"
+msgstr "Karshe an gyara"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin amfani, mai amfani da keɓaɓɓen fuska."
+
+msgid "Directory Listing"
+msgstr "Jerin manyan fayiloli"
+
+msgid "ltr"
+msgstr "rtl"
+
+msgid "Previous Folder"
+msgstr "Babban fayil"

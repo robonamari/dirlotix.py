@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Chèche..."
+
+msgid "File"
+msgstr "Fichye"
+
+msgid "Name"
+msgstr "Non"
+
+msgid "Size"
+msgstr "Gwosè"
+
+msgid "Last Modified"
+msgstr "Dènye modifikasyon"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Gade ak telechaje fichye ak plis ankò avèk karakteristik amelyore ak yon entèfas senp e fasil pou itilizatè."
+
+msgid "Directory Listing"
+msgstr "Lis anyè"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Anyè paran"

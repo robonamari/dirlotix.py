@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Paieška..."
+
+msgid "File"
+msgstr "Failas"
+
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgid "Size"
+msgstr "Dydis"
+
+msgid "Last Modified"
+msgstr "Paskutinį kartą keista"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Peržiūrėkite ir atsisiųskite failus bei kitą turinį su pažangiomis funkcijomis ir paprasta, patogia naudoti sąsaja."
+
+msgid "Directory Listing"
+msgstr "Aplankų sąrašas"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Aukštesnis aplankas"

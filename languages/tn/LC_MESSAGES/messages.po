@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search..."
+msgstr "Batla..."
+
+msgid "File"
+msgstr "Faele"
+
+msgid "Name"
+msgstr "Leina"
+
+msgid "Size"
+msgstr "Boleele"
+
+msgid "Last Modified"
+msgstr "Nako ya bofelo ya go fetola"
+
+msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
+msgstr "Bona le go tswa ka faele le resources tse dingwe ka ditshwanelo tsa go oketsa le go tlhola sesebediswa se se bonolo le se se ikemetseng"
+
+msgid "Directory Listing"
+msgstr "Lethareng la dikitjana"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Previous Folder"
+msgstr "Dikitjana tsa batlhophi"
