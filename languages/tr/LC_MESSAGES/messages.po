@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Dizin Listesi"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Ara..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Gelişmiş özellikler ve basit, kullanıcı dostu bir arayüz ile "
 "dosyaları ve diğer kaynakları görüntüleyin ve indirin."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "Dosya"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Ad"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Boyut"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Son Değişiklik"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Ana Dizin"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Ara..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

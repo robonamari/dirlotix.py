@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Llistat de directoris"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Cercar..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Vegeu i descarregueu fitxers i més amb característiques millorades i una "
 "interfície senzilla i fàcil d'usar."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "Fitxer"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Nom"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Mida"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Última modificació"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Directori superior"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Cercar..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

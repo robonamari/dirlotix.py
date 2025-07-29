@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Listahan ng Direktoryo"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Maghanap..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Tingnan at i-download ang mga file at iba pang mga mapagkukunan na may mga "
 "advanced na tampok at isang simpleng at user-friendly na interface."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Pangalan"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Laki"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Huling Binago"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Naiunang Direktoryo"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Maghanap..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"
