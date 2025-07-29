@@ -164,9 +164,9 @@ async def download_file(filename: str) -> Union[Response, Any]:
     """
     safe_root: str = os.path.join(os.path.dirname(__file__), "downloads")
     file_path: str = os.path.normpath(os.path.join(safe_root, filename))
-    if not file_path.startswith(safe_root):
-        return abort(403)
     if os.path.isfile(file_path):
+        if not file_path.startswith(safe_root):
+            return abort(403)
         ignore_files = set(os.getenv("ignore_files", "").split(","))
         for part in filename.split("/"):
             if part in ignore_files:
