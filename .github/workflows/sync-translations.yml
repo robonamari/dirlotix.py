@@ -40,7 +40,7 @@ jobs:
             --language=Python \
             --keyword=_ \
             --output=languages/messages.pot \
-            --force-po --join-existing
+            --force-po
       - name: Compare .pot hash and update .po files if needed
         run: |
           new_hash=$(sha256sum languages/messages.pot | cut -d ' ' -f1)
