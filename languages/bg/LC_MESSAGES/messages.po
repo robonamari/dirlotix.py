@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Търсене..."
-
-msgid "File"
-msgstr "Файл"
-
-msgid "Name"
-msgstr "Име"
-
-msgid "Size"
-msgstr "Размер"
-
-msgid "Last Modified"
-msgstr "Последна промяна"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Преглеждайте и изтегляйте файлове и още с подобрени функции и прост, лесен за използване интерфейс."
-
-msgid "Directory Listing"
-msgstr "Списък с директории"
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "ltr"
 msgstr "rtl"
 
+#: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Търсене..."
+
+#: templates/index.min.html:1 templates/index.html:3
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr "Преглеждайте и изтегляйте файлове и още с подобрени функции и прост, лесен за използване интерфейс."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Списък с директории"
+
+#: templates/index.html:450
+msgid "File"
+msgstr "Файл"
+
+#: templates/index.html:451
+msgid "Name"
+msgstr "Име"
+
+#: templates/index.html:452
+msgid "Size"
+msgstr "Размер"
+
+#: templates/index.html:453
+msgid "Last Modified"
+msgstr "Последна промяна"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Предишна директория"

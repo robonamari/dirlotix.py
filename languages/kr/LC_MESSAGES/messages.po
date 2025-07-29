@@ -1,31 +1,44 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Nema..."
-
-msgid "File"
-msgstr "Faayel"
-
-msgid "Name"
-msgstr "Suna"
-
-msgid "Size"
-msgstr "Girma"
-
-msgid "Last Modified"
-msgstr "Ƙarshe canza"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
-
-msgid "Directory Listing"
-msgstr "Jerin kundin adireshi"
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "ltr"
 msgstr "ltr"
 
+#: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Nema..."
+
+#: templates/index.min.html:1 templates/index.html:3
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
+"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Jerin kundin adireshi"
+
+#: templates/index.html:450
+msgid "File"
+msgstr "Faayel"
+
+#: templates/index.html:451
+msgid "Name"
+msgstr "Suna"
+
+#: templates/index.html:452
+msgid "Size"
+msgstr "Girma"
+
+#: templates/index.html:453
+msgid "Last Modified"
+msgstr "Ƙarshe canza"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Kundin adireshin mahaifi"
