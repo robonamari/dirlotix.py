@@ -1,5 +1,5 @@
 {% set ltr = _('ltr') %}
-{% set Search... = _('Search...') %}
+{% set Search = _('Search...') %}
 {% set description_text = _('View and download files, etc., with advanced features and a simple, efficient user interface.') %}
 <!DOCTYPE html>
 <html dir="{{ltr}}" lang="{{lang}}">
@@ -442,7 +442,7 @@
 
 <body>
   <h1>{{_("Directory Listing")}}</h1>
-  <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{Search...}}"> </div>
+  <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{Search}}"> </div>
   <div class="table-container">
     <table class="table table-hover table-striped">
       <thead>
