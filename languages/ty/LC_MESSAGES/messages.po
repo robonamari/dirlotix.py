@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Fa’ahora..."
-
-msgid "File"
-msgstr "Faile"
-
-msgid "Name"
-msgstr "Inoa"
-
-msgid "Size"
-msgstr "Rahi"
-
-msgid "Last Modified"
-msgstr "Hope o te hoê atu"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Afa’i e te fa’ahora i te mau faile e te tahi atu mau rauhanga e te mau hi’oraa piha e te hoê hoê i’a’a e noaa."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Rāpare o te mau fare"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Afa’i e te fa’ahora i te mau faile e te tahi atu mau rauhanga e te mau "
+"hi’oraa piha e te hoê hoê i’a’a e noaa."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Faile"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Inoa"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Rahi"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Hope o te hoê atu"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Fare Māmā"
+
+#~ msgid "Search..."
+#~ msgstr "Fa’ahora..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

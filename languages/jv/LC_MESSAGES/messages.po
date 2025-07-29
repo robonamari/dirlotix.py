@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Golek..."
-
-msgid "File"
-msgstr "File"
-
-msgid "Name"
-msgstr "Jeneng"
-
-msgid "Size"
-msgstr "Ukuran"
-
-msgid "Last Modified"
-msgstr "Pungkasan diowahi"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Deleng lan undhuh file lan liyane kanthi fitur sing luwih maju lan antarmuka sing prasaja lan ramah pangguna."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Daftar direktori"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Deleng lan undhuh file lan liyane kanthi fitur sing luwih maju lan antarmuka "
+"sing prasaja lan ramah pangguna."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "File"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Jeneng"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Ukuran"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Pungkasan diowahi"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Direktori induk"
+
+#~ msgid "Search..."
+#~ msgstr "Golek..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

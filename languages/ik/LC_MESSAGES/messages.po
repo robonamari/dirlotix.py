@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Uqaġigivik..."
-
-msgid "File"
-msgstr "Iḷisaqtuaq"
-
-msgid "Name"
-msgstr "Atqa"
-
-msgid "Size"
-msgstr "Aŋiŋñaq"
-
-msgid "Last Modified"
-msgstr "Akuni uqaqtiqtuq"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Uqautchiginiaq files atuqtuatlu takuyagaksraq, atautchikun atuqtuaq nalupqisigikpiñ."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Aqpaġivik atausiq"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Uqautchiginiaq files atuqtuatlu takuyagaksraq, atautchikun atuqtuaq "
+"nalupqisigikpiñ."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Iḷisaqtuaq"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Atqa"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Aŋiŋñaq"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Akuni uqaqtiqtuq"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Iḷutqun aqpaġvik"
+
+#~ msgid "Search..."
+#~ msgstr "Uqaġigivik..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Лахар..."
-
-msgid "File"
-msgstr "Файл"
-
-msgid "Name"
-msgstr "Цlер"
-
-msgid "Size"
-msgstr "Доьзал"
-
-msgid "Last Modified"
-msgstr "Йухъах долу"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Дакъанаш дуьйцаларнаш, йухъах дlада файлеш, дешар йоза интерфейсаш а, тlехьахьий мотт."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Директори тасарар"
 
-msgid "ltr"
-msgstr "rtl"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Дакъанаш дуьйцаларнаш, йухъах дlада файлеш, дешар йоза интерфейсаш а, "
+"тlехьахьий мотт."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Файл"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Цlер"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Доьзал"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Йухъах долу"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Йист директо"
+
+#~ msgid "Search..."
+#~ msgstr "Лахар..."
+
+#~ msgid "ltr"
+#~ msgstr "rtl"

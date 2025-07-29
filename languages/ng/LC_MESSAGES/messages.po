@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Tsha..."
-
-msgid "File"
-msgstr "Ondjila"
-
-msgid "Name"
-msgstr "Omunyemo"
-
-msgid "Size"
-msgstr "Uupole"
-
-msgid "Last Modified"
-msgstr "Ondjila ooshipi"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa she pooneke uungama."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Onyena ye directory"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa she "
+"pooneke uungama."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Ondjila"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Omunyemo"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Uupole"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Ondjila ooshipi"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Onyena ye directory oshitji"
+
+#~ msgid "Search..."
+#~ msgstr "Tsha..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Niinwen..."
-
-msgid "File"
-msgstr "Daga"
-
-msgid "Name"
-msgstr "Dooda"
-
-msgid "Size"
-msgstr "Mikwendam"
-
-msgid "Last Modified"
-msgstr "Dooda ezhigad"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Giiwedin weweni bimaadiziwin, gii-pi-giizhigad a'aw maamawiwaad, ezhi-maawandoowewin miinawaa gaa-izhi-gikinowin."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Akiwenzii"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Giiwedin weweni bimaadiziwin, gii-pi-giizhigad a'aw maamawiwaad, ezhi-"
+"maawandoowewin miinawaa gaa-izhi-gikinowin."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Daga"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Dooda"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Mikwendam"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Dooda ezhigad"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Noodin"
+
+#~ msgid "Search..."
+#~ msgstr "Niinwen..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Shintja..."
-
-msgid "File"
-msgstr "File"
-
-msgid "Name"
-msgstr "Otu"
-
-msgid "Size"
-msgstr "Onda"
-
-msgid "Last Modified"
-msgstr "Oshilongo shilonga"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Tjivara na ohipa ka dondjera file na okavete oteye, oya no ombinga otjiwebuta no oshiyenge shilikumba."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Oshikola sha mapuka"
 
-msgid "ltr"
-msgstr "rtl"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Tjivara na ohipa ka dondjera file na okavete oteye, oya no ombinga "
+"otjiwebuta no oshiyenge shilikumba."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "File"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Otu"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Onda"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Oshilongo shilonga"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Omapuka otji webuta"
+
+#~ msgid "Search..."
+#~ msgstr "Shintja..."
+
+#~ msgid "ltr"
+#~ msgstr "rtl"

@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Suesue..."
-
-msgid "File"
-msgstr "Faila"
-
-msgid "Name"
-msgstr "Igoa"
-
-msgid "Size"
-msgstr "Tele"
-
-msgid "Last Modified"
-msgstr "Tali'oli i le mulimuli"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga sili ma se fa'avae faigofie ma masani i tagata."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Lisi o fa'amaoniga"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga "
+"sili ma se fa'avae faigofie ma masani i tagata."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Faila"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Igoa"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Tele"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Tali'oli i le mulimuli"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Fa'amaoniga matua"
+
+#~ msgid "Search..."
+#~ msgstr "Suesue..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

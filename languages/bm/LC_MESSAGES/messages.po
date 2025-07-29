@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Sari..."
-
-msgid "File"
-msgstr "Fayil"
-
-msgid "Name"
-msgstr "Dɛn"
-
-msgid "Size"
-msgstr "Sankɔ"
-
-msgid "Last Modified"
-msgstr "Dɔɔnin lafiɲɛ"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Fayil le, ka dɔɔnin ka kɔrɔma, tɔɔrɔ, ni dɔɔnin ka sigi ɲininkari, ka tɛgɛ faamuya, lafiɲɛ ko."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Boli tɔɔrɔ"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Fayil le, ka dɔɔnin ka kɔrɔma, tɔɔrɔ, ni dɔɔnin ka sigi ɲininkari, ka tɛgɛ "
+"faamuya, lafiɲɛ ko."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Fayil"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Dɛn"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Sankɔ"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Dɔɔnin lafiɲɛ"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Kɔrɔkɔ"
+
+#~ msgid "Search..."
+#~ msgstr "Sari..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

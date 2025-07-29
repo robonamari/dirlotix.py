@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Tshimbidza..."
-
-msgid "File"
-msgstr "Fayili"
-
-msgid "Name"
-msgstr "Dzina"
-
-msgid "Size"
-msgstr "U fhira"
-
-msgid "Last Modified"
-msgstr "U bvishelwa"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Vhona na u download-a mafayili na zwiṅwe zwiṅwe nga ndi zwine zwa konewa na u shumisa zwine zwa nga vha zwi easy na zwi user-friendly."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Letshele la directory"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Vhona na u download-a mafayili na zwiṅwe zwiṅwe nga ndi zwine zwa konewa na "
+"u shumisa zwine zwa nga vha zwi easy na zwi user-friendly."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Fayili"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Dzina"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "U fhira"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "U bvishelwa"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Directory ya vhadzulo"
+
+#~ msgid "Search..."
+#~ msgstr "Tshimbidza..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

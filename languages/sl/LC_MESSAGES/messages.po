@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Iskanje..."
-
-msgid "File"
-msgstr "Datoteka"
-
-msgid "Name"
-msgstr "Ime"
-
-msgid "Size"
-msgstr "Velikost"
-
-msgid "Last Modified"
-msgstr "Zadnja sprememba"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Ogled in prenos datotek ter drugih virov z naprednimi funkcijami in preprostim ter uporabniku prijaznim vmesnikom."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Seznam map"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Ogled in prenos datotek ter drugih virov z naprednimi funkcijami in "
+"preprostim ter uporabniku prijaznim vmesnikom."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Datoteka"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Ime"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Velikost"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Zadnja sprememba"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Prejšnja mapa"
+
+#~ msgid "Search..."
+#~ msgstr "Iskanje..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

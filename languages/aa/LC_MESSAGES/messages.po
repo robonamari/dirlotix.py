@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Raadi..."
-
-msgid "File"
-msgstr "Fayl"
-
-msgid "Name"
-msgstr "Magac"
-
-msgid "Size"
-msgstr "Cabbir"
-
-msgid "Last Modified"
-msgstr "Laga beddelay ugu dambeyn"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Eegora iyo sooraha faylasha, iwm, iyadoo leh astaamo horumarsan iyo interface isticmaale fudud oo waxtar leh."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Liiska Galka"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Eegora iyo sooraha faylasha, iwm, iyadoo leh astaamo horumarsan iyo "
+"interface isticmaale fudud oo waxtar leh."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Fayl"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Magac"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Cabbir"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Laga beddelay ugu dambeyn"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Galka Hore"
+
+#~ msgid "Search..."
+#~ msgstr "Raadi..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

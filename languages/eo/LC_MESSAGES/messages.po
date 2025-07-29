@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Serĉi..."
-
-msgid "File"
-msgstr "Dosiero"
-
-msgid "Name"
-msgstr "Nomo"
-
-msgid "Size"
-msgstr "Grando"
-
-msgid "Last Modified"
-msgstr "Laste ŝanĝita"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Vidu kaj elŝutu dosierojn kaj pli kun plibonigitaj funkcioj kaj simpla, uzant-amika interfaco."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Dosierujo-listo"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Vidu kaj elŝutu dosierojn kaj pli kun plibonigitaj funkcioj kaj simpla, "
+"uzant-amika interfaco."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Dosiero"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Nomo"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Grando"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Laste ŝanĝita"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Supra dosierujo"
+
+#~ msgid "Search..."
+#~ msgstr "Serĉi..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

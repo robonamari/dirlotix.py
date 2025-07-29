@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Pesquisar..."
-
-msgid "File"
-msgstr "Arquivo"
-
-msgid "Name"
-msgstr "Nome"
-
-msgid "Size"
-msgstr "Tamanho"
-
-msgid "Last Modified"
-msgstr "Última modificação"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Veja e faça o download de arquivos e outros conteúdos com recursos avançados e uma interface simples e amigável."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Lista de diretórios"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Veja e faça o download de arquivos e outros conteúdos com recursos avançados "
+"e uma interface simples e amigável."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Arquivo"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Nome"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Tamanho"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Última modificação"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Diretório pai"
+
+#~ msgid "Search..."
+#~ msgstr "Pesquisar..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

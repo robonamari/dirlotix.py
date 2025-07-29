@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Chaarj..."
-
-msgid "File"
-msgstr "Fayl"
-
-msgid "Name"
-msgstr "Enmyr"
-
-msgid "Size"
-msgstr "Troo"
-
-msgid "Last Modified"
-msgstr "Yn jiu cur magh"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Fliughey as dowanloud ehyn fayllyn as ooilley cooishyn rish feashley yn obbyr as cur magh er-lhiam y usseree."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Lhistey chur-fohryn"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Fliughey as dowanloud ehyn fayllyn as ooilley cooishyn rish feashley yn "
+"obbyr as cur magh er-lhiam y usseree."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Fayl"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Enmyr"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Troo"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "Yn jiu cur magh"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Chur-fohryn as ooilley"
+
+#~ msgid "Search..."
+#~ msgstr "Chaarj..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

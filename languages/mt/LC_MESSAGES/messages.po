@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "Fittex..."
-
-msgid "File"
-msgstr "Fajl"
-
-msgid "Name"
-msgstr "Isem"
-
-msgid "Size"
-msgstr "Daqs"
-
-msgid "Last Modified"
-msgstr "L-aħħar modifika"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs sempliċi u faċli għall-utent."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "Lista tal-fajls"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
+"sempliċi u faċli għall-utent."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "Fajl"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "Isem"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "Daqs"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "L-aħħar modifika"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "Direttorju preċedenti"
+
+#~ msgid "Search..."
+#~ msgstr "Fittex..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"

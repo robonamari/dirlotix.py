@@ -1,31 +1,42 @@
+#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-msgid "Search..."
-msgstr "گەڕان..."
-
-msgid "File"
-msgstr "پەڕگە"
-
-msgid "Name"
-msgstr "ناو"
-
-msgid "Size"
-msgstr "قەبارە"
-
-msgid "Last Modified"
-msgstr "دوایین گۆڕانکاری"
-
-msgid "View and download files, etc., with advanced features and a simple, efficient user interface."
-msgstr "پەڕگەکان ببینە و داگرتن، لەگەڵ تایبەتمەندییە باشترەکان و ڕووکاری بەکارهێنانی سادە و ئاسان."
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Directory Listing"
 msgstr "لیستی بوخچەکان"
 
-msgid "ltr"
-msgstr "ltr"
+#: templates/index.min.html:1 templates/index.html:2
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"پەڕگەکان ببینە و داگرتن، لەگەڵ تایبەتمەندییە باشترەکان و ڕووکاری بەکارهێنانی "
+"سادە و ئاسان."
 
+#: templates/index.html:449
+msgid "File"
+msgstr "پەڕگە"
+
+#: templates/index.html:450
+msgid "Name"
+msgstr "ناو"
+
+#: templates/index.html:451
+msgid "Size"
+msgstr "قەبارە"
+
+#: templates/index.html:452
+msgid "Last Modified"
+msgstr "دوایین گۆڕانکاری"
+
+#: index.py:75
 msgid "Previous Folder"
 msgstr "بوخچەی سەرەکی"
+
+#~ msgid "Search..."
+#~ msgstr "گەڕان..."
+
+#~ msgid "ltr"
+#~ msgstr "ltr"
