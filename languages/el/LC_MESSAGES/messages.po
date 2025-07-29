@@ -11,23 +11,21 @@ msgstr "Λίστα φακέλων"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Δείτε και κατεβάστε αρχεία και άλλα με βελτιωμένες δυνατότητες και μια απλή, "
-"φιλική προς τον χρήστη διεπαφή."
+msgstr "Δείτε και κατεβάστε αρχεία και άλλα με βελτιωμένες δυνατότητες και μια απλή, φιλική προς τον χρήστη διεπαφή."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Αρχείο"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Όνομα"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Τελευταία τροποποίηση"
 
@@ -35,8 +33,9 @@ msgstr "Τελευταία τροποποίηση"
 msgid "Previous Folder"
 msgstr "Γονικός φάκελος"
 
-#~ msgid "Search..."
-#~ msgstr "Αναζήτηση..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Αναζήτηση..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

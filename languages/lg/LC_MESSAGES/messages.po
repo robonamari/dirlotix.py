@@ -15,19 +15,19 @@ msgstr ""
 "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
 "egy'enjawulo n'enkolagana etali n'ekyangu."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fayiro"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Erinnya"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Obungi"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Okuddeko okw'omuwendo"
 
@@ -35,8 +35,9 @@ msgstr "Okuddeko okw'omuwendo"
 msgid "Previous Folder"
 msgstr "Amaaka agasooka"
 
-#~ msgid "Search..."
-#~ msgstr "Londa..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Londa..."
 
 #~ msgid "ltr"
 #~ msgstr "rtl"

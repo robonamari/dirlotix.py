@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Bong ẹke omeñ aron file im et emañ itikọk, ringen idara an eke miriro irü en "
-"rokouo."
+"Bong ẹke omeñ aron file im et emañ itikọk, ringen idara an eke miriro "
+"irü en rokouo."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Irm"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ake"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Riken irü"
 
@@ -35,8 +35,9 @@ msgstr "Riken irü"
 msgid "Previous Folder"
 msgstr "Folder ommot"
 
-#~ msgid "Search..."
-#~ msgstr "Rin wama..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Rin wama..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

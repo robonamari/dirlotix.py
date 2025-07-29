@@ -15,19 +15,19 @@ msgstr ""
 "Uqautchiginiaq files atuqtuatlu takuyagaksraq, atautchikun atuqtuaq "
 "nalupqisigikpiñ."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Iḷisaqtuaq"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Atqa"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Aŋiŋñaq"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Akuni uqaqtiqtuq"
 
@@ -35,8 +35,9 @@ msgstr "Akuni uqaqtiqtuq"
 msgid "Previous Folder"
 msgstr "Iḷutqun aqpaġvik"
 
-#~ msgid "Search..."
-#~ msgstr "Uqaġigivik..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Uqaġigivik..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

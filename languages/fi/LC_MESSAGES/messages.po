@@ -15,19 +15,19 @@ msgstr ""
 "Katso ja lataa tiedostoja ja muuta, parannetuilla ominaisuuksilla ja "
 "yksinkertaisella, käyttäjäystävällisellä käyttöliittymällä."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Tiedosto"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nimi"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Koko"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Viimeksi muokattu"
 
@@ -35,8 +35,9 @@ msgstr "Viimeksi muokattu"
 msgid "Previous Folder"
 msgstr "Ylempi hakemisto"
 
-#~ msgid "Search..."
-#~ msgstr "Hae..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Hae..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

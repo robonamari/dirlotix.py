@@ -15,19 +15,19 @@ msgstr ""
 "Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga "
 "sili ma se fa'avae faigofie ma masani i tagata."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faila"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Igoa"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Tele"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Tali'oli i le mulimuli"
 
@@ -35,8 +35,9 @@ msgstr "Tali'oli i le mulimuli"
 msgid "Previous Folder"
 msgstr "Fa'amaoniga matua"
 
-#~ msgid "Search..."
-#~ msgstr "Suesue..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Suesue..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

@@ -11,23 +11,21 @@ msgstr "ڊائريڪٽري لسٽنگ"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان "
-"ڏسو ۽ ڊائون لوڊ ڪريو."
+msgstr "فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان ڏسو ۽ ڊائون لوڊ ڪريو."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "فائل"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "نالو"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "سائيز"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "آخري ترميم"
 
@@ -35,8 +33,9 @@ msgstr "آخري ترميم"
 msgid "Previous Folder"
 msgstr "والد ڊائريڪٽري"
 
-#~ msgid "Search..."
-#~ msgstr "ڳوليو..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "ڳوليو..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

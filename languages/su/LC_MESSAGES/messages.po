@@ -15,19 +15,19 @@ msgstr ""
 "Tingali sareng unduh file sareng sumber daya sanés kalayan fitur canggih "
 "sareng antarmuka anu saderhana sareng ramah-pamaké."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nami"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ukuran"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Parobahan Terahir"
 
@@ -35,8 +35,9 @@ msgstr "Parobahan Terahir"
 msgid "Previous Folder"
 msgstr "Folder Indung"
 
-#~ msgid "Search..."
-#~ msgstr "Milarian..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Milarian..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

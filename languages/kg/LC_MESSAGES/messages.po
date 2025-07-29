@@ -15,19 +15,19 @@ msgstr ""
 "Lota na kuzwila makanda yina kadi disolo zinga na buzi ya sanu, ke utuzila "
 "mambu ya kabaka mpe yimo."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Kanda"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Lina"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Basi"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Tukulusu na nsima"
 
@@ -35,8 +35,9 @@ msgstr "Tukulusu na nsima"
 msgid "Previous Folder"
 msgstr "Limo ya nkondo ya pwa"
 
-#~ msgid "Search..."
-#~ msgstr "Lota..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Lota..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

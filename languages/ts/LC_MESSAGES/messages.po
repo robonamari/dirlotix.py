@@ -15,19 +15,19 @@ msgstr ""
 "Hlamusela na ku tirhisa swilo leswi humaka eka mafayela na swilo swin'wana "
 "hi ku tirha swi tlhela swi olova eka muxaka wa ntirho"
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fayela"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Vito"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Vun'we"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Loko swi endliwa"
 
@@ -35,8 +35,9 @@ msgstr "Loko swi endliwa"
 msgid "Previous Folder"
 msgstr "Folda ya Vukulu"
 
-#~ msgid "Search..."
-#~ msgstr "Funda..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Funda..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

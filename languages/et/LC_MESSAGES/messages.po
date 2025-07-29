@@ -15,19 +15,19 @@ msgstr ""
 "Vaata ja lae alla faile ja rohkem, täiustatud funktsioonidega ja lihtsa, "
 "kasutajasõbraliku liidesega."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fail"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nimi"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Suurus"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Viimati muudetud"
 
@@ -35,8 +35,9 @@ msgstr "Viimati muudetud"
 msgid "Previous Folder"
 msgstr "Ülemkaust"
 
-#~ msgid "Search..."
-#~ msgstr "Otsi..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Otsi..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

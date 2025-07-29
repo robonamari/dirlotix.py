@@ -15,19 +15,19 @@ msgstr ""
 "Vegeu i descarregueu fitxers i més amb característiques millorades i una "
 "interfície senzilla i fàcil d'usar."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fitxer"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nom"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Mida"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Última modificació"
 
@@ -35,8 +35,9 @@ msgstr "Última modificació"
 msgid "Previous Folder"
 msgstr "Directori superior"
 
-#~ msgid "Search..."
-#~ msgstr "Cercar..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Cercar..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

@@ -15,19 +15,19 @@ msgstr ""
 "Gweld a lawrlwytho ffeiliau a mwy gyda nodweddion gwell a rhyngwyneb "
 "defnyddiwr syml a hawdd ei ddefnyddio."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ffeil"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Enw"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Maint"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Newidiwyd ddiwethaf"
 
@@ -35,8 +35,9 @@ msgstr "Newidiwyd ddiwethaf"
 msgid "Previous Folder"
 msgstr "Cyfeiriadur rhiant"
 
-#~ msgid "Search..."
-#~ msgstr "Chwilio..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Chwilio..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

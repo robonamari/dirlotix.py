@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs bilen "
-"faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."
+"Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs "
+"bilen faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faýl"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Ady"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ölçegi"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Soňky üýtgeşiklik"
 
@@ -35,8 +35,9 @@ msgstr "Soňky üýtgeşiklik"
 msgid "Previous Folder"
 msgstr "Ýerine görkezilen katalog"
 
-#~ msgid "Search..."
-#~ msgstr "Gözle..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Gözle..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

@@ -15,19 +15,19 @@ msgstr ""
 "Ogled in prenos datotek ter drugih virov z naprednimi funkcijami in "
 "preprostim ter uporabniku prijaznim vmesnikom."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Datoteka"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Ime"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Velikost"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Zadnja sprememba"
 
@@ -35,8 +35,9 @@ msgstr "Zadnja sprememba"
 msgid "Previous Folder"
 msgstr "Prejšnja mapa"
 
-#~ msgid "Search..."
-#~ msgstr "Iskanje..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Iskanje..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

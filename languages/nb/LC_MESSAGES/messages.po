@@ -15,19 +15,19 @@ msgstr ""
 "Se og last ned filer og annet innhold med avanserte funksjoner og et enkelt "
 "og brukervennlig grensesnitt."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fil"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Navn"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Størrelse"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Sist endret"
 
@@ -35,8 +35,9 @@ msgstr "Sist endret"
 msgid "Previous Folder"
 msgstr "Foreldrekatalog"
 
-#~ msgid "Search..."
-#~ msgstr "Søk..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Søk..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

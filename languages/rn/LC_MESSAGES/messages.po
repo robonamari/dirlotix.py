@@ -15,19 +15,19 @@ msgstr ""
 "Reba na kubika amafayili hamwe n'ibindi bikoresho bifise ubushobozi bwo "
 "hejuru n'uburyo bworoshye kandi bw'umukoresha."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ifayili"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Izina"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ingano"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Guhindurwa nyuma"
 
@@ -35,8 +35,9 @@ msgstr "Guhindurwa nyuma"
 msgid "Previous Folder"
 msgstr "Dosiye ya mbere"
 
-#~ msgid "Search..."
-#~ msgstr "Shaka..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Shaka..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

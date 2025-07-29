@@ -11,23 +11,21 @@ msgstr "Каталог исемлеге"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Файлдарҙы ҡарау һәм йөкләү, һәм башҡалар, алдынғы үҙенсәлектәр һәм ябай, "
-"һөҙөмтәле ҡулланыусы интерфейсы менән."
+msgstr "Файлдарҙы ҡарау һәм йөкләү, һәм башҡалар, алдынғы үҙенсәлектәр һәм ябай, һөҙөмтәле ҡулланыусы интерфейсы менән."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Исеме"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Размер"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Соңғы үҙгәреш"
 
@@ -35,8 +33,9 @@ msgstr "Соңғы үҙгәреш"
 msgid "Previous Folder"
 msgstr "Алдағы папка"
 
-#~ msgid "Search..."
-#~ msgstr "Эҙләү..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Эҙләү..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

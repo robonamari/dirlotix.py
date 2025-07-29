@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
-"sempliċi u faċli għall-utent."
+"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u "
+"interfejs sempliċi u faċli għall-utent."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fajl"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Isem"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Daqs"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "L-aħħar modifika"
 
@@ -35,8 +35,9 @@ msgstr "L-aħħar modifika"
 msgid "Previous Folder"
 msgstr "Direttorju preċedenti"
 
-#~ msgid "Search..."
-#~ msgstr "Fittex..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Fittex..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

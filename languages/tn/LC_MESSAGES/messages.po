@@ -15,19 +15,19 @@ msgstr ""
 "Bona le go tswa ka faele le resources tse dingwe ka ditshwanelo tsa go "
 "oketsa le go tlhola sesebediswa se se bonolo le se se ikemetseng"
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faele"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Leina"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Boleele"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Nako ya bofelo ya go fetola"
 
@@ -35,8 +35,9 @@ msgstr "Nako ya bofelo ya go fetola"
 msgid "Previous Folder"
 msgstr "Dikitjana tsa batlhophi"
 
-#~ msgid "Search..."
-#~ msgstr "Batla..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Batla..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

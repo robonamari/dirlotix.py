@@ -11,23 +11,21 @@ msgstr "Рӯйхати директория"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва "
-"дӯстона ба корбар бинед ва боргирӣ кунед."
+msgstr "Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва дӯстона ба корбар бинед ва боргирӣ кунед."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Ном"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ҳаҷм"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Охирин тағйирот"
 
@@ -35,8 +33,9 @@ msgstr "Охирин тағйирот"
 msgid "Previous Folder"
 msgstr "Директорияи волид"
 
-#~ msgid "Search..."
-#~ msgstr "Ҷустуҷӯ..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Ҷустуҷӯ..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

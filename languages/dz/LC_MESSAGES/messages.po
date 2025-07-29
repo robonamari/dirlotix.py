@@ -13,19 +13,19 @@ msgid ""
 "efficient user interface."
 msgstr "འབྲེལ་གྱི་བསྣུབས་བསྐྱར་མི་འགྲེལ་བའི་སྤྱོད་ལམ་ནང་གསར་བའི་ལག་འཁྱེར་དང་བསྡུར་འགྱོ་བའི་འཕྲིན་འགྱོ་ཡོད།"
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "ཕལ"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "མིང་"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "འགྲོགས"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "མཁོ་འཕྲིན་འགྱོ་ཡོད"
 
@@ -33,8 +33,9 @@ msgstr "མཁོ་འཕྲིན་འགྱོ་ཡོད"
 msgid "Previous Folder"
 msgstr "ཀོང་མཐུད"
 
-#~ msgid "Search..."
-#~ msgstr "འཚོལ་བ..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "འཚོལ་བ..."
 
 #~ msgid "ltr"
 #~ msgstr "rtl"

@@ -15,19 +15,19 @@ msgstr ""
 "Lihat dan unduh file serta lainnya dengan fitur canggih dan antarmuka yang "
 "sederhana serta ramah pengguna."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Berkas"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nama"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ukuran"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Terakhir diubah"
 
@@ -35,8 +35,9 @@ msgstr "Terakhir diubah"
 msgid "Previous Folder"
 msgstr "Direktori induk"
 
-#~ msgid "Search..."
-#~ msgstr "Cari..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Cari..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

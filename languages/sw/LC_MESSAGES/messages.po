@@ -15,19 +15,19 @@ msgstr ""
 "Tazama na pakua faili na rasilimali zingine kwa vipengele vya juu na "
 "kiolesura rahisi na rafiki kwa mtumiaji."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faili"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Jina"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ukubwa"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Mabadiliko ya Mwisho"
 
@@ -35,8 +35,9 @@ msgstr "Mabadiliko ya Mwisho"
 msgid "Previous Folder"
 msgstr "Jukumu la Mzazi"
 
-#~ msgid "Search..."
-#~ msgstr "Tafuta..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Tafuta..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

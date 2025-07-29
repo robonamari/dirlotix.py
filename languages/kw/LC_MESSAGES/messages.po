@@ -15,19 +15,19 @@ msgstr ""
 "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
 "omro dhe worthevyans ynterfeyns siwynn."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Feyl"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Hwedh"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Meur"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Glastowgh diworth"
 
@@ -35,8 +35,9 @@ msgstr "Glastowgh diworth"
 msgid "Previous Folder"
 msgstr "Raglyver prys"
 
-#~ msgid "Search..."
-#~ msgstr "Kledh..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Kledh..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

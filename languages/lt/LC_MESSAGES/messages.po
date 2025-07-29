@@ -15,19 +15,19 @@ msgstr ""
 "Peržiūrėkite ir atsisiųskite failus bei kitą turinį su pažangiomis "
 "funkcijomis ir paprasta, patogia naudoti sąsaja."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Failas"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Pavadinimas"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Dydis"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Paskutinį kartą keista"
 
@@ -35,8 +35,9 @@ msgstr "Paskutinį kartą keista"
 msgid "Previous Folder"
 msgstr "Aukštesnis aplankas"
 
-#~ msgid "Search..."
-#~ msgstr "Paieška..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Paieška..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

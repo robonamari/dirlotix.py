@@ -13,19 +13,19 @@ msgid ""
 "efficient user interface."
 msgstr "Аӡәы иҧсыфыргәа еизыҩуп, арыбжьаратә аԥшшарақәа иуазыруам."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Аиԥылара"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Аҵа"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Аҧсах"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ахаԥынтылгатә"
 
@@ -33,8 +33,9 @@ msgstr "Ахаԥынтылгатә"
 msgid "Previous Folder"
 msgstr "Агәра-аплан"
 
-#~ msgid "Search..."
-#~ msgstr "Ашахәаратә..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Ашахәаратә..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

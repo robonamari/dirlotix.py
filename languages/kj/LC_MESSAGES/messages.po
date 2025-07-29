@@ -15,19 +15,19 @@ msgstr ""
 "Omonana no okutambula oofaila nayi ihe ya vule na omapulo ga tokola ni mo "
 "omukongo iwa nawa."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ofaila"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Eto"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ongushu"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Otandi yalwe kehe"
 
@@ -35,8 +35,9 @@ msgstr "Otandi yalwe kehe"
 msgid "Previous Folder"
 msgstr "Direkotori lyokununa"
 
-#~ msgid "Search..."
-#~ msgstr "Lombwela..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Lombwela..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

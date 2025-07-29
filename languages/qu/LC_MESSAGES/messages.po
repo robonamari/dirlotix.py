@@ -15,19 +15,19 @@ msgstr ""
 "Ñawpaqmi rurasqaykuchis qillqaykuna, waña mayninakuykuna, chaymanta "
 "rikhurqaykuna, ñawpaq chaykuna tukuy ñawpa ruwanapaq."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Qillqa"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Sumaq"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ñawpaq"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ñawpaqmi ruwanapaq"
 
@@ -35,8 +35,9 @@ msgstr "Ñawpaqmi ruwanapaq"
 msgid "Previous Folder"
 msgstr "Ñawpaq ruwanapaq"
 
-#~ msgid "Search..."
-#~ msgstr "Riqsiy..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Riqsiy..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

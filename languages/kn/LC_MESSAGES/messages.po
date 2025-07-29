@@ -11,23 +11,21 @@ msgstr "ಡೈರೆಕ್ಟರಿ ಪಟ್ಟಿ"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"ಫೈಲ್‌ಗಳು ಮತ್ತು ಇತರೆಗಳನ್ನು ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಮತ್ತು ಸರಳ, ಬಳಕೆದಾರ ಸ್ನೇಹಿ "
-"ಇಂಟರ್ಫೇಸ್‌ನೊಂದಿಗೆ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+msgstr "ಫೈಲ್‌ಗಳು ಮತ್ತು ಇತರೆಗಳನ್ನು ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಮತ್ತು ಸರಳ, ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಇಂಟರ್ಫೇಸ್‌ನೊಂದಿಗೆ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "ಫೈಲ್"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "ಹೆಸರು"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "ಆಕಾರ"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "ಕೊನೆಯ ಮಾರ್ಪಡింపు"
 
@@ -35,8 +33,9 @@ msgstr "ಕೊನೆಯ ಮಾರ್ಪಡింపు"
 msgid "Previous Folder"
 msgstr "ಪೋಷಕ ಡೈರೆಕ್ಟರಿ"
 
-#~ msgid "Search..."
-#~ msgstr "ಹುಡುಕಿ..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "ಹುಡುಕಿ..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

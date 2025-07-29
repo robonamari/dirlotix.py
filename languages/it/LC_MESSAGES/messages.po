@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Visualizza e scarica file e altro con funzionalità avanzate e un'interfaccia "
-"semplice e intuitiva."
+"Visualizza e scarica file e altro con funzionalità avanzate e "
+"un'interfaccia semplice e intuitiva."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nome"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Dimensione"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ultima modifica"
 
@@ -35,8 +35,9 @@ msgstr "Ultima modifica"
 msgid "Previous Folder"
 msgstr "Directory superiore"
 
-#~ msgid "Search..."
-#~ msgstr "Cerca..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Cerca..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

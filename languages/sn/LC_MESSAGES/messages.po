@@ -15,19 +15,19 @@ msgstr ""
 "Tarisa uye dhawunirodha mafaira nemimwe midziyo ine mabasa epamusoro uye "
 "chikuva chakareruka uye chakanaka."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faira"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Zita"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Ukuru"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Chakapedzisira kuchinjwa"
 
@@ -35,8 +35,9 @@ msgstr "Chakapedzisira kuchinjwa"
 msgid "Previous Folder"
 msgstr "Dhairekitori Yepamusoro"
 
-#~ msgid "Search..."
-#~ msgstr "Tsvaga..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Tsvaga..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

@@ -15,19 +15,19 @@ msgstr ""
 "Sheba le ho jarolla lifaele le lisebelisoa tse ling tse nang le likarolo tse "
 "tsoetseng pele le sebopeho se bonolo le se khahlisang."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faele"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Lebitso"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Boholo"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Phetoho ea ho qetela"
 
@@ -35,8 +35,9 @@ msgstr "Phetoho ea ho qetela"
 msgid "Previous Folder"
 msgstr "Direkteri ea motheo"
 
-#~ msgid "Search..."
-#~ msgstr "Batla..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Batla..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

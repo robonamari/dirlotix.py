@@ -15,19 +15,19 @@ msgstr ""
 "Visa och ladda ner filer och andra resurser med avancerade funktioner och "
 "ett enkelt och användarvänligt gränssnitt."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fil"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Namn"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Storlek"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Senast ändrad"
 
@@ -35,8 +35,9 @@ msgstr "Senast ändrad"
 msgid "Previous Folder"
 msgstr "Överordnad katalog"
 
-#~ msgid "Search..."
-#~ msgstr "Sök..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Sök..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

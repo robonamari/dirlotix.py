@@ -15,19 +15,19 @@ msgstr ""
 "Vea e descargue ficheiros e máis con funcións melloradas e unha interface "
 "sinxela e amigable."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ficheiro"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nome"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Tamaño"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Última modificación"
 
@@ -35,8 +35,9 @@ msgstr "Última modificación"
 msgid "Previous Folder"
 msgstr "Directorio principal"
 
-#~ msgid "Search..."
-#~ msgstr "Buscar..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Buscar..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

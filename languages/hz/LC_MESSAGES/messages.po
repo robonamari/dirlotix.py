@@ -15,19 +15,19 @@ msgstr ""
 "Tjivara na ohipa ka dondjera file na okavete oteye, oya no ombinga "
 "otjiwebuta no oshiyenge shilikumba."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Otu"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Onda"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Oshilongo shilonga"
 
@@ -35,8 +35,9 @@ msgstr "Oshilongo shilonga"
 msgid "Previous Folder"
 msgstr "Omapuka otji webuta"
 
-#~ msgid "Search..."
-#~ msgstr "Shintja..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Shintja..."
 
 #~ msgid "ltr"
 #~ msgstr "rtl"

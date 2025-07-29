@@ -13,19 +13,19 @@ msgid ""
 "efficient user interface."
 msgstr "צפה והורד קבצים ועוד עם תכונות משודרגות וממשק פשוט וידידותי למשתמש."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "קובץ"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "שם"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "גודל"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "עודכן לאחרונה"
 
@@ -33,8 +33,9 @@ msgstr "עודכן לאחרונה"
 msgid "Previous Folder"
 msgstr "תיקייה הורה"
 
-#~ msgid "Search..."
-#~ msgstr "חיפוש..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "חיפוש..."
 
 #~ msgid "ltr"
 #~ msgstr "rtl"

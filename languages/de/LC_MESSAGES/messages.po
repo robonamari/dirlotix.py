@@ -15,19 +15,19 @@ msgstr ""
 "Sieh dir Dateien an und lade sie herunter, mit erweiterten Funktionen und "
 "einer einfachen, benutzerfreundlichen Oberfläche."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Datei"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Name"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Größe"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Zuletzt geändert"
 
@@ -35,8 +35,9 @@ msgstr "Zuletzt geändert"
 msgid "Previous Folder"
 msgstr "Übergeordnetes Verzeichnis"
 
-#~ msgid "Search..."
-#~ msgstr "Suchen..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Suchen..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

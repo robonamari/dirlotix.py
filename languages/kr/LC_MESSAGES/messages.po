@@ -15,19 +15,19 @@ msgstr ""
 "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
 "kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faayel"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Suna"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Girma"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ƙarshe canza"
 
@@ -35,8 +35,9 @@ msgstr "Ƙarshe canza"
 msgid "Previous Folder"
 msgstr "Kundin adireshin mahaifi"
 
-#~ msgid "Search..."
-#~ msgstr "Nema..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Nema..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

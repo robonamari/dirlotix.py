@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman wawanaka, "
-"q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."
+"Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman "
+"wawanaka, q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Archivo"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Suma"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Suma"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ñawpaq sartasiña"
 
@@ -35,8 +35,9 @@ msgstr "Ñawpaq sartasiña"
 msgid "Previous Folder"
 msgstr "Ukhamañani"
 
-#~ msgid "Search..."
-#~ msgstr "Uñt'aya..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Uñt'aya..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

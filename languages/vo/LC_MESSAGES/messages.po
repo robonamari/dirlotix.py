@@ -15,19 +15,19 @@ msgstr ""
 "Logön e lodedön failis e votükis votik ad funks bevünetik e nunöf-pla, "
 "nesilövik."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Fail"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nem"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Lut"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Lastevovikäd"
 
@@ -35,8 +35,9 @@ msgstr "Lastevovikäd"
 msgid "Previous Folder"
 msgstr "Pafid bevünetik"
 
-#~ msgid "Search..."
-#~ msgstr "Sukön..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Sukön..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

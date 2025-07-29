@@ -16,19 +16,19 @@ msgstr ""
 "allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
 "atuisinnaasinnaasunngortuuvoq."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Faayili"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Ataatsimi"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Qinnuk"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Piffissalerniussineq"
 
@@ -36,8 +36,9 @@ msgstr "Piffissalerniussineq"
 msgid "Previous Folder"
 msgstr "Pissutsit"
 
-#~ msgid "Search..."
-#~ msgstr "Suliat..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Suliat..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

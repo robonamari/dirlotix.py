@@ -15,19 +15,19 @@ msgstr ""
 "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
 "dangq suij, goengq ndaej rox baeuj."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ndawmbuk"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Mingz"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Lajmban"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Gvangq daengz"
 
@@ -35,8 +35,9 @@ msgstr "Gvangq daengz"
 msgid "Previous Folder"
 msgstr "Bouxndaw doekdaeuj"
 
-#~ msgid "Search..."
-#~ msgstr "Caeuq..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Caeuq..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

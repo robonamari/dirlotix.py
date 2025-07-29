@@ -15,19 +15,19 @@ msgstr ""
 "Giiwedin weweni bimaadiziwin, gii-pi-giizhigad a'aw maamawiwaad, ezhi-"
 "maawandoowewin miinawaa gaa-izhi-gikinowin."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Daga"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Dooda"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Mikwendam"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Dooda ezhigad"
 
@@ -35,8 +35,9 @@ msgstr "Dooda ezhigad"
 msgid "Previous Folder"
 msgstr "Noodin"
 
-#~ msgid "Search..."
-#~ msgstr "Niinwen..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Niinwen..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

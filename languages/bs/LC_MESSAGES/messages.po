@@ -15,19 +15,19 @@ msgstr ""
 "Pogledajte i preuzmite datoteke i više sa unaprijeđenim značajkama i "
 "jednostavnim, korisnički prijateljskim sučeljem."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Datoteka"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Ime"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Veličina"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Posljednja izmjena"
 
@@ -35,8 +35,9 @@ msgstr "Posljednja izmjena"
 msgid "Previous Folder"
 msgstr "Prethodni direktorij"
 
-#~ msgid "Search..."
-#~ msgstr "Pretraga..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Pretraga..."
 
 #~ msgid "ltr"
 #~ msgstr "rtl"

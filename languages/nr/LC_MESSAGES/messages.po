@@ -15,19 +15,19 @@ msgstr ""
 "Bukela futhi landa amafayela kanye neminye imithombo enezici ezithuthukile "
 "kanye nohlelo olulula futhi oluphumelelayo lokusebenzisa."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ifayela"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Igama"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Usayizi"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ukugcina kushintshiwe"
 
@@ -35,8 +35,9 @@ msgstr "Ukugcina kushintshiwe"
 msgid "Previous Folder"
 msgstr "Isinqolobane esiphezulu"
 
-#~ msgid "Search..."
-#~ msgstr "Sesha..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Sesha..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

@@ -11,23 +11,21 @@ msgstr "Директори листи"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн "
-"хъалаалаьш."
+msgstr "Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн хъалаалаьш."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Наме"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Размер"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ньина лаьмолаьш"
 
@@ -35,8 +33,9 @@ msgstr "Ньина лаьмолаьш"
 msgid "Previous Folder"
 msgstr "Юкъуйан Фолдер"
 
-#~ msgid "Search..."
-#~ msgstr "Йуьзга..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Йуьзга..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

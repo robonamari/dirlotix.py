@@ -11,23 +11,21 @@ msgstr "Спіс каталога"
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Прагляд і загрузка файлаў і інш., з пашыранымі функцыямі і простым, "
-"эфектыўным карыстальніцкім інтэрфейсам."
+msgstr "Прагляд і загрузка файлаў і інш., з пашыранымі функцыямі і простым, эфектыўным карыстальніцкім інтэрфейсам."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Назва"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Памер"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Апошняе змяненне"
 
@@ -35,8 +33,9 @@ msgstr "Апошняе змяненне"
 msgid "Previous Folder"
 msgstr "Папярэдняя тэчка"
 
-#~ msgid "Search..."
-#~ msgstr "Пошук..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Пошук..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

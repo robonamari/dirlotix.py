@@ -12,22 +12,22 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a ngâli "
-"na sângo na zîngo."
+"Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a "
+"ngâli na sângo na zîngo."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Nâmo"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Bâza"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Bâza ôdô"
 
@@ -35,8 +35,9 @@ msgstr "Bâza ôdô"
 msgid "Previous Folder"
 msgstr "Bâko to file"
 
-#~ msgid "Search..."
-#~ msgstr "Yâ..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Yâ..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

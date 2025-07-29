@@ -15,19 +15,19 @@ msgstr ""
 "Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa she "
 "pooneke uungama."
 
-#: templates/index.html:449
+#: templates/index.html:449 templates/index.html:450
 msgid "File"
 msgstr "Ondjila"
 
-#: templates/index.html:450
+#: templates/index.html:450 templates/index.html:451
 msgid "Name"
 msgstr "Omunyemo"
 
-#: templates/index.html:451
+#: templates/index.html:451 templates/index.html:452
 msgid "Size"
 msgstr "Uupole"
 
-#: templates/index.html:452
+#: templates/index.html:452 templates/index.html:453
 msgid "Last Modified"
 msgstr "Ondjila ooshipi"
 
@@ -35,8 +35,9 @@ msgstr "Ondjila ooshipi"
 msgid "Previous Folder"
 msgstr "Onyena ye directory oshitji"
 
-#~ msgid "Search..."
-#~ msgstr "Tsha..."
+#: templates/index.min.html:1 templates/index.html:1
+msgid "Search..."
+msgstr "Tsha..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"
