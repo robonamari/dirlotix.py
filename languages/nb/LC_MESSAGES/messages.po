@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Katalogliste"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Se og last ned filer og annet innhold med avanserte funksjoner og et enkelt "
 "og brukervennlig grensesnitt."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Katalogliste"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Sist endret"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Foreldrekatalog"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

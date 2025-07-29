@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Elenco delle directory"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Visualiza e scarica file e altre risorse cun funzionalità avanzadas e una "
 "interfaccia semplice e amichevole."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Elenco delle directory"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Ultima modifica"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Directory genitore"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

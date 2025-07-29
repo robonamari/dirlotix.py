@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Runyorwa rwemafolda"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Tarisa uye dhawunirodha mafaira nemimwe midziyo ine mabasa epamusoro uye "
 "chikuva chakareruka uye chakanaka."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Runyorwa rwemafolda"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Chakapedzisira kuchinjwa"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Dhairekitori Yepamusoro"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

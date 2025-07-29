@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Lisi o fa'amaoniga"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga "
 "sili ma se fa'avae faigofie ma masani i tagata."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Lisi o fa'amaoniga"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Tali'oli i le mulimuli"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Fa'amaoniga matua"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

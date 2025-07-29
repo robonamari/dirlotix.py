@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "ડિરેક્ટરીની યાદી"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -16,6 +16,10 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr "ફાઇલો અને વધુ જુઓ અને ડાઉનલોડ કરો, સુધારેલી લક્ષણો અને સરળ, વપરાશકર્તા અનુકૂળ ઇન્ટરફેસ સાથે."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "ડિરેક્ટરીની યાદી"
 
 #: templates/index.html:450
 msgid "File"
@@ -36,6 +40,3 @@ msgstr "છેલ્લો સુધારણા"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "મૂળ ડિરેક્ટરી"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

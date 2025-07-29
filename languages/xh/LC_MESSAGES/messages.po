@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Uluhlu lwefayile"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Jonga kwaye ukhuphele iifayile nezinye izinto ezinophuculo kunye nojongano "
 "olulula nolusebenziseka lula."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Uluhlu lwefayile"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Utshintsho lokugqibela"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Uluhlu olungundoqo"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

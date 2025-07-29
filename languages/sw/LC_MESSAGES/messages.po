@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Orodha ya majukumu"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Tazama na pakua faili na rasilimali zingine kwa vipengele vya juu na "
 "kiolesura rahisi na rafiki kwa mtumiaji."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Orodha ya majukumu"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Mabadiliko ya Mwisho"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Jukumu la Mzazi"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

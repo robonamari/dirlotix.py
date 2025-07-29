@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Llistat de directoris"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Vegeu i descarregueu fitxers i més amb característiques millorades i una "
 "interfície senzilla i fàcil d'usar."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Llistat de directoris"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Última modificació"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Directori superior"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

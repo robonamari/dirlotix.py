@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Qovluq siyahısı"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Faylları görüntüləyin və yükləyin və s., qabaqcıl xüsusiyyətlər "
 "və sadə, effektiv istifadəçi interfeysi ilə."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Qovluq siyahısı"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Sonuncu dəyişiklik"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Əvvəlki Qovluq"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

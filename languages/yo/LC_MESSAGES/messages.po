@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Atokọ folda"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Wo ati ṣe igbasilẹ awọn faili ati diẹ sii pẹlu awọn ẹya to "
 "dara julọ ati wiwo olumulo ti o rọrun ati irọrun."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Atokọ folda"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Ayipada Kẹhin"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Folda obi"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Gidslys"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Bekyk en laai lêers af, ens., met gevorderde kenmerke en 'n eenvoudige, "
 "doeltreffende gebruikerskoppelvlak."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Gidslys"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Laas gewysig"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Vorige Gids"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"
