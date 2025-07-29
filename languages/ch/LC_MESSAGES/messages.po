@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Lista nu i direktoriu"
+msgid "ltr"
+msgstr "rtl"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Mungnga i fiho' yan chule' nu faya i mas mannginge' na features yan "
 "interface na manhumåyi."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Lista nu i direktoriu"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Faisen na modifikasion"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Direktoriu gi hinasson"
-
-#~ msgid "ltr"
-#~ msgstr "rtl"

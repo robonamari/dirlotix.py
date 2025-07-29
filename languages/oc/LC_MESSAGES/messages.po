@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Lista de repertòris"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Vejatz e telecargatz de fichièrs e autras resorsas amb de foncionalitats "
 "avançadas e una interfàcia simpla e fàcia d'utilizar."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Lista de repertòris"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Darrièra modificacion"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Repertòri precedent"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

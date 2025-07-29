@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Jerin manyan fayiloli"
+msgid "ltr"
+msgstr "rtl"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin "
 "amfani, mai amfani da keɓaɓɓen fuska."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Jerin manyan fayiloli"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Karshe an gyara"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Babban fayil"
-
-#~ msgid "ltr"
-#~ msgstr "rtl"

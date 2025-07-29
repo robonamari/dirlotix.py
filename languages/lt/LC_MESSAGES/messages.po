@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Aplankų sąrašas"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Peržiūrėkite ir atsisiųskite failus bei kitą turinį su pažangiomis "
 "funkcijomis ir paprasta, patogia naudoti sąsaja."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Aplankų sąrašas"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Paskutinį kartą keista"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Aukštesnis aplankas"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

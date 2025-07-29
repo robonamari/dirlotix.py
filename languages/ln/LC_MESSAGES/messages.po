@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Lista ya ba dosié"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli "
 "ya pete mpe ya malamu."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Lista ya ba dosié"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Bobongwani ya suka"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Dosié ya likoló"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

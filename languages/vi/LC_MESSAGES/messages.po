@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Danh sách thư mục"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Xem và tải xuống các tệp và tài nguyên khác với các tính nă"
 "ng nâng cao và giao diện người dùng đơn giản, dễ sử dụng."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Danh sách thư mục"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Lần sửa đổi cuối"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Thư mục cha"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

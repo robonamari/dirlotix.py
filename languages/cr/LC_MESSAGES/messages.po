@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "ᐊᔑᓇᐦᑕᐤ"
+msgid "ltr"
+msgstr "rtl"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -16,6 +16,10 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr "ᓂᓯᔭᐤ ᐊᔑᓇᐦᑕᐤ ᓂᓯᔭᐤ ᐊᔑᓇᐦᑕᐤ ᐊᐱᔨᐦᑖᐤ ᓂᓯᔭᐤ ᐊᔑᓇᐦᑕᐤ ᓂᓯᔭᐤ ᐊᔑᓇᐦᑕᐤ."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "ᐊᔑᓇᐦᑕᐤ"
 
 #: templates/index.html:450
 msgid "File"
@@ -36,6 +40,3 @@ msgstr "ᐅᑯᑯᐤ"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "ᐅᑯᑯᐤ"
-
-#~ msgid "ltr"
-#~ msgstr "rtl"

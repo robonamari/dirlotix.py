@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Maplist"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Sjoch en downloaden bestannen en mear mei ferbettere funksjes en in ienfâ"
 "ldige, brûkerfreonlike ynterface."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Maplist"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Lêst ferâldere"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Boppe-dokumint"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Dizin Listesi"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Gelişmiş özellikler ve basit, kullanıcı dostu bir arayüz ile "
 "dosyaları ve diğer kaynakları görüntüleyin ve indirin."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Dizin Listesi"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Son Değişiklik"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Ana Dizin"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

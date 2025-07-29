@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Urutonde rw'ibikoresho"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Reba no gukurura amafayile n'ibindi bifite imikorere igezweho hamwe "
 "n'interface yoroshye kandi ikorohereza abakoresha."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Urutonde rw'ibikoresho"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Havuguruwe bwa nyuma"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Urutonde rw'ababyeyi"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"

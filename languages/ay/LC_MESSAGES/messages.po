@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
 
-msgid "Directory Listing"
-msgstr "Direktoriyu liwpi"
+msgid "ltr"
+msgstr "ltr"
 
 #: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
@@ -18,6 +18,10 @@ msgid ""
 msgstr ""
 "Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman "
 "wawanaka, q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."
+
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+msgid "Directory Listing"
+msgstr "Direktoriyu liwpi"
 
 #: templates/index.html:450
 msgid "File"
@@ -38,6 +42,3 @@ msgstr "Ñawpaq sartasiña"
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Ukhamañani"
-
-#~ msgid "ltr"
-#~ msgstr "ltr"
