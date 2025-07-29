@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Oludato lwoma direkotori"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Lombwela..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Omonana no okutambula oofaila nayi ihe ya vule na omapulo ga tokola ni mo "
 "omukongo iwa nawa."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "Ofaila"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Eto"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Ongushu"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Otandi yalwe kehe"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Direkotori lyokununa"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Lombwela..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

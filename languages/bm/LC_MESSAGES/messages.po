@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Boli tɔɔrɔ"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Sari..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Fayil le, ka dɔɔnin ka kɔrɔma, tɔɔrɔ, ni dɔɔnin ka sigi ɲininkari, "
 "ka tɛgɛ faamuya, lafiɲɛ ko."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "Fayil"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Dɛn"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Sankɔ"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Dɔɔnin lafiɲɛ"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Kɔrɔkɔ"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Sari..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

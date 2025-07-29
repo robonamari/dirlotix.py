@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Lista da directaris"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Cercar..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Visualisai e scargar files e auters resursas cun funcziunalitads avanzadas e "
 "ina interfaccia simplicha e simpatica."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "File"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Num"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Grössa"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Ultima midada"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Directari precedent"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Cercar..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"

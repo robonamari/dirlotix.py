@@ -8,6 +8,10 @@ msgid "Directory Listing"
 msgstr "Maplijst"
 
 #: templates/index.min.html:1 templates/index.html:2
+msgid "Search..."
+msgstr "Zeuk..."
+
+#: templates/index.min.html:1 templates/index.html:3
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -15,29 +19,25 @@ msgstr ""
 "Bekiek en downloodj bestanden en angere zaken mit geavange funksies en 'n "
 "einvoudige, gebruuksvrundelike sjnitte."
 
-#: templates/index.html:449 templates/index.html:450
+#: templates/index.html:450
 msgid "File"
 msgstr "Bestand"
 
-#: templates/index.html:450 templates/index.html:451
+#: templates/index.html:451
 msgid "Name"
 msgstr "Naom"
 
-#: templates/index.html:451 templates/index.html:452
+#: templates/index.html:452
 msgid "Size"
 msgstr "Grootte"
 
-#: templates/index.html:452 templates/index.html:453
+#: templates/index.html:453
 msgid "Last Modified"
 msgstr "Lètste wieziging"
 
 #: index.py:75
 msgid "Previous Folder"
 msgstr "Bovegelegde map"
-
-#: templates/index.min.html:1 templates/index.html:1
-msgid "Search..."
-msgstr "Zeuk..."
 
 #~ msgid "ltr"
 #~ msgstr "ltr"
