@@ -17,23 +17,23 @@ msgid ""
 "efficient user interface."
 msgstr "ފައިލެއް ހެދި ބެލިދަން ކޮށް ބައިލް ހަމަޖެންކޮށް އިންފެރެސި ކުރާ ކޮށް މަރަށް ޕްރޮގެން ބިއްލުކޮށް."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "ދެކޮށް ހަމަޖެން"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "ފައިލެއް"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "ނަމް"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "މެންތް"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "ފައިލެއް ދިން މަލާމަ"
 
