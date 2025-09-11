@@ -68,9 +68,7 @@ jobs:
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add languages/messages.pot
-          find languages -type f -path "*/LC_MESSAGES/messages.po" -exec git add {} \;
-          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add languages/messages.pot */LC_MESSAGES/messages.po
           git commit -m "Update translations (.pot/.po files)"
           git push
