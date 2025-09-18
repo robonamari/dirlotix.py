@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  id-token: write
 
 jobs:
   create_release:
@@ -31,9 +30,9 @@ jobs:
           mkdir -p dist
           ZIPNAME="Dirlotix-${TAG_NAME}.zip"
           TARNAME="Dirlotix-${TAG_NAME}.tar.gz"
-          zip -rq "dist/$ZIPNAME" . -x ".git/*" ".github/*" "README.md" ".gitignore" "dist/*"
+          zip -rq "dist/$ZIPNAME" . -x ".git/*" ".github/*" "README.md" ".gitignore" "dist/*" "languages/**/*.po"
           tar --exclude='.git' --exclude='.github' --exclude='README.md' \
-              --exclude='.gitignore' --exclude='dist/*' \
+              --exclude='.gitignore' --exclude='dist/*' --exclude='languages/**/*.po' \
               -czf "dist/$TARNAME" .
       - name: Upload GitHub release
         uses: softprops/action-gh-release@v2
