@@ -17,23 +17,23 @@ msgid ""
 "efficient user interface."
 msgstr "Прегледајте и преземете датотеки и други содржини со напредни функции и едноставен, кориснички пријателски интерфејс."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "Листа на папки"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "Датотека"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "Име"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "Големина"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "Последна измена"
 

@@ -19,23 +19,23 @@ msgstr ""
 "Lukim na daunlodim faeila na moa, long ol gutpela fetas na wanpela i go easy "
 "long user."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "Lis bilong folder"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "Faeila"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "Nem"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "Saiz"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "Last tim we em bin senisim"
 

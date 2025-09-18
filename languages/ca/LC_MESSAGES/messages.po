@@ -19,23 +19,23 @@ msgstr ""
 "Vegeu i descarregueu fitxers i més amb característiques millorades i una "
 "interfície senzilla i fàcil d'usar."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "Llistat de directoris"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "Fitxer"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "Nom"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "Mida"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "Última modificació"
 

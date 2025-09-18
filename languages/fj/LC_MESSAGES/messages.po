@@ -20,23 +20,23 @@ msgstr ""
 "vakacakacaka ena i tukutuku ni veika tale eso kei na nodra vakaibalebale na "
 "veika."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "Lisi ni veivakatau"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "Faile"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "Yaca"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "Bale"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "Sega ni vakadewataka"
 

@@ -17,23 +17,23 @@ msgid ""
 "efficient user interface."
 msgstr "ಫೈಲ್‌ಗಳು ಮತ್ತು ಇತರೆಗಳನ್ನು ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಮತ್ತು ಸರಳ, ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಇಂಟರ್ಫೇಸ್‌ನೊಂದಿಗೆ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:444
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
 msgstr "ಡೈರೆಕ್ಟರಿ ಪಟ್ಟಿ"
 
-#: templates/index.html:450
+#: templates/index.html:449
 msgid "File"
 msgstr "ಫೈಲ್"
 
-#: templates/index.html:451
+#: templates/index.html:450
 msgid "Name"
 msgstr "ಹೆಸರು"
 
-#: templates/index.html:452
+#: templates/index.html:451
 msgid "Size"
 msgstr "ಆಕಾರ"
 
-#: templates/index.html:453
+#: templates/index.html:452
 msgid "Last Modified"
 msgstr "ಕೊನೆಯ ಮಾರ್ಪಡింపు"
 
