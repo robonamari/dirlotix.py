@@ -26,15 +26,20 @@ jobs:
             mo="${po%.po}.mo"
             msgfmt "$po" -o "$mo"
           done
-      - name: Create zip archive
-        run: zip -r "Dirlotix-${TAG_NAME}.zip" . -x ".github/*" ".git/*" "README.md" ".gitignore"
-      - name: Create tar.gz archive
-        run: tar --exclude=.github --exclude=.git --exclude=README.md --exclude=.gitignore --exclude="Dirlotix-${TAG_NAME}.zip" --ignore-failed-read -czf "Dirlotix-${TAG_NAME}.tar.gz" .
+      - name: Build release assets
+        run: |
+          mkdir -p dist
+          ZIPNAME="Dirlotix-${TAG_NAME}.zip"
+          TARNAME="Dirlotix-${TAG_NAME}.tar.gz"
+          zip -rq "dist/$ZIPNAME" . -x ".git/*" ".github/*" "README.md" ".gitignore" "dist/*"
+          tar --exclude='.git' --exclude='.github' --exclude='README.md' \
+              --exclude='.gitignore' --exclude='dist/*' \
+              -czf "dist/$TARNAME" .
       - name: Upload GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: "${{ env.TAG_NAME }}"
           files: |
-            Dirlotix-${{ env.TAG_NAME }}.zip
-            Dirlotix-${{ env.TAG_NAME }}.tar.gz
+            dist/Dirlotix-${{ env.TAG_NAME }}.zip
+            dist/Dirlotix-${{ env.TAG_NAME }}.tar.gz
