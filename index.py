@@ -114,8 +114,8 @@ async def index(lang_code: str) -> Union[str, Response]:
                     "link": f"/{quote(os.path.relpath(file_path, safe_root))}",
                     "size": f"{size:.2f}{size_units[idx]}",
                     "date": datetime.datetime.fromtimestamp(
-                        os.path.getmtime(file_path), tz=datetime.timezone.utc
-                    ).strftime("%Y-%m-%dT%H:%M:%S+00:00"),
+                        os.path.getmtime(file_path), datetime.timezone.utc
+                    ).isoformat(timespec="seconds"),
                 }
             )
         else:
