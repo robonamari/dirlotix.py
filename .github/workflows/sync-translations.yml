@@ -15,17 +15,17 @@ jobs:
   update-translations:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v5
-      - name: Check if Python files changed
-        id: check_py
+      - name: Check if Python or HTML files changed
+        id: check_files
         run: |
-          changed_py=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.py' || true)
-          echo "changed_py=$changed_py" >> $GITHUB_OUTPUT
-      - name: Exit if no Python change
-        if: steps.check_py.outputs.changed_py == ''
+          changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.py' '*.html' || true)
+          echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
+      - name: Exit if no relevant file changed
+        if: steps.check_files.outputs.changed_files == ''
         run: |
-          echo "No Python files changed, skipping."
+          echo "No Python or HTML files changed, skipping."
           exit 0
       - name: Save old hash if exists
         run: |
@@ -70,5 +70,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add languages/messages.pot */LC_MESSAGES/messages.po
-          git commit -m "Update translations (.pot/.po files)"
+          git commit -m "Update translations (.pot/.po files)" || exit 0
           git push
