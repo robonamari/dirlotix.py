@@ -4,7 +4,7 @@
 
 ![حجم کد](https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat)
 ![تعداد خطوط](https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat)
-![نسخه Python](https://img.shields.io/badge/python-%5E3.9-blue)
+![نسخه Python](https://img.shields.io/badge/python-%5E3.10-blue)
 ![مجوز گیت هاب](https://img.shields.io/github/license/robonamari/Dirlotix-py)
 
 ---

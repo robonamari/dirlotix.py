@@ -4,7 +4,7 @@
 
 ![Code Size](https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat)
 ![Total lines](https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat)
-![Python Versions](https://img.shields.io/badge/python-%5E3.9-blue)
+![Python Versions](https://img.shields.io/badge/python-%5E3.10-blue)
 ![GitHub license](https://img.shields.io/github/license/robonamari/Dirlotix-py)
 
 ---
