@@ -39,6 +39,6 @@ msgstr "Velikost"
 msgid "Last Modified"
 msgstr "Poslední změna"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Nadřazený adresář"

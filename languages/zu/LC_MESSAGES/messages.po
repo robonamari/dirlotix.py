@@ -39,6 +39,6 @@ msgstr "Usayizi"
 msgid "Last Modified"
 msgstr "Igcine ukubuyekezwa"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ifolda engaphezulu"

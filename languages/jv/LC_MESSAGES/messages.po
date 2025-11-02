@@ -39,6 +39,6 @@ msgstr "Ukuran"
 msgid "Last Modified"
 msgstr "Pungkasan diowahi"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Direktori induk"

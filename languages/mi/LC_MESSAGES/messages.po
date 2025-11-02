@@ -39,6 +39,6 @@ msgstr "Rahi"
 msgid "Last Modified"
 msgstr "Hōtaka whakamutunga"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Kōpaki matua"

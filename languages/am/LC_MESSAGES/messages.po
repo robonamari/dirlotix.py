@@ -37,6 +37,6 @@ msgstr "መጠን"
 msgid "Last Modified"
 msgstr "በመጨረሻ የተለዋዋጭ"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "ቀደም ያለው ፋይል"

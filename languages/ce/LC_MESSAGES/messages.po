@@ -40,6 +40,6 @@ msgstr "Доьзал"
 msgid "Last Modified"
 msgstr "Йухъах долу"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Йист директо"

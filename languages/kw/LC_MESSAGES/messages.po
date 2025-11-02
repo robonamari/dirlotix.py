@@ -39,6 +39,6 @@ msgstr "Meur"
 msgid "Last Modified"
 msgstr "Glastowgh diworth"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Raglyver prys"

@@ -39,6 +39,6 @@ msgstr "Kukula"
 msgid "Last Modified"
 msgstr "Zasinthidwa komaliza"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Chikwatu choyambirira"

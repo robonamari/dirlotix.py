@@ -39,6 +39,6 @@ msgstr "Suma"
 msgid "Last Modified"
 msgstr "Ñawpaq sartasiña"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ukhamañani"

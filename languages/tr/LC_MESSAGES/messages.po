@@ -39,6 +39,6 @@ msgstr "Boyut"
 msgid "Last Modified"
 msgstr "Son Değişiklik"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ana Dizin"

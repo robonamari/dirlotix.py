@@ -39,6 +39,6 @@ msgstr "Grandezza"
 msgid "Last Modified"
 msgstr "Ultim modification"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Parent directory"

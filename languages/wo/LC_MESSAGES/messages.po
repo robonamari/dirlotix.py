@@ -39,6 +39,6 @@ msgstr "Yaatuwaay"
 msgid "Last Modified"
 msgstr "Jumteluji ji mujj"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Jumboog bu mag"

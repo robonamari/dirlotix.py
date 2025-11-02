@@ -37,6 +37,6 @@ msgstr "Хэмжээ"
 msgid "Last Modified"
 msgstr "Сүүлд өөрчлөгдсөн"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Өмнөх фолдер"

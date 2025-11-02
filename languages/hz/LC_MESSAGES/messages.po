@@ -39,6 +39,6 @@ msgstr "Onda"
 msgid "Last Modified"
 msgstr "Oshilongo shilonga"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Omapuka otji webuta"

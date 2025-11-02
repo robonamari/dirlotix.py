@@ -39,6 +39,6 @@ msgstr "Rahi"
 msgid "Last Modified"
 msgstr "Hope o te hoê atu"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Fare Māmā"

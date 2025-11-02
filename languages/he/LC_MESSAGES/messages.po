@@ -37,6 +37,6 @@ msgstr "גודל"
 msgid "Last Modified"
 msgstr "עודכן לאחרונה"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "תיקייה הורה"

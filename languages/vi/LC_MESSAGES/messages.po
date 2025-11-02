@@ -39,6 +39,6 @@ msgstr "Kích thước"
 msgid "Last Modified"
 msgstr "Lần sửa đổi cuối"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Thư mục cha"

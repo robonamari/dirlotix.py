@@ -39,6 +39,6 @@ msgstr "Stødd"
 msgid "Last Modified"
 msgstr "Síðst broytt"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Yvirmappu"

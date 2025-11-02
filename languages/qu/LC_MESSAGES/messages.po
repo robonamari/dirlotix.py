@@ -39,6 +39,6 @@ msgstr "Ñawpaq"
 msgid "Last Modified"
 msgstr "Ñawpaqmi ruwanapaq"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ñawpaq ruwanapaq"

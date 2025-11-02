@@ -37,6 +37,6 @@ msgstr "വലുപ്പം"
 msgid "Last Modified"
 msgstr "അടുത്തമായി തിരുത്തിയത്"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "മാതൃ ഡയറക്ടറി"

@@ -39,6 +39,6 @@ msgstr "Mida"
 msgid "Last Modified"
 msgstr "Última modificació"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Directori superior"

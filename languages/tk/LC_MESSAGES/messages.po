@@ -39,6 +39,6 @@ msgstr "Ölçegi"
 msgid "Last Modified"
 msgstr "Soňky üýtgeşiklik"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ýerine görkezilen katalog"

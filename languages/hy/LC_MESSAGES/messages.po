@@ -37,6 +37,6 @@ msgstr "Չափը"
 msgid "Last Modified"
 msgstr "Վերջին անգամ փոփոխված"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Անցյալ պանակ"

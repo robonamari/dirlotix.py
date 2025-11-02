@@ -39,6 +39,6 @@ msgstr "Troo"
 msgid "Last Modified"
 msgstr "Yn jiu cur magh"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Chur-fohryn as ooilley"

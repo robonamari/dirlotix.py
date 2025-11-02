@@ -39,6 +39,6 @@ msgstr "Koko"
 msgid "Last Modified"
 msgstr "Viimeksi muokattu"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ylempi hakemisto"

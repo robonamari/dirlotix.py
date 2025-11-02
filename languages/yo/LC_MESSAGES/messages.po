@@ -39,6 +39,6 @@ msgstr "Iwọn"
 msgid "Last Modified"
 msgstr "Ayipada Kẹhin"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Folda obi"

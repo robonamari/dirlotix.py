@@ -37,6 +37,6 @@ msgstr "Чакы"
 msgid "Last Modified"
 msgstr "Акыркы өзгөртүү"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ата-эненин директориясы"

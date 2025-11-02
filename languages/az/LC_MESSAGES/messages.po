@@ -39,6 +39,6 @@ msgstr "Ölçü"
 msgid "Last Modified"
 msgstr "Sonuncu dəyişiklik"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Əvvəlki Qovluq"

@@ -39,6 +39,6 @@ msgstr "Tamaina"
 msgid "Last Modified"
 msgstr "Azken aldaketa"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Aurreko Karpeta"

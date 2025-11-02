@@ -39,6 +39,6 @@ msgstr "Ukuru"
 msgid "Last Modified"
 msgstr "Chakapedzisira kuchinjwa"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Dhairekitori Yepamusoro"

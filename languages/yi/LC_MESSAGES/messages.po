@@ -37,6 +37,6 @@ msgstr "גרייס"
 msgid "Last Modified"
 msgstr "לעצטע ענדערונג"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "הויפּט טעקע"

@@ -39,6 +39,6 @@ msgstr "Cabbirka"
 msgid "Last Modified"
 msgstr "Wax ka beddelka ugu dambeeyay"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Galka waalidka"

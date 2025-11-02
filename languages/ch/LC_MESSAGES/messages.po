@@ -39,6 +39,6 @@ msgstr "Tåcho"
 msgid "Last Modified"
 msgstr "Faisen na modifikasion"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Direktoriu gi hinasson"

@@ -39,6 +39,6 @@ msgstr "Fakama'a"
 msgid "Last Modified"
 msgstr "Ta'u 'a e Faingamalie"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Folder 'o e māmā"

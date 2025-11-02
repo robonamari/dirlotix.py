@@ -39,6 +39,6 @@ msgstr "Ment"
 msgid "Last Modified"
 msgstr "Dernière disoc'h"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "C'havadezh dad"

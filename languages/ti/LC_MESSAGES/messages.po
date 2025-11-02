@@ -37,6 +37,6 @@ msgstr "መጠን"
 msgid "Last Modified"
 msgstr "መጨረሻ ለመቀስቀስ"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "ወታደሩ ማውጫ"

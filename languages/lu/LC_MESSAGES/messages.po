@@ -39,6 +39,6 @@ msgstr "Bule"
 msgid "Last Modified"
 msgstr "Lumu lwabu lulamwibwe"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Dikanda dikulu"

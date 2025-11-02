@@ -37,6 +37,6 @@ msgstr "འགྲོགས"
 msgid "Last Modified"
 msgstr "མཁོ་འཕྲིན་འགྱོ་ཡོད"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "ཀོང་མཐུད"

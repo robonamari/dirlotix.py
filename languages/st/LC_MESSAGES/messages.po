@@ -39,6 +39,6 @@ msgstr "Boholo"
 msgid "Last Modified"
 msgstr "Phetoho ea ho qetela"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Direkteri ea motheo"

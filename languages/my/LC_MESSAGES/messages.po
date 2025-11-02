@@ -39,6 +39,6 @@ msgstr "အရွယ်အစား"
 msgid "Last Modified"
 msgstr "နောက်ဆုံးပြင်ဆင်သောနေ့"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "မူလဒါရိုက်ထရီ"

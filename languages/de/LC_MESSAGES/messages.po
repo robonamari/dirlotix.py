@@ -39,6 +39,6 @@ msgstr "Größe"
 msgid "Last Modified"
 msgstr "Zuletzt geändert"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Übergeordnetes Verzeichnis"

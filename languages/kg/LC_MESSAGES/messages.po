@@ -39,6 +39,6 @@ msgstr "Basi"
 msgid "Last Modified"
 msgstr "Tukulusu na nsima"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Limo ya nkondo ya pwa"

@@ -39,6 +39,6 @@ msgstr "Dheerina"
 msgid "Last Modified"
 msgstr "Bara darbe"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Galmee abbaa"

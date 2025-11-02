@@ -39,6 +39,6 @@ msgstr "Cabbir"
 msgid "Last Modified"
 msgstr "Laga beddelay ugu dambeyn"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Galka Hore"

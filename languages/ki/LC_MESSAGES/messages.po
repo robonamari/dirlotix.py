@@ -39,6 +39,6 @@ msgstr "Wendo"
 msgid "Last Modified"
 msgstr "Kĩrĩa kĩrĩa"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Majina wa mũndũ"

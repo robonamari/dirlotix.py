@@ -39,6 +39,6 @@ msgstr "Laki"
 msgid "Last Modified"
 msgstr "Huling Binago"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Naiunang Direktoryo"

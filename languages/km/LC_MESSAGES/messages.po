@@ -37,6 +37,6 @@ msgstr "ទំហំ"
 msgid "Last Modified"
 msgstr "កំណែចុងក្រោយ"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "ថតបង្អួត"

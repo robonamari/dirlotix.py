@@ -39,6 +39,6 @@ msgstr "Izmērs"
 msgid "Last Modified"
 msgstr "Pēdējās izmaiņas"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Augšējā mape"

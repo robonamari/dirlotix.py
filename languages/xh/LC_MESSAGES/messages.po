@@ -39,6 +39,6 @@ msgstr "Ubungakanani"
 msgid "Last Modified"
 msgstr "Utshintsho lokugqibela"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Uluhlu olungundoqo"

@@ -39,6 +39,6 @@ msgstr "Dɔɔso"
 msgid "Last Modified"
 msgstr "Akwan no a wɔsesɛɛ"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Ahenfo Nkyerɛaseɛ"

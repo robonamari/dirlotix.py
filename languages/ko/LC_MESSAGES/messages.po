@@ -37,6 +37,6 @@ msgstr "크기"
 msgid "Last Modified"
 msgstr "마지막 수정"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "상위 디렉토리"

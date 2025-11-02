@@ -39,6 +39,6 @@ msgstr "Gwosè"
 msgid "Last Modified"
 msgstr "Dènye modifikasyon"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Anyè paran"

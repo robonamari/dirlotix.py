@@ -39,6 +39,6 @@ msgstr "Lajmban"
 msgid "Last Modified"
 msgstr "Gvangq daengz"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Bouxndaw doekdaeuj"

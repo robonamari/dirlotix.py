@@ -39,6 +39,6 @@ msgstr "Dimensiune"
 msgid "Last Modified"
 msgstr "Ultima modificare"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "Director părinte"

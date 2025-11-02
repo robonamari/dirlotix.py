@@ -37,6 +37,6 @@ msgstr "قەبارە"
 msgid "Last Modified"
 msgstr "دوایین گۆڕانکاری"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "بوخچەی سەرەکی"

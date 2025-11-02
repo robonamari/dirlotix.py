@@ -37,6 +37,6 @@ msgstr "ئۆلچىمى"
 msgid "Last Modified"
 msgstr "ئاخىرقى ئۆزگەرتىش"
 
-#: index.py:75
+#: index.py:74
 msgid "Previous Folder"
 msgstr "ئاتا كاتالوگ"
