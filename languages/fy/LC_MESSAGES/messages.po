@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Sjoch en downloaden bestannen en mear mei ferbettere funksjes en in "
-"ienfâldige, brûkerfreonlike ynterface."
+"Sjoch en downloaden bestannen en mear mei ferbettere funksjes en in ienfâ"
+"ldige, brûkerfreonlike ynterface."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

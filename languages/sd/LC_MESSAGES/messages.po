@@ -15,9 +15,7 @@ msgstr "ڳوليو..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان "
-"ڏسو ۽ ڊائون لوڊ ڪريو."
+msgstr "فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان ڏسو ۽ ڊائون لوڊ ڪريو."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

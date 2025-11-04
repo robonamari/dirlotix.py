@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a ngâli "
-"na sângo na zîngo."
+"Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a "
+"ngâli na sângo na zîngo."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

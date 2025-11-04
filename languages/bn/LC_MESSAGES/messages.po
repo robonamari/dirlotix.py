@@ -15,9 +15,7 @@ msgstr "অনুসন্ধান করুন..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"উন্নত বৈশিষ্ট্য এবং সহজ, কার্যকর ব্যবহারকারী ইন্টারফেস সহ ফাইল দেখুন এবং ডাউনলোড "
-"করুন।"
+msgstr "উন্নত বৈশিষ্ট্য এবং সহজ, কার্যকর ব্যবহারকারী ইন্টারফেস সহ ফাইল দেখুন এবং ডাউনলোড করুন।"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

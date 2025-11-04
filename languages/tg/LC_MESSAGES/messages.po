@@ -15,9 +15,7 @@ msgstr "Ҷустуҷӯ..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва "
-"дӯстона ба корбар бинед ва боргирӣ кунед."
+msgstr "Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва дӯстона ба корбар бинед ва боргирӣ кунед."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

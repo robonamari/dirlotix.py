@@ -15,8 +15,7 @@ msgstr "Пӑхӑрӑш..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
+msgstr "Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
