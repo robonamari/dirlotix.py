@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Skatīt un lejupielādēt failus un citus resursus ar uzlabotām funkcijām un "
-"vienkāršu, ērtu lietotāja saskarni."
+"Skatīt un lejupielādēt failus un citus resursus ar uzlabotām funkcijām "
+"un vienkāršu, ērtu lietotāja saskarni."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

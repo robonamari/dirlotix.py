@@ -15,9 +15,7 @@ msgstr "Որոնել..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"Դիտել և ներբեռնել ֆայլեր և այլն՝ առաջադեմ հատկություններով և պարզ, "
-"արդյունավետ օգտագործողի ինտերֆեյսով:"
+msgstr "Դիտել և ներբեռնել ֆայլեր և այլն՝ առաջադեմ հատկություններով և պարզ, արդյունավետ օգտագործողի ինտերֆեյսով:"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

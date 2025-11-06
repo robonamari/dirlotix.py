@@ -15,9 +15,7 @@ msgstr "शोधा..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr ""
-"फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि "
-"वापरकर्ता अनुकूल इंटरफेस."
+msgstr "फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि वापरकर्ता अनुकूल इंटरफेस."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

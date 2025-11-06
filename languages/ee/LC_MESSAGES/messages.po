@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Le na diɔ, na wòle nɔ file kple ɖe ɖeɖe nu siwo katã me kple interface aɖe "
-"la."
+"Le na diɔ, na wòle nɔ file kple ɖe ɖeɖe nu siwo katã me kple "
+"interface aɖe la."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

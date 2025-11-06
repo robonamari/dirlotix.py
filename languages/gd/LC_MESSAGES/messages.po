@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas "
-"fheàrr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."
+"Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas fheà"
+"rr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

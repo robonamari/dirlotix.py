@@ -16,8 +16,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli ya "
-"pete mpe ya malamu."
+"Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli "
+"ya pete mpe ya malamu."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
