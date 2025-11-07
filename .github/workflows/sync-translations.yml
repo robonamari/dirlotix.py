@@ -59,7 +59,12 @@ jobs:
           echo "Resetting headers..."
           reset_header() {
             awk 'BEGIN{c=0;s=1}/^msgid /{c++; if(c==2)s=0} s==0{print}' "$1" > temp && \
-            echo -e "#\nmsgid \"\"\nmsgstr \"\"\n\"Content-Type: text/plain; charset=UTF-8\"\n\"Content-Transfer-Encoding: 8bit\"\n" | cat - temp > "$1" && rm -f temp
+            {
+              echo 'msgid ""'
+              echo 'msgstr ""'
+              echo '"Content-Type: text/plain; charset=UTF-8\n"'
+              echo '"Content-Transfer-Encoding: 8bit\n"'
+            } | cat - temp > "$1" && rm -f temp
           }
           reset_header languages/messages.pot
           find languages -type f -path "*/LC_MESSAGES/messages.po" | while read -r po; do
