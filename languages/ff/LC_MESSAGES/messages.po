@@ -1,9 +1,7 @@
-#
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8"
-"Content-Transfer-Encoding: 8bit"
-
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 msgid "ltr"
 msgstr "rtl"
 
@@ -16,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e binndi "
-"ndiyam."
+"Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e "
+"binndi ndiyam."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
