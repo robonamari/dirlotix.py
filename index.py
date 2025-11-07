@@ -15,7 +15,7 @@ from utils.i18n import get_translator
 load_dotenv(".env")
 
 app = Flask(__name__, static_folder="assets")
-app.add_url_rule( 
+app.add_url_rule(
     "/favicon.ico",
     endpoint="favicon",
     redirect_to=os.getenv("FAVICON"),
