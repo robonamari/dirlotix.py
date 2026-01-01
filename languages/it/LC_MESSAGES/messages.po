@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Visualizza e scarica file e altro con funzionalità avanzate e "
-"un'interfaccia semplice e intuitiva."
+"Visualizza e scarica file e altro con funzionalità avanzate e un'interfaccia "
+"semplice e intuitiva."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

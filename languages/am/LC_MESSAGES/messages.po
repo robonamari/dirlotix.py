@@ -13,7 +13,8 @@ msgstr "ፈልግ..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr "ፋይሎችን እና ሌሎችን በውስጥ ባለ ባለሞያ ባህሪዎች እና ቀላል፣ እንቆቅልሽ ተጠቃሚ ተወዳድሮ ማዕከል ጭነት እንዲያስችል።"
+msgstr ""
+"ፋይሎችን እና ሌሎችን በውስጥ ባለ ባለሞያ ባህሪዎች እና ቀላል፣ እንቆቅልሽ ተጠቃሚ ተወዳድሮ ማዕከል ጭነት እንዲያስችል።"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

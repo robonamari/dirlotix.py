@@ -13,7 +13,9 @@ msgstr "ស្វែងរក..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr "មើល និងបញ្ចូលឯកសារនិងផ្សេងៗទៀតជាមួយនឹងលក្ខណៈពិសេសដែលបានធ្វើឱ្យប្រសើរឡើង និងមុខងារពាក្យចចកដ៏សាមញ្ញ និងមានភាពងាយស្រួលសម្រាប់អ្នកប្រើប្រាស់។"
+msgstr ""
+"មើល និងបញ្ចូលឯកសារនិងផ្សេងៗទៀតជាមួយនឹងលក្ខណៈពិសេសដែលបានធ្វើឱ្យប្រសើរឡើង "
+"និងមុខងារពាក្យចចកដ៏សាមញ្ញ និងមានភាពងាយស្រួលសម្រាប់អ្នកប្រើប្រាស់។"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

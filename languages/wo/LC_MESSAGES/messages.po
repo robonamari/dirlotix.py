@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Gis ak telecharger fitil yi ak beneen yu nekk ak jumtukaay yu gën am solo "
-"ak yomb ci jëfandikoo."
+"Gis ak telecharger fitil yi ak beneen yu nekk ak jumtukaay yu gën am solo ak "
+"yomb ci jëfandikoo."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

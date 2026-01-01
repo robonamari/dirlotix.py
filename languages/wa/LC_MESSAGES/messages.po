@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di "
-"pus, eyet ene intrface simpl' et ezåy åyidî."
+"Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, "
+"eyet ene intrface simpl' et ezåy åyidî."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

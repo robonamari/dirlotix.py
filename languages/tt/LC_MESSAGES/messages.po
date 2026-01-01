@@ -13,7 +13,9 @@ msgstr "Эзләү..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr "Алдынгы функцияләр һәм гади һәм кулланучы өчен дус интерфейс белән файлларны һәм башка ресурсларны карау һәм йөкләү."
+msgstr ""
+"Алдынгы функцияләр һәм гади һәм кулланучы өчен дус интерфейс белән файлларны "
+"һәм башка ресурсларны карау һәм йөкләү."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

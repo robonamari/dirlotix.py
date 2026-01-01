@@ -13,7 +13,9 @@ msgstr "Йуьзга..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr "Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн хъалаалаьш."
+msgstr ""
+"Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн "
+"хъалаалаьш."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

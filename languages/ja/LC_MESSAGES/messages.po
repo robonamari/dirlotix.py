@@ -13,7 +13,9 @@ msgstr "検索..."
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
-msgstr "ファイルやその他のコンテンツを表示・ダウンロード、高度な機能とシンプルで使いやすいインターフェースを備えています。"
+msgstr ""
+"ファイルやその他のコンテンツを表示・ダウンロード、高度な機能とシンプルで使い"
+"やすいインターフェースを備えています。"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

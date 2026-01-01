@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Skoðaðu og hlaðið niður skrám og fleiru með auknum eiginleikum og "
-"einfaldri, notendavænni viðmóti."
+"Skoðaðu og hlaðið niður skrám og fleiru með auknum eiginleikum og einfaldri, "
+"notendavænni viðmóti."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

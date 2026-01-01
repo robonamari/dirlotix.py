@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Leka 'o e ngaahi faila mo e ngaahi me'a kehekehe 'o fakahoko mo e anga ngā"
-"ue lelei mo e ngāue'anga faka'ofo'ofa"
+"Leka 'o e ngaahi faila mo e ngaahi me'a kehekehe 'o fakahoko mo e anga ngāue "
+"lelei mo e ngāue'anga faka'ofo'ofa"
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

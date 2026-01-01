@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme "
-"ha ojapo mbopi."
+"Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme ha "
+"ojapo mbopi."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho "
-"yiye ne adwumakuo a ɛyɛ nkɔsoɔ."
+"Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
+"ne adwumakuo a ɛyɛ nkɔsoɔ."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

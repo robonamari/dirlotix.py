@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Wona na dhawuniloda mafaayela na kũrĩa mĩtũrũmũ ya mbere na kĩhoto kĩ"
-"rĩa gĩkũyũ gĩtari."
+"Wona na dhawuniloda mafaayela na kũrĩa mĩtũrũmũ ya mbere na kĩhoto kĩrĩa "
+"gĩkũyũ gĩtari."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Vede è scaricà i fugli è più cù caratteristiche avanzate è "
-"un'interfaccia semplice è facile da aduprà."
+"Vede è scaricà i fugli è più cù caratteristiche avanzate è un'interfaccia "
+"semplice è facile da aduprà."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"

@@ -14,8 +14,8 @@ msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr ""
-"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u "
-"interfejs sempliċi u faċli għall-utent."
+"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
+"sempliċi u faċli għall-utent."
 
 #: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
 msgid "Directory Listing"
