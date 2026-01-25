@@ -37,6 +37,6 @@ msgstr "Өлшемі"
 msgid "Last Modified"
 msgstr "Соңғы өзгеріс"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Ата-ана қапшығы"

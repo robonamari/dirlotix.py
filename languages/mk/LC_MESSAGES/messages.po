@@ -37,6 +37,6 @@ msgstr "Големина"
 msgid "Last Modified"
 msgstr "Последна измена"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Претходна папка"

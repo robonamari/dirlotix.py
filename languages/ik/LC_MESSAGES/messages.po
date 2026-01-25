@@ -37,6 +37,6 @@ msgstr "Aŋiŋñaq"
 msgid "Last Modified"
 msgstr "Akuni uqaqtiqtuq"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Iḷutqun aqpaġvik"

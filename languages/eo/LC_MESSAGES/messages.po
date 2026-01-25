@@ -37,6 +37,6 @@ msgstr "Grando"
 msgid "Last Modified"
 msgstr "Laste ŝanĝita"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Supra dosierujo"

@@ -37,6 +37,6 @@ msgstr "Bâza"
 msgid "Last Modified"
 msgstr "Bâza ôdô"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Bâko to file"

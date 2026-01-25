@@ -37,6 +37,6 @@ msgstr "Maint"
 msgid "Last Modified"
 msgstr "Newidiwyd ddiwethaf"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Cyfeiriadur rhiant"

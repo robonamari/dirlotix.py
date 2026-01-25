@@ -37,6 +37,6 @@ msgstr "Aļe"
 msgid "Last Modified"
 msgstr "Driḷọk ejjeļ"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Dirēktoir eo elañ"

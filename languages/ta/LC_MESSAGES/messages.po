@@ -37,6 +37,6 @@ msgstr "பரிமாணம்"
 msgid "Last Modified"
 msgstr "இறுதி மாற்றம்"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "பெற்றோன் கோப்புறை"

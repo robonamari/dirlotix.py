@@ -37,6 +37,6 @@ msgstr "Размер"
 msgid "Last Modified"
 msgstr "Соңғы үҙгәреш"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Алдағы папка"

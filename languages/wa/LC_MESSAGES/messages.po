@@ -37,6 +37,6 @@ msgstr "Grandeu"
 msgid "Last Modified"
 msgstr "Dierin candjmint"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Ridant måjhon"

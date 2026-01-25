@@ -37,6 +37,6 @@ msgstr "Mɛdzi"
 msgid "Last Modified"
 msgstr "Aƒe megbe"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Atɔeɖe ƒe ɖeka"

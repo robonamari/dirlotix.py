@@ -37,6 +37,6 @@ msgstr "Bɔdɔ"
 msgid "Last Modified"
 msgstr "Afe a edi kan a ɛda so"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Faako a edi kan no"

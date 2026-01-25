@@ -35,6 +35,6 @@ msgstr "ຂະໜາດ"
 msgid "Last Modified"
 msgstr "ການປັບປຸງຄັ້ງຫຼ້າສຸດ"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "ໂຟນເດີແມ່"

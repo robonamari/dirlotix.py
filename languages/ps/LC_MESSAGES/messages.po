@@ -37,6 +37,6 @@ msgstr "اندازه"
 msgid "Last Modified"
 msgstr "وروستی بدلون"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "مخکینی فولډر"

@@ -37,6 +37,6 @@ msgstr "Monene"
 msgid "Last Modified"
 msgstr "Bobongwani ya suka"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Dosié ya likoló"

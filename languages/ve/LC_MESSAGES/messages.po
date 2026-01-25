@@ -37,6 +37,6 @@ msgstr "U fhira"
 msgid "Last Modified"
 msgstr "U bvishelwa"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Directory ya vhadzulo"

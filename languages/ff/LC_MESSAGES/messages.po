@@ -37,6 +37,6 @@ msgstr "Leemsa"
 msgid "Last Modified"
 msgstr "Jokkude ɗiɗi"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Diiwande ɗiɗi"

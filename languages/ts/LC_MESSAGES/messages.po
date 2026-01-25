@@ -37,6 +37,6 @@ msgstr "Vun'we"
 msgid "Last Modified"
 msgstr "Loko swi endliwa"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Folda ya Vukulu"

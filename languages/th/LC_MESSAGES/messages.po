@@ -36,6 +36,6 @@ msgstr "ขนาด"
 msgid "Last Modified"
 msgstr "แก้ไขล่าสุด"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "ไดเรกทอรีหลัก"

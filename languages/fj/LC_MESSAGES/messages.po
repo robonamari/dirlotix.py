@@ -38,6 +38,6 @@ msgstr "Bale"
 msgid "Last Modified"
 msgstr "Sega ni vakadewataka"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Vakatavulici ni veivakatau"

@@ -37,6 +37,6 @@ msgstr "Saiz"
 msgid "Last Modified"
 msgstr "Last tim we em bin senisim"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Folder bilong parent"

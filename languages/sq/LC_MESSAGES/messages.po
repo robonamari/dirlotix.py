@@ -37,6 +37,6 @@ msgstr "Madhësia"
 msgid "Last Modified"
 msgstr "E modifikuar për herë të fundit"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Dosja Para"

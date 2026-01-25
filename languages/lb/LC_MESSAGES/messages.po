@@ -37,6 +37,6 @@ msgstr "Gréisst"
 msgid "Last Modified"
 msgstr "Lescht Ännerung"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Iwwergeuerdneten Dossier"

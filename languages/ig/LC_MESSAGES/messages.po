@@ -37,6 +37,6 @@ msgstr "Nha"
 msgid "Last Modified"
 msgstr "Mgbanwe ikpeazụ"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Ngalaba Nna"

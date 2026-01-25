@@ -37,6 +37,6 @@ msgstr "Suurus"
 msgid "Last Modified"
 msgstr "Viimati muudetud"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Ülemkaust"

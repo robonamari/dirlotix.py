@@ -37,6 +37,6 @@ msgstr "Størrelse"
 msgid "Last Modified"
 msgstr "Sidst ændret"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Overordnet mappe"

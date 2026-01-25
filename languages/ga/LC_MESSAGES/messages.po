@@ -37,6 +37,6 @@ msgstr "Méid"
 msgid "Last Modified"
 msgstr "Athraithe go deireanach"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Príomhchomhadlann"

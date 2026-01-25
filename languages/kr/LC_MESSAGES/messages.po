@@ -37,6 +37,6 @@ msgstr "Girma"
 msgid "Last Modified"
 msgstr "Ƙarshe canza"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Kundin adireshin mahaifi"

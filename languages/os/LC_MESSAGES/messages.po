@@ -36,6 +36,6 @@ msgstr "Улæш"
 msgid "Last Modified"
 msgstr "Фыдæлды æвзæнæг"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Æнæнæн фолдер"

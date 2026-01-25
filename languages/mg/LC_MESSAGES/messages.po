@@ -37,6 +37,6 @@ msgstr "Habe"
 msgid "Last Modified"
 msgstr "Fanovana farany"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Lahatahiry ray"

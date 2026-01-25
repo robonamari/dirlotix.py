@@ -37,6 +37,6 @@ msgstr "Ukubwa"
 msgid "Last Modified"
 msgstr "Mabadiliko ya Mwisho"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Jukumu la Mzazi"

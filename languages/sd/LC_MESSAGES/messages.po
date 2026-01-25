@@ -37,6 +37,6 @@ msgstr "سائيز"
 msgid "Last Modified"
 msgstr "آخري ترميم"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "والد ڊائريڪٽري"

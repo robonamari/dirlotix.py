@@ -37,6 +37,6 @@ msgstr "ఆకారం"
 msgid "Last Modified"
 msgstr "చివరి మార్పు"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "పేరెంట్ డైరెక్టరీ"

@@ -37,6 +37,6 @@ msgstr "ଆକାର"
 msgid "Last Modified"
 msgstr "ଶେଷ ପରିବର୍ତ୍ତନ"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "ପୂର୍ବତନ ଡାଇରେକ୍ଟରୀ"
