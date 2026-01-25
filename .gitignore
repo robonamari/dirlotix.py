@@ -1,4 +1,4 @@
-.env
-__pycache__
 /downloads
-messages.mo
+/languages/*/LC_MESSAGES/messages.mo
+/utils/__pycache__
+.env
