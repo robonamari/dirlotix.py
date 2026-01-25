@@ -17,23 +17,23 @@ msgstr ""
 "Leka 'o e ngaahi faila mo e ngaahi me'a kehekehe 'o fakahoko mo e anga ngāue "
 "lelei mo e ngāue'anga faka'ofo'ofa"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Lisi 'o e ngaahi folder"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Faila"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Hingoa"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Fakama'a"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Ta'u 'a e Faingamalie"
 

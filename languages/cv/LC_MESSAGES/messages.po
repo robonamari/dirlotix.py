@@ -16,23 +16,23 @@ msgid ""
 msgstr ""
 "Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Папкăнĕ сӑнӑрӑш"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Исем"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Пура"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Пӑрҫӑнӑп ҫирешетӑн"
 

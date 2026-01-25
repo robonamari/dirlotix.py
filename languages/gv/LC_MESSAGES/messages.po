@@ -17,23 +17,23 @@ msgstr ""
 "Fliughey as dowanloud ehyn fayllyn as ooilley cooishyn rish feashley yn "
 "obbyr as cur magh er-lhiam y usseree."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Lhistey chur-fohryn"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Fayl"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Enmyr"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Troo"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Yn jiu cur magh"
 

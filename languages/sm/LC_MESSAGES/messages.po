@@ -17,23 +17,23 @@ msgstr ""
 "Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga "
 "sili ma se fa'avae faigofie ma masani i tagata."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Lisi o fa'amaoniga"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Faila"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Igoa"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Tele"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Tali'oli i le mulimuli"
 

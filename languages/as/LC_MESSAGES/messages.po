@@ -17,23 +17,23 @@ msgstr ""
 "ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী ব্যৱহাৰকাৰী "
 "ইণ্টাৰফেইচৰ সৈতে।"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "ডাইৰেক্টৰী তালিকা"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "ফাইল"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "নাম"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "আকাৰ"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "অন্তিম সম্পাদিত"
 

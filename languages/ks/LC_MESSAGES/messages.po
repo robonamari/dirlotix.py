@@ -17,23 +17,23 @@ msgstr ""
 "فائلوں اور دیگر کو جدید خصوصیات اور سادہ، صارف دوست انٹرفیس کے ساتھ دیکھیں "
 "اور ڈاؤن لوڈ کریں۔"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "فولڈر کی فہرست"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "فائل"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "نام"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "سائز"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "آخری تبدیلی"
 

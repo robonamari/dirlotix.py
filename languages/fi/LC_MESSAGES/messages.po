@@ -17,23 +17,23 @@ msgstr ""
 "Katso ja lataa tiedostoja ja muuta, parannetuilla ominaisuuksilla ja "
 "yksinkertaisella, käyttäjäystävällisellä käyttöliittymällä."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Hakemiston luettelo"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Tiedosto"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Nimi"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Koko"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Viimeksi muokattu"
 

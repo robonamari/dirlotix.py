@@ -17,23 +17,23 @@ msgstr ""
 "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
 "omro dhe worthevyans ynterfeyns siwynn."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Raglyver dyrekter"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Feyl"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Hwedh"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Meur"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Glastowgh diworth"
 

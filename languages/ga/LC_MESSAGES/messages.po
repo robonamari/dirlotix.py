@@ -17,23 +17,23 @@ msgstr ""
 "Féach agus íoslódáil comhaid agus eile le gnéithe feabhsaithe agus comhéadan "
 "simplí atá éasca le húsáid."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Liosta comhadlann"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Comhad"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Ainm"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Méid"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Athraithe go deireanach"
 

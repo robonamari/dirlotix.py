@@ -17,23 +17,23 @@ msgstr ""
 "Hwɛ na kɔ fa afidie, ne nneɛma a ɛkɔ so, sɛnea ɛda ho adi, ne ho nsɛm a ɛyɛ "
 "mfe a wode bɛyɛ adwuma."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Nkyerɛaseɛ Akwankyerɛ"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Afidie"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Din"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Dɔɔso"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Akwan no a wɔsesɛɛ"
 

@@ -17,23 +17,23 @@ msgstr ""
 "ଫାଇଲ୍ ଏବଂ ଅନ୍ୟାନ୍ୟ ସାମଗ୍ରୀ ଦେଖନ୍ତୁ ଏବଂ ଡାଉନଲୋଡ୍ କରନ୍ତୁ, ଉନ୍ନତ ବିଶେଷତା ଏବଂ ସହଜ ଏବଂ "
 "ପ୍ରୟୋଗକର୍ତ୍ତା-ମିତ୍ର ଇଣ୍ଟରଫେସ୍ ସହିତ।"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "ଡାଇରେକ୍ଟରୀ ତାଲିକା"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "ଫାଇଲ୍"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "ନାମ"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "ଆକାର"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "ଶେଷ ପରିବର୍ତ୍ତନ"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Ver y descargar archivos y otros recursos con funciones avanzadas y una "
 "interfaz sencilla y fácil de usar."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:443
+#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
 msgid "Directory Listing"
 msgstr "Listado de directorios"
 
-#: templates/index.html:449
+#: templates/index.html:179
 msgid "File"
 msgstr "Archivo"
 
-#: templates/index.html:450
+#: templates/index.html:180
 msgid "Name"
 msgstr "Nombre"
 
-#: templates/index.html:451
+#: templates/index.html:181
 msgid "Size"
 msgstr "Tamaño"
 
-#: templates/index.html:452
+#: templates/index.html:182
 msgid "Last Modified"
 msgstr "Última modificación"
 
