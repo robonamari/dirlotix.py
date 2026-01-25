@@ -37,6 +37,6 @@ msgstr "Ake"
 msgid "Last Modified"
 msgstr "Riken irü"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Folder ommot"

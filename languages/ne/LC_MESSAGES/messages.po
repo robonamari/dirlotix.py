@@ -37,6 +37,6 @@ msgstr "आकार"
 msgid "Last Modified"
 msgstr "अन्तिम परिवर्तन"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "अघिल्लो डायरेक्टरी"

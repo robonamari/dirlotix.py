@@ -37,6 +37,6 @@ msgstr "Méret"
 msgid "Last Modified"
 msgstr "Utoljára módosítva"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Szülőmappa"

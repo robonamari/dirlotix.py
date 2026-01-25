@@ -37,6 +37,6 @@ msgstr "Grootte"
 msgid "Last Modified"
 msgstr "Laatst gewijzigd"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Bovenliggend map"

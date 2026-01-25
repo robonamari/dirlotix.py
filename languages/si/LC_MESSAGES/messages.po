@@ -37,6 +37,6 @@ msgstr "ප්‍රමාණය"
 msgid "Last Modified"
 msgstr "අවසන් සංශෝධනය"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "අවලංගු ගොනු"

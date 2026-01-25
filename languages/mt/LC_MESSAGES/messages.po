@@ -37,6 +37,6 @@ msgstr "Daqs"
 msgid "Last Modified"
 msgstr "L-aħħar modifika"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Direttorju preċedenti"

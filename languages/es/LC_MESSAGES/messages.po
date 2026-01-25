@@ -37,6 +37,6 @@ msgstr "Tamaño"
 msgid "Last Modified"
 msgstr "Última modificación"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Directorio principal"

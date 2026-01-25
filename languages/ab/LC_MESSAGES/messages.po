@@ -35,6 +35,6 @@ msgstr "Аҧсах"
 msgid "Last Modified"
 msgstr "Ахаԥынтылгатә"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Агәра-аплан"

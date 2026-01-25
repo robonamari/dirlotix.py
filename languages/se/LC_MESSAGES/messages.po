@@ -37,6 +37,6 @@ msgstr "Stábbi"
 msgid "Last Modified"
 msgstr "Sista modifisering"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Álgu diraktori"

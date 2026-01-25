@@ -37,6 +37,6 @@ msgstr "Veľkosť"
 msgid "Last Modified"
 msgstr "Posledná úprava"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Rodičovský priečinok"

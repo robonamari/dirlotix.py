@@ -37,6 +37,6 @@ msgstr "Boleele"
 msgid "Last Modified"
 msgstr "Nako ya bofelo ya go fetola"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Dikitjana tsa batlhophi"

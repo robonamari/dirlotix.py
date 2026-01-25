@@ -37,6 +37,6 @@ msgstr "Veličina"
 msgid "Last Modified"
 msgstr "Posljednja izmjena"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Nadređeni direktorij"

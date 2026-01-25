@@ -37,6 +37,6 @@ msgstr "Ingano"
 msgid "Last Modified"
 msgstr "Guhindurwa nyuma"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Dosiye ya mbere"

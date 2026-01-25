@@ -36,6 +36,6 @@ msgstr "Размер"
 msgid "Last Modified"
 msgstr "Итышкалыны кӧррыты"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Отец директори"

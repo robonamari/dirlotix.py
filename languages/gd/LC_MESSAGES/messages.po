@@ -37,6 +37,6 @@ msgstr "Meud"
 msgid "Last Modified"
 msgstr "Mu dheireadh air atharrachadh"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Pasgan pàrant"

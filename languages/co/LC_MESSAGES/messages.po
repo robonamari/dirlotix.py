@@ -37,6 +37,6 @@ msgstr "Grandezza"
 msgid "Last Modified"
 msgstr "Ultima mudificazione"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Directoriu parenti"

@@ -37,6 +37,6 @@ msgstr "Saiz"
 msgid "Last Modified"
 msgstr "Perubahan terakhir"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Direktori induk"

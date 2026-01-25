@@ -37,6 +37,6 @@ msgstr "Ongushu"
 msgid "Last Modified"
 msgstr "Otandi yalwe kehe"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Direkotori lyokununa"

@@ -37,6 +37,6 @@ msgstr "Mikwendam"
 msgid "Last Modified"
 msgstr "Dooda ezhigad"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Noodin"

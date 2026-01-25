@@ -37,6 +37,6 @@ msgstr "ᑎᑎᖅᑰᑎᖓ ᐊᓂᖅ"
 msgid "Last Modified"
 msgstr "ᑎᑎᖅᑰᑎᖓ ᓄᓇᖃᑦᑕᖅᑎᐊᕐᓂᖅ"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "ᐃᓗᓕᖏᑦ ᐊᑦᑕᖅᑎᐊᕐᓂᖅ"

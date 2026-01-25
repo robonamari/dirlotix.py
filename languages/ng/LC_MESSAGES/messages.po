@@ -37,6 +37,6 @@ msgstr "Uupole"
 msgid "Last Modified"
 msgstr "Ondjila ooshipi"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Onyena ye directory oshitji"

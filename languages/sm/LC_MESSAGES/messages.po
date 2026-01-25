@@ -37,6 +37,6 @@ msgstr "Tele"
 msgid "Last Modified"
 msgstr "Tali'oli i le mulimuli"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Fa'amaoniga matua"

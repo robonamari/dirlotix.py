@@ -37,6 +37,6 @@ msgstr "Ҳаҷм"
 msgid "Last Modified"
 msgstr "Охирин тағйирот"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Директорияи волид"

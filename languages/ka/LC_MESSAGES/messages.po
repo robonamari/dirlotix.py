@@ -37,6 +37,6 @@ msgstr "ზომა"
 msgid "Last Modified"
 msgstr "ბოლო ცვლილება"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "მაღალ კატალოგი"

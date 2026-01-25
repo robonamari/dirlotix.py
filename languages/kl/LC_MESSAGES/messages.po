@@ -38,6 +38,6 @@ msgstr "Qinnuk"
 msgid "Last Modified"
 msgstr "Piffissalerniussineq"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Pissutsit"

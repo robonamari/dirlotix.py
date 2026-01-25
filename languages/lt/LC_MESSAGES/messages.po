@@ -37,6 +37,6 @@ msgstr "Dydis"
 msgid "Last Modified"
 msgstr "Paskutinį kartą keista"
 
-#: index.py:74
+#: index.py:70
 msgid "Previous Folder"
 msgstr "Aukštesnis aplankas"
