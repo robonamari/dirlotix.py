@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Cweri..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, "
 "eyet ene intrface simpl' et ezåy åyidî."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Djivêye des ridants"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Fitchî"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "No"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Grandeu"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Dierin candjmint"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, "
+"eyet ene intrface simpl' et ezåy åyidî."
 
 #: index.py:70
 msgid "Previous Folder"

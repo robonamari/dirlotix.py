@@ -9,31 +9,38 @@ msgstr "rtl"
 msgid "Search..."
 msgstr "འཚོལ་བ..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr "འབྲེལ་གྱི་བསྣུབས་བསྐྱར་མི་འགྲེལ་བའི་སྤྱོད་ལམ་ནང་གསར་བའི་ལག་འཁྱེར་དང་བསྡུར་འགྱོ་བའི་འཕྲིན་འགྱོ་ཡོད།"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "རིགས་མཐུད་སྤྱོད་ལམ"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "ཕལ"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "མིང་"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "འགྲོགས"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "མཁོ་འཕྲིན་འགྱོ་ཡོད"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr "འབྲེལ་གྱི་བསྣུབས་བསྐྱར་མི་འགྲེལ་བའི་སྤྱོད་ལམ་ནང་གསར་བའི་ལག་འཁྱེར་དང་བསྡུར་འགྱོ་བའི་འཕྲིན་འགྱོ་ཡོད།"
 
 #: index.py:70
 msgid "Previous Folder"

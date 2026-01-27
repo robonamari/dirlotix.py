@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "অনুসন্ধান কৰক..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী ব্যৱহাৰকাৰী "
 "ইণ্টাৰফেইচৰ সৈতে।"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "ডাইৰেক্টৰী তালিকা"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "ফাইল"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "নাম"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "আকাৰ"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "অন্তিম সম্পাদিত"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী ব্যৱহাৰকাৰী "
+"ইণ্টাৰফেইচৰ সৈতে।"
 
 #: index.py:70
 msgid "Previous Folder"

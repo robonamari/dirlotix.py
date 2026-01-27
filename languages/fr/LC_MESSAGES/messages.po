@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Rechercher..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Voir et télécharger des fichiers et plus encore avec des fonctionnalités "
 "améliorées et une interface simple et conviviale."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Liste des dossiers"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Fichier"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Nom"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Taille"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Dernière modification"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Voir et télécharger des fichiers et plus encore avec des fonctionnalités "
+"améliorées et une interface simple et conviviale."
 
 #: index.py:70
 msgid "Previous Folder"

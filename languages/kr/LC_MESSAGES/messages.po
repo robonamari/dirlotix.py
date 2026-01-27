@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Nema..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
 "kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Jerin kundin adireshi"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Faayel"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Suna"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Girma"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Ƙarshe canza"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
+"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
 #: index.py:70
 msgid "Previous Folder"

@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Suliat..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -18,25 +18,35 @@ msgstr ""
 "allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
 "atuisinnaasinnaasunngortuuvoq."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Mappi Akissut"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Faayili"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Ataatsimi"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Qinnuk"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Piffissalerniussineq"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Oqaluttuaqarluni faili kiisalu assigiinngitsunik taaneqartunik "
+"allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
+"atuisinnaasinnaasunngortuuvoq."
 
 #: index.py:70
 msgid "Previous Folder"

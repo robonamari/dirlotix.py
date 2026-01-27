@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Kledh..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
 "omro dhe worthevyans ynterfeyns siwynn."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Raglyver dyrekter"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Feyl"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Hwedh"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Meur"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Glastowgh diworth"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
+"omro dhe worthevyans ynterfeyns siwynn."
 
 #: index.py:70
 msgid "Previous Folder"

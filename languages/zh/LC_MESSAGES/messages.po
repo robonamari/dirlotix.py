@@ -9,31 +9,38 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "搜索..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
 msgstr "通过增强功能和简单易用的界面查看和下载文件等内容。"
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "目录列表"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "文件"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "名称"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "大小"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "最后修改"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr "通过增强功能和简单易用的界面查看和下载文件等内容。"
 
 #: index.py:70
 msgid "Previous Folder"

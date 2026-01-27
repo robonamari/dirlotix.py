@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "தேடு..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "மேம்பட்ட அம்சங்களுடன் மற்றும் எளிமையான, பயனருக்கு நட்பான இடைமுகத்துடன் கோப்புகள் மற்றும் "
 "பிற வளங்களை பார்வையிடவும் பதிவிறக்கவும்."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "கோப்புறை பட்டியல்"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "கோப்பு"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "பெயர்"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "பரிமாணம்"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "இறுதி மாற்றம்"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"மேம்பட்ட அம்சங்களுடன் மற்றும் எளிமையான, பயனருக்கு நட்பான இடைமுகத்துடன் கோப்புகள் மற்றும் "
+"பிற வளங்களை பார்வையிடவும் பதிவிறக்கவும்."
 
 #: index.py:70
 msgid "Previous Folder"

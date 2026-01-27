@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Sesha..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Bukela futhi landa amafayela kanye neminye imithombo enezici ezithuthukile "
 "kanye nohlelo olulula futhi oluphumelelayo lokusebenzisa."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Uhlu lwezinqolobane"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Ifayela"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Igama"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Usayizi"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Ukugcina kushintshiwe"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Bukela futhi landa amafayela kanye neminye imithombo enezici ezithuthukile "
+"kanye nohlelo olulula futhi oluphumelelayo lokusebenzisa."
 
 #: index.py:70
 msgid "Previous Folder"

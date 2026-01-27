@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Hwehwɛ..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
 "ne adwumakuo a ɛyɛ nkɔsoɔ."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Nhyiamu faako no"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Faayil"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Din"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Bɔdɔ"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Afe a edi kan a ɛda so"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
+"ne adwumakuo a ɛyɛ nkɔsoɔ."
 
 #: index.py:70
 msgid "Previous Folder"

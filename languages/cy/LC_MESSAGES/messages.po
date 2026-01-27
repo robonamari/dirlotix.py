@@ -9,7 +9,7 @@ msgstr "ltr"
 msgid "Search..."
 msgstr "Chwilio..."
 
-#: templates/index.min.html:1 templates/index.html:3
+#: templates/index.min.html:1
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user interface."
@@ -17,25 +17,34 @@ msgstr ""
 "Gweld a lawrlwytho ffeiliau a mwy gyda nodweddion gwell a rhyngwyneb "
 "defnyddiwr syml a hawdd ei ddefnyddio."
 
-#: templates/index.min.html:1 templates/index.html:9 templates/index.html:173
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
 msgid "Directory Listing"
 msgstr "Rhestr cyfeiriadur"
 
-#: templates/index.html:179
+#: templates/index.html:212
 msgid "File"
 msgstr "Ffeil"
 
-#: templates/index.html:180
+#: templates/index.html:213
 msgid "Name"
 msgstr "Enw"
 
-#: templates/index.html:181
+#: templates/index.html:214
 msgid "Size"
 msgstr "Maint"
 
-#: templates/index.html:182
+#: templates/index.html:215
 msgid "Last Modified"
 msgstr "Newidiwyd ddiwethaf"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Gweld a lawrlwytho ffeiliau a mwy gyda nodweddion gwell a rhyngwyneb "
+"defnyddiwr syml a hawdd ei ddefnyddio."
 
 #: index.py:70
 msgid "Previous Folder"
