@@ -17,23 +17,23 @@ msgstr ""
 "Fájlok megtekintése és letöltése, fejlettebb funkciókkal és egyszerű, "
 "felhasználóbarát felülettel."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Mappák listája"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Fájl"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Név"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Méret"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Utoljára módosítva"
 

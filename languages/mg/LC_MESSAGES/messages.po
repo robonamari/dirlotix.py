@@ -17,23 +17,23 @@ msgstr ""
 "Jereo sy trohy ireo rakitra sy zavatra hafa miaraka amin'ny fiasa mandroso "
 "sy fisehoana tsotra sy mora ampiasaina."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Lisitra an'ireo lahatahiry"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Rakitra"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Anarana"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Habe"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Fanovana farany"
 

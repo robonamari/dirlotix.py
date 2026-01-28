@@ -17,23 +17,23 @@ msgstr ""
 "Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs bilen "
 "faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Katalok sanawy"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Faýl"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Ady"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Ölçegi"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Soňky üýtgeşiklik"
 

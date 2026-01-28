@@ -16,23 +16,23 @@ msgid ""
 msgstr ""
 "ดูและดาวน์โหลดไฟล์และทรัพยากรอื่นๆ พร้อมฟีเจอร์ขั้นสูงและอินเตอร์เฟซที่เรียบง่ายและเป็นมิตรกับผู้ใช้"
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "รายการไดเรกทอรี"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "ไฟล์"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "ชื่อ"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "ขนาด"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "แก้ไขล่าสุด"
 

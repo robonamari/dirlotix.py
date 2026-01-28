@@ -17,23 +17,23 @@ msgstr ""
 "Jonga kwaye ukhuphele iifayile nezinye izinto ezinophuculo kunye nojongano "
 "olulula nolusebenziseka lula."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Uluhlu lwefayile"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Ifayile"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Igama"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Ubungakanani"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Utshintsho lokugqibela"
 

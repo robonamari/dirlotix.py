@@ -17,23 +17,23 @@ msgstr ""
 "Gweld a lawrlwytho ffeiliau a mwy gyda nodweddion gwell a rhyngwyneb "
 "defnyddiwr syml a hawdd ei ddefnyddio."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Rhestr cyfeiriadur"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Ffeil"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Enw"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Maint"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Newidiwyd ddiwethaf"
 

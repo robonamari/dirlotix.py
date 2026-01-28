@@ -17,23 +17,23 @@ msgstr ""
 "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
 "kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Jerin kundin adireshi"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Faayel"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Suna"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Girma"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Ƙarshe canza"
 

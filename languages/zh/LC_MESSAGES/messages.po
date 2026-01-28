@@ -15,23 +15,23 @@ msgid ""
 "efficient user interface."
 msgstr "通过增强功能和简单易用的界面查看和下载文件等内容。"
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "目录列表"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "文件"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "名称"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "大小"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "最后修改"
 

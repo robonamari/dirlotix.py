@@ -17,23 +17,23 @@ msgstr ""
 "Reba na kubika amafayili hamwe n'ibindi bikoresho bifise ubushobozi bwo "
 "hejuru n'uburyo bworoshye kandi bw'umukoresha."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "Urutonde rw'amadosiye"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "Ifayili"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "Izina"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "Ingano"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "Guhindurwa nyuma"
 

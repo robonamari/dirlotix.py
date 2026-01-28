@@ -17,23 +17,23 @@ msgstr ""
 "فایللار ۋە باشقا مەنبەلەرنى كۆرۈش ۋە چۈشۈرۈش، ئالغا سۈرۈلگەن ئالاھىدىلىكلەر "
 "ۋە ئاددىي، قولايلىق ئىشلەتكۈچى مۇنەۋۋەرلىكى بىلەن."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:206
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
 msgid "Directory Listing"
 msgstr "كەسپىي كاتالوگ"
 
-#: templates/index.html:212
+#: templates/index.html:182
 msgid "File"
 msgstr "فایل"
 
-#: templates/index.html:213
+#: templates/index.html:183
 msgid "Name"
 msgstr "ئىسمى"
 
-#: templates/index.html:214
+#: templates/index.html:184
 msgid "Size"
 msgstr "ئۆلچىمى"
 
-#: templates/index.html:215
+#: templates/index.html:185
 msgid "Last Modified"
 msgstr "ئاخىرقى ئۆزگەرتىش"
 
