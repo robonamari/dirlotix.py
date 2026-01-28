@@ -41,27 +41,30 @@ interface.') %}
     }
   </script>
   <style>
-    *,
-    ::after,
-    ::before {
+    *::before,
+    *::after {
       box-sizing: border-box;
-    }
-
-    html {
-      line-height: 1.15;
-      -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: transparent;
+      margin: 0;
+      padding: 0;
+      text-shadow: none;
+      box-shadow: none;
     }
 
     body {
       font-family: "{{ font_family }}";
       font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      text-align: left;
-      margin: 20px;
-      background-color: #f9f9f9;
+      background: #f9f9f9;
       color: #333;
+      margin: 20px;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #555;
+      text-align: center;
+      margin-bottom: 1rem;
     }
 
     a {
@@ -75,110 +78,76 @@ interface.') %}
       text-decoration: underline;
     }
 
-    h1 {
-      margin-top: 0;
-      margin-bottom: .5rem;
-      font-weight: 500;
-      line-height: 1.2;
-      text-align: center;
-      color: #555;
-      font-size: 2.5rem;
-    }
-
-    .table-container {
-      max-width: 100%;
-      margin: 0 auto;
-      overflow-x: auto;
-    }
-
-    table,
-    .table {
-      border-collapse: collapse;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-      margin-bottom: 20px;
-    }
-
-    .table td,
-    .table th,
-    td,
-    th {
-      padding: 12px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .table thead th {
-      vertical-align: bottom;
-      border-bottom: 2px solid #dee2e6;
-    }
-
-    th {
-      background-color: #f2f2f2;
-      cursor: pointer;
-    }
-
-    th.sortable:hover {
-      background-color: #e0e0e0;
-    }
-
-    .table-striped tbody tr:nth-of-type(odd) {
-      background-color: rgba(0, 0, 0, .05);
-    }
-
-    .table-hover tbody tr:hover {
-      color: #212529;
-      background-color: rgba(0, 0, 0, .075);
-    }
-
-    .icon {
-      text-align: center;
-      width: 30px;
-    }
-
-    input {
-      margin: 0;
-      font-size: inherit;
-      line-height: inherit;
-      overflow: visible;
-    }
-
     .search-bar {
-      margin-bottom: 20px;
       text-align: center;
+      margin-bottom: 20px;
     }
 
-    .search-bar input[type="text"] {
+    .search-bar input {
       width: 300px;
       max-width: 80%;
       padding: 10px;
       border: 1px solid #ddd;
-      border-radius: 4px;
+      border-radius: 6px;
+      font: inherit;
     }
 
-    @media(max-width:576px) {
+    .table-container {
+      overflow-x: auto;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    th,
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background: #f2f2f2;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    th:hover {
+      background: #e0e0e0;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: rgba(0, 0, 0, 0.03);
+    }
+
+    tbody tr:hover {
+      background: rgba(0, 0, 0, 0.06);
+      color: #212529;
+    }
+
+    td:first-child {
+      text-align: center;
+      width: 30px;
+    }
+
+    @media(max-width: 576px) {
       table {
-        width: 100%;
-        min-width: unset;
         font-size: 0.85rem;
       }
 
-      .search-bar input[type="text"] {
+      .search-bar input {
         width: 80%;
       }
     }
 
     @media print {
-
-      *,
-      ::after,
-      ::before {
-        text-shadow: none;
-        box-shadow: none;
-      }
-
-      a:not(.btn) {
+      a {
         text-decoration: underline;
       }
 
@@ -194,9 +163,8 @@ interface.') %}
         size: a3;
       }
 
-      .table td,
-      .table th {
-        background-color: #fff;
+      td {
+        background: #fff;
       }
     }
   </style>
@@ -204,23 +172,29 @@ interface.') %}
 
 <body>
   <h1>{{_("Directory Listing")}}</h1>
-  <div class="search-bar"> <input oninput="filterTable(this.value)" placeholder="{{Search}}"> </div>
+  <div class="search-bar">
+    <input type="text" oninput="filterTable(this.value)" placeholder="{{Search}}">
+  </div>
   <div class="table-container">
-    <table class="table table-hover table-striped">
+    <table>
       <thead>
         <tr>
-          <th class="icon">{{_("File")}}</th>
-          <th class="sortable" onclick="sortTable(1)">{{_("Name")}}</th>
-          <th class="sortable" onclick="sortTable(2)">{{_("Size")}}</th>
-          <th class="sortable" onclick="sortTable(3)">{{_("Last Modified")}}</th>
+          <th>{{_("File")}}</th>
+          <th onclick="sortTable(1)">{{_("Name")}}</th>
+          <th onclick="sortTable(2)">{{_("Size")}}</th>
+          <th onclick="sortTable(3)">{{_("Last Modified")}}</th>
         </tr>
       </thead>
-      <tbody id="fileTableBody"> {% for file in file_list %} <tr>
-          <td class="icon"><i class="{{file.icon}}"></i></td>
+      <tbody id="fileTableBody">
+        {% for file in file_list %}
+        <tr>
+          <td><i class="{{file.icon}}"></i></td>
           <td><a href="{{file.link}}">{{file.name}}</a></td>
           <td>{{file.size}}</td>
           <td><time class="local-time" datetime="{{file.date}}">{{file.date}}</time></td>
-        </tr> {% endfor %} </tbody>
+        </tr>
+        {% endfor %}
+      </tbody>
     </table>
   </div>
   <script async src="/assets/js/local-time.min.js"></script>
