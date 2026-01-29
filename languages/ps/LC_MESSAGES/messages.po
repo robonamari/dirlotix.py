@@ -17,23 +17,23 @@ msgstr ""
 "د فایلونو او نورو موادو کتنه او ډاونلوډ کول د پرمختللو ځانګړتیاوو او یو ساده "
 "او کارن دوستانه انٹرفیس سره."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "د فولډر لیست"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "فایل"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "نوم"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "اندازه"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "وروستی بدلون"
 

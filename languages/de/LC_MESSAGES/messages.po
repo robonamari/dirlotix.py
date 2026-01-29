@@ -17,23 +17,23 @@ msgstr ""
 "Sieh dir Dateien an und lade sie herunter, mit erweiterten Funktionen und "
 "einer einfachen, benutzerfreundlichen Oberfläche."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Verzeichnisliste"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Datei"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Name"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Größe"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Zuletzt geändert"
 

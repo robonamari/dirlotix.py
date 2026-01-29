@@ -17,23 +17,23 @@ msgstr ""
 "Sjá og niðurloada skrøttum og meira við betri dygdum og einføldum, "
 "brúkaravinarligum grensesni."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Listi yvir mappir"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Skrá"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Navn"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Stødd"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Síðst broytt"
 

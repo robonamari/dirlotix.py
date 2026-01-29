@@ -17,23 +17,23 @@ msgstr ""
 "Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e binndi "
 "ndiyam."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lestooje ɗiɗi"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Faayel"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Innde"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Leemsa"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Jokkude ɗiɗi"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Mungnga i fiho' yan chule' nu faya i mas mannginge' na features yan "
 "interface na manhumåyi."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lista nu i direktoriu"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Faya"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Nåm"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Tåcho"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Faisen na modifikasion"
 

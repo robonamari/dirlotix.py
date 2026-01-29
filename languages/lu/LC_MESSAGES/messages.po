@@ -17,23 +17,23 @@ msgstr ""
 "Tala mpe telechaja ba fayele n’a biloko binso, na misala mya malonga mpe "
 "etaleli ya pete ya kosalela."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Ditabu dia ba dikanda"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fayele"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Dina"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Bule"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Lumu lwabu lulamwibwe"
 

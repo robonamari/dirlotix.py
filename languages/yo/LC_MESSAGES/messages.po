@@ -17,23 +17,23 @@ msgstr ""
 "Wo ati ṣe igbasilẹ awọn faili ati diẹ sii pẹlu awọn ẹya to dara julọ ati "
 "wiwo olumulo ti o rọrun ati irọrun."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Atokọ folda"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Faili"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Orukọ"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Iwọn"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Ayipada Kẹhin"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Pogledajte i preuzmite datoteke i još mnogo toga uz poboljšane značajke i "
 "jednostavno, korisničko sučelje."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Popis direktorija"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Datoteka"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Ime"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Veličina"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Posljednja izmjena"
 

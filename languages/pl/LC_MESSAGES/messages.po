@@ -17,23 +17,23 @@ msgstr ""
 "Przeglądaj i pobieraj pliki oraz inne zasoby z zaawansowanymi funkcjami i "
 "prostym, przyjaznym interfejsem użytkownika."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lista folderów"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Plik"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Nazwa"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Rozmiar"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Ostatnia modyfikacja"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Vaata ja lae alla faile ja rohkem, täiustatud funktsioonidega ja lihtsa, "
 "kasutajasõbraliku liidesega."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Kaustade nimekiri"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fail"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Nimi"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Suurus"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Viimati muudetud"
 

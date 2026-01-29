@@ -17,23 +17,23 @@ msgstr ""
 "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
 "egy'enjawulo n'enkolagana etali n'ekyangu."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lukuusi lw'amaaka"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fayiro"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Erinnya"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Obungi"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Okuddeko okw'omuwendo"
 

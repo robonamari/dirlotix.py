@@ -17,23 +17,23 @@ msgstr ""
 "Vhona na u download-a mafayili na zwiṅwe zwiṅwe nga ndi zwine zwa konewa na "
 "u shumisa zwine zwa nga vha zwi easy na zwi user-friendly."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Letshele la directory"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fayili"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Dzina"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "U fhira"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "U bvishelwa"
 

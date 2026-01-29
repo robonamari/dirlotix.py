@@ -17,23 +17,23 @@ msgstr ""
 "फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि "
 "वापरकर्ता अनुकूल इंटरफेस."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "डायरेक्टरी लिस्टिंग"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "फाइल"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "नाव"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "आकार"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "शेवटची बदल"
 

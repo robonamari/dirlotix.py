@@ -17,23 +17,23 @@ msgstr ""
 "Kuckt a lued Fichieren erof mat fortgeschrattene Funktiounen an enger "
 "einfacher, userfrëndlecher Interface."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Dossier-Lëscht"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fichier"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Numm"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Gréisst"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Lescht Ännerung"
 

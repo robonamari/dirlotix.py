@@ -17,23 +17,23 @@ msgstr ""
 "Прегледајте и преземете датотеки и други содржини со напредни функции и "
 "едноставен, кориснички пријателски интерфејс."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Листа на папки"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Датотека"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Име"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Големина"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Последна измена"
 

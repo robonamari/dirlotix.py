@@ -16,23 +16,23 @@ msgid ""
 msgstr ""
 "مشاهده و دانلود فایل‌ها و غیره... با امکانات برتر و رابط کاربری ساده و کارآمد."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "لیست پوشه ها"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "فایل"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "نام"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "اندازه"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "آخرین تغییر"
 

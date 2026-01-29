@@ -17,23 +17,23 @@ msgstr ""
 "Lihat dan muat turun fail serta lain-lain dengan ciri canggih dan antara "
 "muka yang mudah serta mesra pengguna."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Senarai direktori"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fail"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Nama"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Saiz"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Perubahan terakhir"
 

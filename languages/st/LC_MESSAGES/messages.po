@@ -17,23 +17,23 @@ msgstr ""
 "Sheba le ho jarolla lifaele le lisebelisoa tse ling tse nang le likarolo tse "
 "tsoetseng pele le sebopeho se bonolo le se khahlisang."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lethathamo la direkteri"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Faele"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Lebitso"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Boholo"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Phetoho ea ho qetela"
 

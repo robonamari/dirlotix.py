@@ -17,23 +17,23 @@ msgstr ""
 "მოუსმინეთ და ჩამოტვირთეთ ფაილები და სხვა შესწორებული ფუნქციებით და მარტივი, "
 "მომხმარებელს მეგობრული ინტერფეისით."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "კატალოგების სია"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ფაილი"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "სახელი"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "ზომა"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "ბოლო ცვლილება"
 

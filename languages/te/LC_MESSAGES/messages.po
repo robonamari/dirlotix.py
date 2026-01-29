@@ -17,23 +17,23 @@ msgstr ""
 "ఆధునిక లక్షణాలతో మరియు సులభమైన మరియు వినియోగదారుకు అనుకూలమైన ఇంటర్‌ఫేస్‌తో ఫైళ్లు మరియు ఇతర "
 "వనరులను వీక్షించండి మరియు డౌన్‌లోడ్ చేయండి."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "డైరెక్టరీ జాబితా"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ఫైల్"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "పేరు"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "ఆకారం"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "చివరి మార్పు"
 

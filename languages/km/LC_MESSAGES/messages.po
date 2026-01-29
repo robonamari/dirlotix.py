@@ -17,23 +17,23 @@ msgstr ""
 "មើល និងបញ្ចូលឯកសារនិងផ្សេងៗទៀតជាមួយនឹងលក្ខណៈពិសេសដែលបានធ្វើឱ្យប្រសើរឡើង "
 "និងមុខងារពាក្យចចកដ៏សាមញ្ញ និងមានភាពងាយស្រួលសម្រាប់អ្នកប្រើប្រាស់។"
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "បញ្ជីថត"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ឯកសារ"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "ឈ្មោះ"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "ទំហំ"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "កំណែចុងក្រោយ"
 

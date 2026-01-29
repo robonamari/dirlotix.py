@@ -17,23 +17,23 @@ msgstr ""
 "Lota na kuzwila makanda yina kadi disolo zinga na buzi ya sanu, ke utuzila "
 "mambu ya kabaka mpe yimo."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Limo ya nkondo"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Kanda"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Lina"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Basi"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Tukulusu na nsima"
 

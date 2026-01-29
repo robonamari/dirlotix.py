@@ -17,23 +17,23 @@ msgstr ""
 "파일 및 기타 콘텐츠를 고급 기능과 간단하며 사용자 친화적인 인터페이스를 통해 "
 "보고 다운로드하세요."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "디렉토리 목록"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "파일"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "이름"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "크기"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "마지막 수정"
 

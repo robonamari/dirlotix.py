@@ -17,23 +17,23 @@ msgstr ""
 "Файлҳо ва захираҳои дигарро бо хусусиятҳои пешрафта ва интерфейси осон ва "
 "дӯстона ба корбар бинед ва боргирӣ кунед."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Рӯйхати директория"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Ном"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Ҳаҷм"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Охирин тағйирот"
 

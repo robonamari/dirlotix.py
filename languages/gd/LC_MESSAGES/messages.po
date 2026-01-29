@@ -17,23 +17,23 @@ msgstr ""
 "Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas "
 "fheàrr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Liosta nan pasganan"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Faidhle"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Ainm"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Meud"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Mu dheireadh air atharrachadh"
 

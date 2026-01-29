@@ -17,23 +17,23 @@ msgstr ""
 "Файлдарды және басқа да материалдарды жоғары мүмкіндіктермен және қарапайым, "
 "пайдаланушыға ыңғайлы интерфейспен қараңыз және жүктеңіз."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Қапшықтар тізімі"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Атауы"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Өлшемі"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Соңғы өзгеріс"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
 "sempliċi u faċli għall-utent."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lista tal-fajls"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fajl"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Isem"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Daqs"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "L-aħħar modifika"
 

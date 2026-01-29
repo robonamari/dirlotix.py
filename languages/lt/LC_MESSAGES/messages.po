@@ -17,23 +17,23 @@ msgstr ""
 "Peržiūrėkite ir atsisiųskite failus bei kitą turinį su pažangiomis "
 "funkcijomis ir paprasta, patogia naudoti sąsaja."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Aplankų sąrašas"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Failas"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Pavadinimas"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Dydis"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Paskutinį kartą keista"
 

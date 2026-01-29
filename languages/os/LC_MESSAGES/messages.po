@@ -16,23 +16,23 @@ msgid ""
 msgstr ""
 "Файлæн и хуызæнæн æвзæнæг æнæнæ иæнæнæ, дзæуджынæн фыдыстæнæн иуссыстæнæн."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Фолдерæн лæстæн"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Файл"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Нæм"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Улæш"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Фыдæлды æвзæнæг"
 

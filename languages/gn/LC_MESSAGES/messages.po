@@ -17,23 +17,23 @@ msgstr ""
 "Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme ha "
 "ojapo mbopi."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Oîvo hína"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Arandukue"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Heko"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Aña"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Ojejuhu pyahu"
 

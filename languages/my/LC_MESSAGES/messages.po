@@ -17,23 +17,23 @@ msgstr ""
 "ဖိုင်များနှင့် အခြားအရာများကို အဆင့်မြင့်လ_features_ နှင့် အရိုးရှင်းပြီး အသုံးပြုရလွယ်ကူသော "
 "အင်တာဖေ့စ်ဖြင့် ကြည့်ရှု၍ ဒေါင်းလုဒ်လုပ်ပါ။"
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ဒါရိုက်ထရီစာရင်း"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ဖိုင်"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "အမည်"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "အရွယ်အစား"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "နောက်ဆုံးပြင်ဆင်သောနေ့"
 

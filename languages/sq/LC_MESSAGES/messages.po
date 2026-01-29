@@ -17,23 +17,23 @@ msgstr ""
 "Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një "
 "ndërfaqe përdoruesi të thjeshtë dhe efikase."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lista e Drejtimeve"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Skedar"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Emri"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Madhësia"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "E modifikuar për herë të fundit"
 

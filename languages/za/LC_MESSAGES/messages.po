@@ -17,23 +17,23 @@ msgstr ""
 "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
 "dangq suij, goengq ndaej rox baeuj."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Ndawmbuk doekdaeuj"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Ndawmbuk"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Mingz"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Lajmban"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Gvangq daengz"
 

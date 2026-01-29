@@ -15,23 +15,23 @@ msgid ""
 "efficient user interface."
 msgstr "ལྷུང་ལེན་མཁས་ལུགས་འདིའི་གསར་བསྡུས་བྱ་བའི་སྣང་གི་ཡི་བའི་ཕེབས་འདིར་འབད་ཡོད།"
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ཁ་ལོ་མིང་བཀོད"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ཡི་བ"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "མིང་"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "འགྱུར"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "མིང་འདི་ཡང་བསྡུས"
 

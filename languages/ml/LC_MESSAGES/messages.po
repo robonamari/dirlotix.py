@@ -17,23 +17,23 @@ msgstr ""
 "ഫയലുകളും മറ്റ് ഉള്ളടക്കങ്ങളും മെച്ചപ്പെട്ട ഫീച്ചറുകൾ, സിമ്പിള്‍ ആന്‍ഡ് യൂസർ ഫ്രണ്ട്‌ലിയും ഇന്റർഫേസ് "
 "ഉപയോഗിച്ച് കാണുക, ഡൗൺലോഡ് ചെയ്യുക."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ഡയരക്ടറി ലിസ്റ്റിംഗ്"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ഫയല്"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "പേര്"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "വലുപ്പം"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "അടുത്തമായി തിരുത്തിയത്"
 

@@ -17,23 +17,23 @@ msgstr ""
 "Visa och ladda ner filer och andra resurser med avancerade funktioner och "
 "ett enkelt och användarvänligt gränssnitt."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Kataloglista"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Fil"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Namn"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Storlek"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Senast ändrad"
 

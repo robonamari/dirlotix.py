@@ -17,23 +17,23 @@ msgstr ""
 "Tirohia me tango kōnae me ētahi atu rauemi me ngā āheinga matatini me te "
 "atanga whakamahi pātea me māmā."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Rārangi kōpaki"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "Kōnae"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "Ingoa"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "Rahi"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "Hōtaka whakamutunga"
 

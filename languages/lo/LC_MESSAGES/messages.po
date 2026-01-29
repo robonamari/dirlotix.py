@@ -15,23 +15,23 @@ msgid ""
 "efficient user interface."
 msgstr "ເບິ່ງແລະດາວໂຫລດໄຟລ໌ ແລະອື່ນໆ ດ້ວຍຄຸນສົມບັດຂັ້ນສູງ ແລະການອອກແບບທີ່ງ່າຍ ແລະໃຊ້ງານງ່າຍ."
 
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:174
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ລາຍຊື່ໂຟນເດີ"
 
-#: templates/index.html:182
+#: templates/index.html:185
 msgid "File"
 msgstr "ໄຟລ໌"
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Name"
 msgstr "ຊື່"
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "Size"
 msgstr "ຂະໜາດ"
 
-#: templates/index.html:185
+#: templates/index.html:188
 msgid "Last Modified"
 msgstr "ການປັບປຸງຄັ້ງຫຼ້າສຸດ"
 
