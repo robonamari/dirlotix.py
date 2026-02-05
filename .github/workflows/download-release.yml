@@ -18,7 +18,7 @@ jobs:
         with:
           ref: preview
       - name: Get latest release tag
-        run: echo "TAG_NAME=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases | jq -r '.[0].tag_name')" >> $GITHUB_ENV
+        run: echo "TAG_NAME=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.tag_name')" >> $GITHUB_ENV
       - name: Clean preview directory
         run: find . -mindepth 1 ! -regex '^./\.git\(/.*\)?' -exec rm -rf {} +
       - name: Download and extract release
