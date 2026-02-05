@@ -17,13 +17,11 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: preview
-      - name: Get latest release tag
-        run: echo "TAG_NAME=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.tag_name')" >> $GITHUB_ENV
       - name: Clean preview directory
         run: find . -mindepth 1 ! -regex '^./\.git\(/.*\)?' -exec rm -rf {} +
       - name: Download and extract release
         run: |
-          ASSET_URL=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ env.TAG_NAME }} \
+          ASSET_URL=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest \
             | jq -r '.assets[] | select(.name | test("^Dirlotix-.*\\.zip$")) | .browser_download_url' | head -n 1)
           [ -z "$ASSET_URL" ] && echo "❌ No matching asset found." && exit 1
           ZIP_NAME=$(basename "$ASSET_URL")
@@ -41,5 +39,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Deploy release ${{ env.TAG_NAME }} to preview branch"
+          git commit -m "Deploy latest release to preview branch"
           git push origin preview
