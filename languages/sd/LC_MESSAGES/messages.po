@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "والد ڊائريڪٽري"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "ڳوليو..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان "
-"ڏسو ۽ ڊائون لوڊ ڪريو."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "ڊائريڪٽري لسٽنگ"
 
@@ -46,6 +42,10 @@ msgstr ""
 "فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان "
 "ڏسو ۽ ڊائون لوڊ ڪريو."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "والد ڊائريڪٽري"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"فائلن ۽ ٻين ذريعن کي جديد خصوصيتن ۽ سادي ۽ استعمال ڪندڙ-دوست انٽررفيس سان "
+"ڏسو ۽ ڊائون لوڊ ڪريو."

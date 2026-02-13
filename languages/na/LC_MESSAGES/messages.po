@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Folder ommot"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Rin wama..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Bong ẹke omeñ aron file im et emañ itikọk, ringen idara an eke miriro irü en "
-"rokouo."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "List ye folder"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Bong ẹke omeñ aron file im et emañ itikọk, ringen idara an eke miriro irü en "
 "rokouo."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Folder ommot"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Bong ẹke omeñ aron file im et emañ itikọk, ringen idara an eke miriro irü en "
+"rokouo."

@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Bouxndaw doekdaeuj"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Caeuq..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
-"dangq suij, goengq ndaej rox baeuj."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Ndawmbuk doekdaeuj"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
 "dangq suij, goengq ndaej rox baeuj."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Bouxndaw doekdaeuj"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
+"dangq suij, goengq ndaej rox baeuj."

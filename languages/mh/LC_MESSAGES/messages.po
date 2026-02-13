@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Dirēktoir eo elañ"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Rijik..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Ejjab in rejjeļ in files im ñan an kotto im meļeļe ke ejjeļ aolep ad iñin ko "
-"im kōntrōl in ke mweo."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Dirēktoir ko"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Ejjab in rejjeļ in files im ñan an kotto im meļeļe ke ejjeļ aolep ad iñin ko "
 "im kōntrōl in ke mweo."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Dirēktoir eo elañ"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Ejjab in rejjeļ in files im ñan an kotto im meļeļe ke ejjeļ aolep ad iñin ko "
+"im kōntrōl in ke mweo."

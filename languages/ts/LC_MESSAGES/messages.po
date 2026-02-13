@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Folda ya Vukulu"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Funda..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Hlamusela na ku tirhisa swilo leswi humaka eka mafayela na swilo swin'wana "
-"hi ku tirha swi tlhela swi olova eka muxaka wa ntirho"
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Luhlu ra ma folder"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Hlamusela na ku tirhisa swilo leswi humaka eka mafayela na swilo swin'wana "
 "hi ku tirha swi tlhela swi olova eka muxaka wa ntirho"
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Folda ya Vukulu"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Hlamusela na ku tirhisa swilo leswi humaka eka mafayela na swilo swin'wana "
+"hi ku tirha swi tlhela swi olova eka muxaka wa ntirho"

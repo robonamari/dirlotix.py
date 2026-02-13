@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Faako a edi kan no"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Hwehwɛ..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
-"ne adwumakuo a ɛyɛ nkɔsoɔ."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Nhyiamu faako no"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
 "ne adwumakuo a ɛyɛ nkɔsoɔ."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Faako a edi kan no"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
+"ne adwumakuo a ɛyɛ nkɔsoɔ."
