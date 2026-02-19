@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Chikwatu choyambirira"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "Saka..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso "
+"mawonekedwe osavuta kugwiritsa ntchito."
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Mndandanda wa mafoloda"
 
@@ -42,10 +46,6 @@ msgstr ""
 "Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso "
 "mawonekedwe osavuta kugwiritsa ntchito."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso "
-"mawonekedwe osavuta kugwiritsa ntchito."
+#: index.py:70
+msgid "Previous Folder"
+msgstr "Chikwatu choyambirira"
