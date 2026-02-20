@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "আগের ফোল্ডার"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "অনুসন্ধান করুন..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"উন্নত বৈশিষ্ট্য এবং সহজ, কার্যকর ব্যবহারকারী ইন্টারফেস সহ ফাইল দেখুন এবং ডাউনলোড "
+"করুন।"
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ডিরেক্টরি তালিকা"
 
@@ -42,10 +46,6 @@ msgstr ""
 "উন্নত বৈশিষ্ট্য এবং সহজ, কার্যকর ব্যবহারকারী ইন্টারফেস সহ ফাইল দেখুন এবং ডাউনলোড "
 "করুন।"
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"উন্নত বৈশিষ্ট্য এবং সহজ, কার্যকর ব্যবহারকারী ইন্টারফেস সহ ফাইল দেখুন এবং ডাউনলোড "
-"করুন।"
+#: index.py:70
+msgid "Previous Folder"
+msgstr "আগের ফোল্ডার"
