@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Kundin adireshin mahaifi"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "Nema..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
+"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Jerin kundin adireshi"
 
@@ -42,10 +46,6 @@ msgstr ""
 "Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
 "kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
-"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
+#: index.py:70
+msgid "Previous Folder"
+msgstr "Kundin adireshin mahaifi"

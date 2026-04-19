@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "අවලංගු ගොනු"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "සොයන්න..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"ඉහළ ක්‍රියාකාරිත්වයන් සහ පරිශීලක මිතුරැ අතුරු මුහුණතක් සමඟ ගොනු සහ අනෙකුත් සම්පත් නැරඹීමට සහ බාගත "
+"කිරීමට."
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "බැරන් ලැයිස්තු"
 
@@ -42,10 +46,6 @@ msgstr ""
 "ඉහළ ක්‍රියාකාරිත්වයන් සහ පරිශීලක මිතුරැ අතුරු මුහුණතක් සමඟ ගොනු සහ අනෙකුත් සම්පත් නැරඹීමට සහ බාගත "
 "කිරීමට."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"ඉහළ ක්‍රියාකාරිත්වයන් සහ පරිශීලක මිතුරැ අතුරු මුහුණතක් සමඟ ගොනු සහ අනෙකුත් සම්පත් නැරඹීමට සහ බාගත "
-"කිරීමට."
+#: index.py:70
+msgid "Previous Folder"
+msgstr "අවලංගු ගොනු"
