@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Өмнөх фолдер"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "Хайх..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
+"хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Фолдерын жагсаалт"
 
@@ -42,10 +46,6 @@ msgstr ""
 "Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
 "хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
-"хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."
+#: index.py:70
+msgid "Previous Folder"
+msgstr "Өмнөх фолдер"

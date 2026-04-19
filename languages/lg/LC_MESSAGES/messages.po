@@ -2,18 +2,22 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Amaaka agasooka"
-
-#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:2
 msgid "Search..."
 msgstr "Londa..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
+"egy'enjawulo n'enkolagana etali n'ekyangu."
+
+#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lukuusi lw'amaaka"
 
@@ -42,10 +46,6 @@ msgstr ""
 "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
 "egy'enjawulo n'enkolagana etali n'ekyangu."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
-"egy'enjawulo n'enkolagana etali n'ekyangu."
+#: index.py:70
+msgid "Previous Folder"
+msgstr "Amaaka agasooka"
