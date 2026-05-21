@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Предишна директория"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Търсене..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Преглеждайте и изтегляйте файлове и още с подобрени функции и прост, лесен "
-"за използване интерфейс."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Списък с директории"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Преглеждайте и изтегляйте файлове и още с подобрени функции и прост, лесен "
 "за използване интерфейс."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Предишна директория"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Преглеждайте и изтегляйте файлове и още с подобрени функции и прост, лесен "
+"за използване интерфейс."
