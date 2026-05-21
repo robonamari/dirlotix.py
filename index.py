@@ -131,7 +131,8 @@ async def index(lang_code: str) -> Response:
             font_family=os.getenv("FONT_FAMILY"),
             favicon=os.getenv("FAVICON"),
             theme_color=os.getenv("THEME_COLOR"),
-        )
+        ),
+        mimetype="text/html",
     )
 
 
@@ -200,7 +201,11 @@ async def handle_error(error: Exception) -> Response:
             error_page = "503"
         case _:
             error_page = "500"
-    return redirect(f"https://error.robonamari.com/{error_page}", code=302)
+    return Response(
+        render_template(f"errors/{error_page}.html"),
+        status=error_code,
+        mimetype="text/html",
+    )
 
 
 if __name__ == "__main__":
