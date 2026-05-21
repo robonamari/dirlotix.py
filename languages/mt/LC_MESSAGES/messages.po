@@ -2,22 +2,18 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Direttorju preċedenti"
+
+#: templates/index.html:1 templates/index.min.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:1 templates/index.html:2
+#: templates/index.html:2 templates/index.min.html:1
 msgid "Search..."
 msgstr "Fittex..."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
-"sempliċi u faċli għall-utent."
-
-#: templates/index.min.html:1 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
 msgid "Directory Listing"
 msgstr "Lista tal-fajls"
 
@@ -46,6 +42,10 @@ msgstr ""
 "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
 "sempliċi u faċli għall-utent."
 
-#: index.py:70
-msgid "Previous Folder"
-msgstr "Direttorju preċedenti"
+#: templates/index.min.html:1
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user interface."
+msgstr ""
+"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
+"sempliċi u faċli għall-utent."
