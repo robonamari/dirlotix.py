@@ -6,9 +6,10 @@ from pathlib import Path
 from urllib.parse import quote
 
 from dotenv import load_dotenv
-from flask import Flask, Response, abort, redirect, render_template, request, send_file
+from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
 from waitress import serve
+from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
 
@@ -97,7 +98,7 @@ async def index(lang_code: str) -> Response:
                 "application/javascript": "fab fa-js",
                 "text/plain": "fas fa-file-alt",
             }
-            icon = icon_map.get(mime_type, icon_map.get(main_type, "fas fa-file"))
+            icon = icon_map.get(mime_type or "", icon_map.get(main_type, "fas fa-file"))
             size_bytes = os.path.getsize(file_path)
             idx = min(4, max(0, (size_bytes.bit_length() - 1) // 10))
             size_units = ["B", "KB", "MB", "GB", "TB"]
@@ -121,14 +122,16 @@ async def index(lang_code: str) -> Response:
                     "link": f"/{lang_code}?dir={quote(os.path.relpath(file_path, safe_root))}",
                 }
             )
-    return render_template(
-        "index.min.html",
-        file_list=file_list,
-        lang=lang_code,
-        _=get_translator(lang_code).gettext,
-        font_family=os.getenv("FONT_FAMILY"),
-        favicon=os.getenv("FAVICON"),
-        theme_color=os.getenv("THEME_COLOR"),
+    return Response(
+        render_template(
+            "index.min.html",
+            file_list=file_list,
+            lang=lang_code,
+            _=get_translator(lang_code).gettext,
+            font_family=os.getenv("FONT_FAMILY"),
+            favicon=os.getenv("FAVICON"),
+            theme_color=os.getenv("THEME_COLOR"),
+        )
     )
 
 
@@ -202,11 +205,12 @@ async def handle_error(error: Exception) -> Response:
 
 if __name__ == "__main__":
     mode = os.getenv("MODE")
+    port = int(os.getenv("PORT") or 0) or None
     match mode:
         case "development":
             app.run(
                 host=os.getenv("HOST"),
-                port=os.getenv("PORT"),
+                port=port,
                 debug=True,
                 use_reloader=True,
                 extra_files=glob.glob(
@@ -217,7 +221,11 @@ if __name__ == "__main__":
             print(
                 f"Starting server on {os.getenv('HOST')}:{os.getenv('PORT')} in production mode"
             )
-            serve(app, host=os.getenv("HOST"), port=os.getenv("PORT"))
+            serve(
+                app,
+                host=os.getenv("HOST"),
+                port=port,
+            )
         case _:
             raise RuntimeError(
                 f"Invalid MODE '{mode}'. Must be 'development' or 'production'."
