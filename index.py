@@ -50,8 +50,11 @@ async def index(lang_code: str) -> Response:
     }
     if lang_code not in valid_languages:
         return await download_file(lang_code)
-    safe_root = Path(__file__).resolve().parent / "downloads"
-    directory = (safe_root / request.args.get("dir", "")).resolve()
+    safe_root = (Path(__file__).resolve().parent / "downloads").resolve()
+    user_dir = request.args.get("dir", "")
+    if Path(user_dir).is_absolute():
+        return abort(404)
+    directory = (safe_root / user_dir).resolve()
     if safe_root not in directory.parents and directory != safe_root:
         return abort(404)
     _ = get_translator(lang_code).gettext
