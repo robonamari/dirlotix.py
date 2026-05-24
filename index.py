@@ -7,6 +7,7 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
+from werkzeug.security import safe_join
 from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
@@ -51,8 +52,14 @@ async def index(lang_code: str) -> Response:
     if lang_code not in valid_languages:
         return await download_file(lang_code)
     safe_root = Path(__file__).resolve().parent / "downloads"
-    directory = (safe_root / request.args.get("dir", "")).resolve()
-    if safe_root not in directory.parents and directory != safe_root:
+    user_dir = request.args.get("dir", "")
+    if Path(user_dir).is_absolute() or ".." in Path(user_dir).parts:
+        return abort(404)
+    safe_path = safe_join(str(safe_root), user_dir)
+    if safe_path is None:
+        return abort(404)
+    directory = Path(safe_path)
+    if not directory.exists() or not directory.is_dir():
         return abort(404)
     _ = get_translator(lang_code).gettext
     file_list = []
