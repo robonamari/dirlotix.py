@@ -7,6 +7,7 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
+from werkzeug.utils import secure_filename
 from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
@@ -148,9 +149,18 @@ async def download_file(filename: str) -> Response:
         Response: A Flask response that initiates the file download if the file is valid, or an appropriate error response if the file is not found or access is forbidden.
     """
     safe_root = (Path(__file__).resolve().parent / "downloads").resolve()
-    requested_path = Path(filename)
-    if requested_path.is_absolute():
+    raw_path = Path(filename)
+    if raw_path.is_absolute():
         return abort(403)
+    sanitized_parts = []
+    for part in raw_path.parts:
+        if part in {"", ".", ".."}:
+            return abort(403)
+        safe_part = secure_filename(part)
+        if not safe_part:
+            return abort(403)
+        sanitized_parts.append(safe_part)
+    requested_path = Path(*sanitized_parts) if sanitized_parts else Path()
     file_path = (safe_root / requested_path).resolve()
     try:
         file_path.relative_to(safe_root)
