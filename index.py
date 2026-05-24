@@ -75,33 +75,26 @@ async def index(lang_code: str) -> Response:
         name = file_path.name
         if name.startswith(".") or name in ignore_files:
             continue
+        mime_type, _ = mimetypes.guess_type(str(file_path))
+        main = mime_type.split("/")[0] if mime_type else ""
+        if file_path.is_dir():
+            icon = "folder-open"
+        elif main in ("image", "video", "audio", "font"):
+            icon = f"file-{main}"
+        elif main == "text":
+            icon = "file-alt"
+        elif main == "application":
+            icon = "file-code"
+        else:
+            icon = "file"
         if file_path.is_file():
-            mime_type, _ = mimetypes.guess_type(str(file_path))
-            main_type = mime_type.split("/")[0] if mime_type else ""
-            icon_map = {
-                "video": "fas fa-video",
-                "image": "fas fa-image",
-                "audio": "fas fa-music",
-                "application/pdf": "fas fa-file-pdf",
-                "application/msword": "fas fa-file-word",
-                "application/vnd.ms-excel": "fas fa-file-excel",
-                "application/vnd.ms-powerpoint": "fas fa-file-powerpoint",
-                "application/zip": "fas fa-file-archive",
-                "application/x-rar-compressed": "fas fa-file-archive",
-                "text/html": "fab fa-html5",
-                "text/css": "fab fa-css3",
-                "application/json": "fas fa-file-code",
-                "application/javascript": "fab fa-js",
-                "text/plain": "fas fa-file-alt",
-            }
-            icon = icon_map.get(mime_type or "", icon_map.get(main_type, "fas fa-file"))
             size_bytes = file_path.stat().st_size
             idx = min(4, max(0, (size_bytes.bit_length() - 1) // 10))
             size_units = ["B", "KB", "MB", "GB", "TB"]
             size = size_bytes / (1024**idx)
             file_list.append(
                 {
-                    "icon": icon,
+                    "ext": icon,
                     "name": name,
                     "link": f"/{quote(str(file_path.relative_to(safe_root)))}",
                     "size": f"{size:.2f}{size_units[idx]}",
@@ -113,7 +106,7 @@ async def index(lang_code: str) -> Response:
         else:
             file_list.append(
                 {
-                    "icon": "fas fa-folder-open",
+                    "ext": icon,
                     "name": name,
                     "link": f"/{lang_code}?dir={quote(str(file_path.relative_to(safe_root)))}",
                 }
