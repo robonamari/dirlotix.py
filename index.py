@@ -147,14 +147,19 @@ async def download_file(filename: str) -> Response:
     Returns:
         Response: A Flask response that initiates the file download if the file is valid, or an appropriate error response if the file is not found or access is forbidden.
     """
-    safe_root = Path(__file__).parent / "downloads"
-    file_path = (safe_root / filename).resolve()
+    safe_root = (Path(__file__).resolve().parent / "downloads").resolve()
+    requested_path = Path(filename)
+    if requested_path.is_absolute():
+        return abort(403)
+    file_path = (safe_root / requested_path).resolve()
+    try:
+        file_path.relative_to(safe_root)
+    except ValueError:
+        return abort(403)
     if not file_path.is_file():
         return abort(404)
-    if safe_root not in file_path.parents:
-        return abort(403)
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
-    for part in Path(filename).parts:
+    for part in requested_path.parts:
         if part in ignore_files:
             return abort(403)
     return send_file(file_path, as_attachment=True)
