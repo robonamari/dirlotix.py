@@ -21,10 +21,12 @@ Compress(app)
 @app.route("/", methods=["GET"])
 async def redirect_to_default_lang() -> Response:
     """
-    Redirect to the default language '/en' preserving query string if any.
+    Redirect root URL to default language directory.
+
+    Constructs the redirect URL by prepending "/en" to the original request path, preserving query parameters if present.
 
     Returns:
-        Response: Redirect response (302) to '/en'.
+        Response: A Flask redirect response to the default language directory.
     """
     url = "/en" + (request.full_path[1:] if "?" in request.full_path else "")
     return redirect(url, code=302)
@@ -33,15 +35,13 @@ async def redirect_to_default_lang() -> Response:
 @app.route("/<lang_code>", methods=["GET"])
 async def index(lang_code: str) -> Response:
     """
-    Render directory listing page for the given language.
-
-    Validates the language, loads translation, lists directory contents, and renders page.
+    Serve the index page for a given language code, displaying a list of files and directories.
 
     Args:
-        lang_code (str): Two-letter language code.
+        lang_code (str): The language code for which to serve the index page.
 
     Returns:
-        Any: Rendered HTML or error response.
+        Response: A Flask response containing the rendered index page with the list of files and directories, or a redirect to the file download if the language code is not valid.
     """
     valid_languages = {
         d.name
@@ -50,18 +50,18 @@ async def index(lang_code: str) -> Response:
     }
     if lang_code not in valid_languages:
         return await download_file(lang_code)
-    safe_root = os.path.join(os.path.dirname(__file__), "downloads")
-    directory = os.path.normpath(os.path.join(safe_root, request.args.get("dir", "")))
-    if not directory.startswith(safe_root) or not os.path.isdir(directory):
+    safe_root = Path(__file__).resolve().parent / "downloads"
+    directory = (safe_root / request.args.get("dir", "")).resolve()
+    if safe_root not in directory.parents and directory != safe_root:
         return abort(404)
     _ = get_translator(lang_code).gettext
     file_list = []
     if directory != safe_root:
-        parent_dir = os.path.dirname(directory)
+        parent_dir = directory.parent
         link = (
             f"/{lang_code}"
             if parent_dir == safe_root
-            else f"/{lang_code}?dir={os.path.relpath(parent_dir, safe_root)}"
+            else f"/{lang_code}?dir={parent_dir.relative_to(safe_root)}"
         )
         file_list.append(
             {
@@ -71,14 +71,12 @@ async def index(lang_code: str) -> Response:
             }
         )
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
-    for name in sorted(
-        f
-        for f in os.listdir(directory)
-        if not f.startswith(".") and f not in ignore_files
-    ):
-        file_path = os.path.join(directory, name)
-        if os.path.isfile(file_path):
-            mime_type, _ = mimetypes.guess_type(file_path)
+    for file_path in directory.iterdir():
+        name = file_path.name
+        if name.startswith(".") or name in ignore_files:
+            continue
+        if file_path.is_file():
+            mime_type, _ = mimetypes.guess_type(str(file_path))
             main_type = mime_type.split("/")[0] if mime_type else ""
             icon_map = {
                 "video": "fas fa-video",
@@ -97,7 +95,7 @@ async def index(lang_code: str) -> Response:
                 "text/plain": "fas fa-file-alt",
             }
             icon = icon_map.get(mime_type or "", icon_map.get(main_type, "fas fa-file"))
-            size_bytes = os.path.getsize(file_path)
+            size_bytes = file_path.stat().st_size
             idx = min(4, max(0, (size_bytes.bit_length() - 1) // 10))
             size_units = ["B", "KB", "MB", "GB", "TB"]
             size = size_bytes / (1024**idx)
@@ -105,10 +103,10 @@ async def index(lang_code: str) -> Response:
                 {
                     "icon": icon,
                     "name": name,
-                    "link": f"/{quote(os.path.relpath(file_path, safe_root))}",
+                    "link": f"/{quote(str(file_path.relative_to(safe_root)))}",
                     "size": f"{size:.2f}{size_units[idx]}",
                     "date": datetime.datetime.fromtimestamp(
-                        os.path.getmtime(file_path), datetime.timezone.utc
+                        file_path.stat().st_mtime, datetime.timezone.utc
                     ).isoformat(timespec="seconds"),
                 }
             )
@@ -117,7 +115,7 @@ async def index(lang_code: str) -> Response:
                 {
                     "icon": "fas fa-folder-open",
                     "name": name,
-                    "link": f"/{lang_code}?dir={quote(os.path.relpath(file_path, safe_root))}",
+                    "link": f"/{lang_code}?dir={quote(str(file_path.relative_to(safe_root)))}",
                 }
             )
     return Response(
@@ -140,10 +138,7 @@ async def show_license() -> Response:
     Serve the LICENSE file as plain text.
 
     Returns:
-        Response: Flask response containing the content of the LICENSE file with 'text/plain' MIME type.
-
-    Raises:
-        404: If the LICENSE file is not found.
+        Response: A Flask response containing the contents of the LICENSE file with MIME type "text/plain".
     """
     return send_file("LICENSE", mimetype="text/plain")
 
@@ -151,52 +146,42 @@ async def show_license() -> Response:
 @app.route("/<path:filename>", methods=["GET"])
 async def download_file(filename: str) -> Response:
     """
-    Serve a file securely for download or inline display based on MIME type.
+    Serve a file for download, ensuring the file is within the allowed directory and not in the ignore list.
 
     Args:
-        filename (str): Relative file path requested.
+        filename (str): The path of the file to be downloaded, relative to the safe root directory.
 
     Returns:
-        Response: Flask response serving the file or aborts if access denied.
+        Response: A Flask response that initiates the file download if the file is valid, or an appropriate error response if the file is not found or access is forbidden.
     """
-    safe_root: str = os.path.join(os.path.dirname(__file__), "downloads")
-    file_path: str = os.path.normpath(os.path.join(safe_root, filename))
-    if os.path.isfile(file_path):
-        if not file_path.startswith(safe_root):
+    safe_root = Path(__file__).parent / "downloads"
+    file_path = (safe_root / filename).resolve()
+    if not file_path.is_file():
+        return abort(404)
+    if safe_root not in file_path.parents:
+        return abort(403)
+    ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
+    for part in Path(filename).parts:
+        if part in ignore_files:
             return abort(403)
-        ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
-        for part in filename.split("/"):
-            if part in ignore_files:
-                return abort(403)
-        return send_file(file_path, as_attachment=True)
-    return abort(404)
+    return send_file(file_path, as_attachment=True)
 
 
 @app.errorhandler(Exception)
 async def handle_error(error: Exception) -> Response:
     """
-    Handle exceptions and redirect to a custom error page based on HTTP status code.
+    Handle exceptions by returning a custom error page based on the error code.
 
     Args:
-        error (Exception): The raised exception.
+        error (Exception): The exception that occurred.
 
     Returns:
-        Response: Redirect response to a custom error page.
+        Response: A Flask response containing the rendered error page with the appropriate status code.
     """
     error_code: int = getattr(error, "code", 500)
     match error_code:
-        case 400:
-            error_page = "400"
-        case 401:
-            error_page = "401"
-        case 403:
-            error_page = "403"
-        case 404:
-            error_page = "404"
-        case 500:
-            error_page = "500"
-        case 503:
-            error_page = "503"
+        case 400 | 401 | 403 | 404 | 500 | 503:
+            error_page = str(error_code)
         case _:
             error_page = "500"
     return Response(
