@@ -160,8 +160,11 @@ async def download_file(filename: str) -> Response:
         return abort(400)
     if ".." in Path(filename).parts:
         return abort(403)
-    file_path = (safe_root / filename).resolve()
-    if safe_root not in file_path.parents:
+    safe_path = safe_join(str(safe_root), filename)
+    if safe_path is None:
+        return abort(403)
+    file_path = Path(safe_path).resolve()
+    if file_path != safe_root and safe_root not in file_path.parents:
         return abort(403)
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
     for part in Path(filename).parts:
