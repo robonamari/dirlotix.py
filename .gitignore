@@ -1,4 +1,4 @@
 downloads/
 /languages/*/LC_MESSAGES/messages.mo
-utils/__pycache__/
+__pycache__/
 .env

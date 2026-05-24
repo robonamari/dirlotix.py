@@ -1,5 +1,4 @@
 import datetime
-import glob
 import mimetypes
 import os
 from pathlib import Path
@@ -8,7 +7,6 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
-from waitress import serve
 from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
@@ -209,29 +207,4 @@ async def handle_error(error: Exception) -> Response:
 
 
 if __name__ == "__main__":
-    mode = os.getenv("MODE")
-    port = int(os.getenv("PORT") or 0) or None
-    match mode:
-        case "development":
-            app.run(
-                host=os.getenv("HOST"),
-                port=port,
-                debug=True,
-                use_reloader=True,
-                extra_files=glob.glob(
-                    os.path.join(os.path.dirname(__file__), "**", "*"), recursive=True
-                ),
-            )
-        case "production":
-            print(
-                f"Starting server on {os.getenv('HOST')}:{os.getenv('PORT')} in production mode"
-            )
-            serve(
-                app,
-                host=os.getenv("HOST"),
-                port=port,
-            )
-        case _:
-            raise RuntimeError(
-                f"Invalid MODE '{mode}'. Must be 'development' or 'production'."
-            )
+    app.run(debug=True)

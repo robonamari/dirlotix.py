@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ### 4. Run the Script
 
 ```bash
-python index.py
+waitress-serve --host=YOUR_HOST --port=YOUR_PORT index:app
 ```
 
 ### Done!

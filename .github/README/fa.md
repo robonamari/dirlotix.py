@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ### 4. اجرای اسکریپت
 
 ```bash
-python index.py
+waitress-serve --host=YOUR_HOST --port=YOUR_PORT index:app
 ```
 
 ### انجام شد!
