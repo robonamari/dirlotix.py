@@ -164,7 +164,7 @@ async def download_file(filename: str) -> Response:
     if os.path.isfile(file_path):
         if not file_path.startswith(safe_root):
             return abort(403)
-        ignore_files = set(os.getenv("ignore_files", "").split(","))
+        ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
         for part in filename.split("/"):
             if part in ignore_files:
                 return abort(403)
