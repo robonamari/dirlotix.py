@@ -7,7 +7,6 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
-from werkzeug.security import safe_join
 from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
@@ -22,12 +21,10 @@ Compress(app)
 @app.route("/", methods=["GET"])
 async def redirect_to_default_lang() -> Response:
     """
-    Redirect root URL to default language directory.
-
-    Constructs the redirect URL by prepending "/en" to the original request path, preserving query parameters if present.
+    Redirect to the default language '/en' preserving query string if any.
 
     Returns:
-        Response: A Flask redirect response to the default language directory.
+        Response: Redirect response (302) to '/en'.
     """
     url = "/en" + (request.full_path[1:] if "?" in request.full_path else "")
     return redirect(url, code=302)
@@ -36,13 +33,15 @@ async def redirect_to_default_lang() -> Response:
 @app.route("/<lang_code>", methods=["GET"])
 async def index(lang_code: str) -> Response:
     """
-    Serve the index page for a given language code, displaying a list of files and directories.
+    Render directory listing page for the given language.
+
+    Validates the language, loads translation, lists directory contents, and renders page.
 
     Args:
-        lang_code (str): The language code for which to serve the index page.
+        lang_code (str): Two-letter language code.
 
     Returns:
-        Response: A Flask response containing the rendered index page with the list of files and directories, or a redirect to the file download if the language code is not valid.
+        Any: Rendered HTML or error response.
     """
     valid_languages = {
         d.name
@@ -51,24 +50,18 @@ async def index(lang_code: str) -> Response:
     }
     if lang_code not in valid_languages:
         return await download_file(lang_code)
-    safe_root = Path(__file__).resolve().parent / "downloads"
-    user_dir = request.args.get("dir", "")
-    if Path(user_dir).is_absolute() or ".." in Path(user_dir).parts:
-        return abort(404)
-    safe_path = safe_join(str(safe_root), user_dir)
-    if safe_path is None:
-        return abort(404)
-    directory = Path(safe_path)
-    if not directory.exists() or not directory.is_dir():
+    safe_root = os.path.join(os.path.dirname(__file__), "downloads")
+    directory = os.path.normpath(os.path.join(safe_root, request.args.get("dir", "")))
+    if not directory.startswith(safe_root) or not os.path.isdir(directory):
         return abort(404)
     _ = get_translator(lang_code).gettext
     file_list = []
     if directory != safe_root:
-        parent_dir = directory.parent
+        parent_dir = os.path.dirname(directory)
         link = (
             f"/{lang_code}"
             if parent_dir == safe_root
-            else f"/{lang_code}?dir={parent_dir.relative_to(safe_root)}"
+            else f"/{lang_code}?dir={os.path.relpath(parent_dir, safe_root)}"
         )
         file_list.append(
             {
@@ -78,44 +71,53 @@ async def index(lang_code: str) -> Response:
             }
         )
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
-    for file_path in directory.iterdir():
-        name = file_path.name
-        if name.startswith(".") or name in ignore_files:
-            continue
-        mime_type, _ = mimetypes.guess_type(str(file_path))
-        main = mime_type.split("/")[0] if mime_type else ""
-        if file_path.is_dir():
-            icon = "folder-open"
-        elif main in ("image", "video", "audio", "font"):
-            icon = f"file-{main}"
-        elif main == "text":
-            icon = "file-alt"
-        elif main == "application":
-            icon = "file-code"
-        else:
-            icon = "file"
-        if file_path.is_file():
-            size_bytes = file_path.stat().st_size
+    for name in sorted(
+        f
+        for f in os.listdir(directory)
+        if not f.startswith(".") and f not in ignore_files
+    ):
+        file_path = os.path.join(directory, name)
+        if os.path.isfile(file_path):
+            mime_type, _ = mimetypes.guess_type(file_path)
+            main_type = mime_type.split("/")[0] if mime_type else ""
+            icon_map = {
+                "video": "fas fa-video",
+                "image": "fas fa-image",
+                "audio": "fas fa-music",
+                "application/pdf": "fas fa-file-pdf",
+                "application/msword": "fas fa-file-word",
+                "application/vnd.ms-excel": "fas fa-file-excel",
+                "application/vnd.ms-powerpoint": "fas fa-file-powerpoint",
+                "application/zip": "fas fa-file-archive",
+                "application/x-rar-compressed": "fas fa-file-archive",
+                "text/html": "fab fa-html5",
+                "text/css": "fab fa-css3",
+                "application/json": "fas fa-file-code",
+                "application/javascript": "fab fa-js",
+                "text/plain": "fas fa-file-alt",
+            }
+            icon = icon_map.get(mime_type or "", icon_map.get(main_type, "fas fa-file"))
+            size_bytes = os.path.getsize(file_path)
             idx = min(4, max(0, (size_bytes.bit_length() - 1) // 10))
             size_units = ["B", "KB", "MB", "GB", "TB"]
             size = size_bytes / (1024**idx)
             file_list.append(
                 {
-                    "ext": icon,
+                    "icon": icon,
                     "name": name,
-                    "link": f"/{quote(str(file_path.relative_to(safe_root)))}",
+                    "link": f"/{quote(os.path.relpath(file_path, safe_root))}",
                     "size": f"{size:.2f}{size_units[idx]}",
                     "date": datetime.datetime.fromtimestamp(
-                        file_path.stat().st_mtime, datetime.timezone.utc
+                        os.path.getmtime(file_path), datetime.timezone.utc
                     ).isoformat(timespec="seconds"),
                 }
             )
         else:
             file_list.append(
                 {
-                    "ext": icon,
+                    "icon": "fas fa-folder-open",
                     "name": name,
-                    "link": f"/{lang_code}?dir={quote(str(file_path.relative_to(safe_root)))}",
+                    "link": f"/{lang_code}?dir={quote(os.path.relpath(file_path, safe_root))}",
                 }
             )
     return Response(
@@ -138,7 +140,10 @@ async def show_license() -> Response:
     Serve the LICENSE file as plain text.
 
     Returns:
-        Response: A Flask response containing the contents of the LICENSE file with MIME type "text/plain".
+        Response: Flask response containing the content of the LICENSE file with 'text/plain' MIME type.
+
+    Raises:
+        404: If the LICENSE file is not found.
     """
     return send_file("LICENSE", mimetype="text/plain")
 
@@ -146,50 +151,52 @@ async def show_license() -> Response:
 @app.route("/<path:filename>", methods=["GET"])
 async def download_file(filename: str) -> Response:
     """
-    Serve a file for download, ensuring that the requested file is within the allowed directory and not in the ignore list.
+    Serve a file securely for download or inline display based on MIME type.
 
     Args:
-        filename (str): The path of the file to be downloaded, relative to the safe root directory
+        filename (str): Relative file path requested.
 
     Returns:
-        Response: A Flask response containing the file for download, or an appropriate error response if the file is not found or access is forbidden.
-
+        Response: Flask response serving the file or aborts if access denied.
     """
-    safe_root = (Path(__file__).parent / "downloads").resolve()
-    if filename.startswith("/") or filename.startswith("\\"):
-        return abort(400)
-    if ".." in Path(filename).parts:
-        return abort(403)
-    safe_path = safe_join(str(safe_root), filename)
-    if safe_path is None:
-        return abort(403)
-    file_path = Path(safe_path).resolve()
-    if file_path != safe_root and safe_root not in file_path.parents:
-        return abort(403)
-    ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
-    for part in Path(filename).parts:
-        if part in ignore_files:
+    safe_root: str = os.path.join(os.path.dirname(__file__), "downloads")
+    file_path: str = os.path.normpath(os.path.join(safe_root, filename))
+    if os.path.isfile(file_path):
+        if not file_path.startswith(safe_root):
             return abort(403)
-    if not file_path.is_file():
-        return abort(404)
-    return send_file(file_path, as_attachment=True)
+        ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
+        for part in filename.split("/"):
+            if part in ignore_files:
+                return abort(403)
+        return send_file(file_path, as_attachment=True)
+    return abort(404)
 
 
 @app.errorhandler(Exception)
 async def handle_error(error: Exception) -> Response:
     """
-    Handle exceptions by returning a custom error page based on the error code.
+    Handle exceptions and redirect to a custom error page based on HTTP status code.
 
     Args:
-        error (Exception): The exception that occurred.
+        error (Exception): The raised exception.
 
     Returns:
-        Response: A Flask response containing the rendered error page with the appropriate status code.
+        Response: Redirect response to a custom error page.
     """
     error_code: int = getattr(error, "code", 500)
     match error_code:
-        case 400 | 401 | 403 | 404 | 500 | 503:
-            error_page = str(error_code)
+        case 400:
+            error_page = "400"
+        case 401:
+            error_page = "401"
+        case 403:
+            error_page = "403"
+        case 404:
+            error_page = "404"
+        case 500:
+            error_page = "500"
+        case 503:
+            error_page = "503"
         case _:
             error_page = "500"
     return Response(

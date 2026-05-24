@@ -191,7 +191,7 @@ interface.') %}
         <tbody id="fileTableBody">
           {% for file in file_list %}
           <tr>
-            <td><i class="fas fa-{{ file.ext }}"></i></td>
+            <td><i class="{{file.icon}}"></i></td>
             <td><a href="{{file.link}}">{{file.name}}</a></td>
             <td>{{file.size}}</td>
             <td><time class="local-time" datetime="{{file.date}}">{{file.date}}</time></td>
