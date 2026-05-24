@@ -1,28 +1,24 @@
 import gettext
-import os
 from functools import lru_cache
+from pathlib import Path
 
 
 @lru_cache(maxsize=None)
 def get_translator(language: str = "en") -> gettext.NullTranslations:
-    """Return a cached gettext translation object for the specified language.
-
-    This function loads and caches the translation object for the given language code.
-    It extracts the language prefix (e.g., 'en' from 'en_US') and looks for translation
-    files under the 'languages' directory next to the current file.
+    """
+    Get a gettext translation object for the specified language.
 
     Args:
-        language (str): Language code, e.g., 'en', 'fa'. Defaults to environment variable 'DEFAULT_LANG'.
+        language (str): The language code for which to get the translator (default is "en").
 
     Returns:
-        gettext.NullTranslations: The translation object. Falls back to a null translation if no files found.
+        gettext.NullTranslations: A translation object for the specified language, or a NullTranslations object if the translation file is not found or an error occurs.
+
     """
     try:
         return gettext.translation(
             domain="messages",
-            localedir=os.path.abspath(
-                os.path.join(os.path.dirname(__file__), "..", "languages")
-            ),
+            localedir=Path(__file__).resolve().parent.parent / "languages",
             languages=[language.split("_")[0]],
             fallback=True,
         )
