@@ -54,8 +54,10 @@ async def index(lang_code: str) -> Response:
     user_dir = request.args.get("dir", "")
     if Path(user_dir).is_absolute():
         return abort(404)
-    directory = (safe_root / user_dir).resolve()
-    if safe_root not in directory.parents and directory != safe_root:
+    directory = safe_root.joinpath(user_dir).resolve()
+    try:
+        directory.relative_to(safe_root)
+    except ValueError:
         return abort(404)
     _ = get_translator(lang_code).gettext
     file_list = []
