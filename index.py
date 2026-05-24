@@ -51,9 +51,14 @@ async def index(lang_code: str) -> Response:
     }
     if lang_code not in valid_languages:
         return await download_file(lang_code)
-    safe_root = Path(__file__).resolve().parent / "downloads"
-    directory = (safe_root / request.args.get("dir", "")).resolve()
-    if safe_root not in directory.parents and directory != safe_root:
+    safe_root = (Path(__file__).resolve().parent / "downloads").resolve()
+    user_dir = request.args.get("dir", "")
+    if Path(user_dir).is_absolute():
+        return abort(404)
+    directory = safe_root.joinpath(user_dir).resolve()
+    try:
+        directory.relative_to(safe_root)
+    except ValueError:
         return abort(404)
     _ = get_translator(lang_code).gettext
     file_list = []
@@ -153,6 +158,12 @@ async def download_file(filename: str) -> Response:
     if safe_path is None:
         return abort(403)
     file_path = Path(safe_path)
+    safe_root = (Path(__file__).resolve().parent / "downloads").resolve()
+    file_path = (safe_root / filename).resolve()
+    try:
+        file_path.relative_to(safe_root)
+    except ValueError:
+        return abort(403)
     if not file_path.is_file():
         return abort(404)
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
