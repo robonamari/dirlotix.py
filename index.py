@@ -146,24 +146,29 @@ async def show_license() -> Response:
 @app.route("/<path:filename>", methods=["GET"])
 async def download_file(filename: str) -> Response:
     """
-    Serve a file for download, ensuring the file is within the allowed directory and not in the ignore list.
+    Serve a file for download, ensuring that the requested file is within the allowed directory and not in the ignore list.
 
     Args:
-        filename (str): The path of the file to be downloaded, relative to the safe root directory.
+        filename (str): The path of the file to be downloaded, relative to the safe root directory
 
     Returns:
-        Response: A Flask response that initiates the file download if the file is valid, or an appropriate error response if the file is not found or access is forbidden.
+        Response: A Flask response containing the file for download, or an appropriate error response if the file is not found or access is forbidden.
+
     """
-    safe_root = Path(__file__).parent / "downloads"
+    safe_root = (Path(__file__).parent / "downloads").resolve()
+    if filename.startswith("/") or filename.startswith("\\"):
+        return abort(400)
+    if ".." in Path(filename).parts:
+        return abort(403)
     file_path = (safe_root / filename).resolve()
-    if not file_path.is_file():
-        return abort(404)
     if safe_root not in file_path.parents:
         return abort(403)
     ignore_files = set(os.getenv("IGNORE_FILES", "").split(","))
     for part in Path(filename).parts:
         if part in ignore_files:
             return abort(403)
+    if not file_path.is_file():
+        return abort(404)
     return send_file(file_path, as_attachment=True)
 
 
