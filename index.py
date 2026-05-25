@@ -16,19 +16,14 @@ load_dotenv(".env")
 
 app = Flask(__name__, static_folder="assets")
 app.add_url_rule("/favicon.ico", endpoint="favicon", redirect_to=os.getenv("FAVICON"))
+app.add_url_rule(
+    "/",
+    endpoint="root_redirect",
+    view_func=lambda: redirect(
+        "/en" + (f"?{request.query_string.decode()}" if request.query_string else "")
+    ),
+)
 Compress(app)
-
-
-@app.get("/")
-async def redirect_to_default_lang() -> Response:
-    """
-    Redirect to the default language '/en' preserving query string if any.
-
-    Returns:
-        Response: Redirect response (302) to '/en'.
-    """
-    url = "/en" + (request.full_path[1:] if "?" in request.full_path else "")
-    return redirect(url, code=302)
 
 
 @app.get("/<lang_code>")
