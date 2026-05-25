@@ -1,6 +1,7 @@
 import datetime
 import mimetypes
 import os
+import zoneinfo
 from pathlib import Path
 from urllib.parse import quote
 
@@ -108,7 +109,7 @@ async def index(lang_code: str) -> Response:
                     "link": f"/{quote(os.path.relpath(file_path, safe_root))}",
                     "size": f"{size:.2f}{size_units[idx]}",
                     "date": datetime.datetime.fromtimestamp(
-                        os.path.getmtime(file_path), datetime.timezone.utc
+                        os.path.getmtime(file_path), zoneinfo.ZoneInfo("UTC")
                     ).isoformat(timespec="seconds"),
                 }
             )
