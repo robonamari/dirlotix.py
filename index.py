@@ -18,7 +18,7 @@ app.add_url_rule("/favicon.ico", endpoint="favicon", redirect_to=os.getenv("FAVI
 Compress(app)
 
 
-@app.route("/", methods=["GET"])
+@app.get("/")
 async def redirect_to_default_lang() -> Response:
     """
     Redirect to the default language '/en' preserving query string if any.
@@ -30,7 +30,7 @@ async def redirect_to_default_lang() -> Response:
     return redirect(url, code=302)
 
 
-@app.route("/<lang_code>", methods=["GET"])
+@app.get("/<lang_code>")
 async def index(lang_code: str) -> Response:
     """
     Render directory listing page for the given language.
@@ -134,7 +134,7 @@ async def index(lang_code: str) -> Response:
     )
 
 
-@app.route("/LICENSE", methods=["GET"])
+@app.get("/LICENSE")
 async def show_license() -> Response:
     """
     Serve the LICENSE file as plain text.
@@ -148,7 +148,7 @@ async def show_license() -> Response:
     return send_file("LICENSE", mimetype="text/plain")
 
 
-@app.route("/<path:filename>", methods=["GET"])
+@app.get("/<path:filename>")
 async def download_file(filename: str) -> Response:
     """
     Serve a file securely for download or inline display based on MIME type.
