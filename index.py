@@ -175,28 +175,18 @@ async def download_file(filename: str) -> Response:
 @app.errorhandler(Exception)
 async def handle_error(error: Exception) -> Response:
     """
-    Handle exceptions and redirect to a custom error page based on HTTP status code.
+    Handle exceptions and render appropriate error pages based on error code.
 
     Args:
-        error (Exception): The raised exception.
+        error (Exception): The exception that occurred.
 
     Returns:
-        Response: Redirect response to a custom error page.
+        Response: Flask response with rendered error page and appropriate status code.
     """
     error_code: int = getattr(error, "code", 500)
     match error_code:
-        case 400:
-            error_page = "400"
-        case 401:
-            error_page = "401"
-        case 403:
-            error_page = "403"
-        case 404:
-            error_page = "404"
-        case 500:
-            error_page = "500"
-        case 503:
-            error_page = "503"
+        case 400 | 401 | 403 | 404 | 500 | 503:
+            error_page = str(error_code)
         case _:
             error_page = "500"
     return Response(
