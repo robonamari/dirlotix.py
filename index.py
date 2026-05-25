@@ -70,11 +70,14 @@ async def index(language_code: str) -> Response:
             }
         )
     ignored_files: set[str] = set(os.getenv("IGNORE_FILES", "").split(","))
-    for entry_name in sorted(
+    entries = [
         f
         for f in os.listdir(current_directory)
         if not f.startswith(".") and f not in ignored_files
-    ):
+    ]
+    entries.sort(key=lambda x: x.lower())
+    entries.sort(key=lambda x: os.path.isfile(os.path.join(current_directory, x)))
+    for entry_name in entries:
         entry_path: str = os.path.join(current_directory, entry_name)
         if os.path.isfile(entry_path):
             mime_type, _ = mimetypes.guess_type(entry_path)
