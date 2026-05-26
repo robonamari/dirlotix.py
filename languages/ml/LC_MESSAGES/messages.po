@@ -9,11 +9,11 @@ msgstr "മാതൃ ഡയറക്ടറി"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "തിരയുക..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "ഡയരക്ടറി ലിസ്റ്റിംഗ്"
 
@@ -33,7 +33,7 @@ msgstr "വലുപ്പം"
 msgid "Last Modified"
 msgstr "അടുത്തമായി തിരുത്തിയത്"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "ഫയലുകളും മറ്റ് ഉള്ളടക്കങ്ങളും മെച്ചപ്പെട്ട ഫീച്ചറുകൾ, സിമ്പിള്‍ ആന്‍ഡ് യൂസർ ഫ്രണ്ട്‌ലിയും ഇന്റർഫേസ് "
 "ഉപയോഗിച്ച് കാണുക, ഡൗൺലോഡ് ചെയ്യുക."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"ഫയലുകളും മറ്റ് ഉള്ളടക്കങ്ങളും മെച്ചപ്പെട്ട ഫീച്ചറുകൾ, സിമ്പിള്‍ ആന്‍ഡ് യൂസർ ഫ്രണ്ട്‌ലിയും ഇന്റർഫേസ് "
-"ഉപയോഗിച്ച് കാണുക, ഡൗൺലോഡ് ചെയ്യുക."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "ഫയലുകളും മറ്റ് ഉള്ളടക്കങ്ങളും മെച്ചപ്പെട്ട ഫീച്ചറുകൾ, സിമ്പിള്‍ ആന്‍ഡ് യൂസർ ഫ്രണ്ട്‌ലിയും ഇന്റർഫേസ് "
+#~ "ഉപയോഗിച്ച് കാണുക, ഡൗൺലോഡ് ചെയ്യുക."

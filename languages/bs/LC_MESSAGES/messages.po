@@ -9,11 +9,11 @@ msgstr "Prethodni direktorij"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Pretraga..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Popis direktorija"
 
@@ -33,7 +33,7 @@ msgstr "Veličina"
 msgid "Last Modified"
 msgstr "Posljednja izmjena"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Pogledajte i preuzmite datoteke i više sa unaprijeđenim značajkama i "
 "jednostavnim, korisnički prijateljskim sučeljem."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Pogledajte i preuzmite datoteke i više sa unaprijeđenim značajkama i "
-"jednostavnim, korisnički prijateljskim sučeljem."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Pogledajte i preuzmite datoteke i više sa unaprijeđenim značajkama i "
+#~ "jednostavnim, korisnički prijateljskim sučeljem."

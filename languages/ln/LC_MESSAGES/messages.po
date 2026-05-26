@@ -9,11 +9,11 @@ msgstr "Dosié ya likoló"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Luka..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista ya ba dosié"
 
@@ -33,7 +33,7 @@ msgstr "Monene"
 msgid "Last Modified"
 msgstr "Bobongwani ya suka"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli ya "
 "pete mpe ya malamu."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli ya "
-"pete mpe ya malamu."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Talá mpe zwá bafichiers ná biloko mosusu na makoki malamu mpe ebongiseli "
+#~ "ya pete mpe ya malamu."

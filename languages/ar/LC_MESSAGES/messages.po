@@ -9,11 +9,11 @@ msgstr "المجلد السابق"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "بحث..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "قائمة الدليل"
 
@@ -33,15 +33,15 @@ msgstr "الحجم"
 msgid "Last Modified"
 msgstr "آخر تعديل"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user"
 msgstr "عرض وتنزيل الملفات، إلخ، مع ميزات متقدمة وواجهة مستخدم بسيطة وفعالة."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr "عرض وتنزيل الملفات، إلخ، مع ميزات متقدمة وواجهة مستخدم بسيطة وفعالة."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "عرض وتنزيل الملفات، إلخ، مع ميزات متقدمة وواجهة مستخدم بسيطة وفعالة."

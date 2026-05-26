@@ -9,11 +9,11 @@ msgstr "Папярэдняя тэчка"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Пошук..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Спіс каталога"
 
@@ -33,7 +33,7 @@ msgstr "Памер"
 msgid "Last Modified"
 msgstr "Апошняе змяненне"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Прагляд і загрузка файлаў і інш., з пашыранымі функцыямі і простым, "
 "эфектыўным карыстальніцкім інтэрфейсам."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Прагляд і загрузка файлаў і інш., з пашыранымі функцыямі і простым, "
-"эфектыўным карыстальніцкім інтэрфейсам."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Прагляд і загрузка файлаў і інш., з пашыранымі функцыямі і простым, "
+#~ "эфектыўным карыстальніцкім інтэрфейсам."

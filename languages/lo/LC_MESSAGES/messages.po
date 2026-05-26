@@ -9,11 +9,11 @@ msgstr "ໂຟນເດີແມ່"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "ຄົ້ນຫາ..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "ລາຍຊື່ໂຟນເດີ"
 
@@ -33,15 +33,14 @@ msgstr "ຂະໜາດ"
 msgid "Last Modified"
 msgstr "ການປັບປຸງຄັ້ງຫຼ້າສຸດ"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user"
 msgstr "ເບິ່ງແລະດາວໂຫລດໄຟລ໌ ແລະອື່ນໆ ດ້ວຍຄຸນສົມບັດຂັ້ນສູງ ແລະການອອກແບບທີ່ງ່າຍ ແລະໃຊ້ງານງ່າຍ."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr "ເບິ່ງແລະດາວໂຫລດໄຟລ໌ ແລະອື່ນໆ ດ້ວຍຄຸນສົມບັດຂັ້ນສູງ ແລະການອອກແບບທີ່ງ່າຍ ແລະໃຊ້ງານງ່າຍ."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr "ເບິ່ງແລະດາວໂຫລດໄຟລ໌ ແລະອື່ນໆ ດ້ວຍຄຸນສົມບັດຂັ້ນສູງ ແລະການອອກແບບທີ່ງ່າຍ ແລະໃຊ້ງານງ່າຍ."

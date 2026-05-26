@@ -9,11 +9,11 @@ msgstr "Direktoriu gi hinasson"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Chule'..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista nu i direktoriu"
 
@@ -33,7 +33,7 @@ msgstr "Tåcho"
 msgid "Last Modified"
 msgstr "Faisen na modifikasion"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Mungnga i fiho' yan chule' nu faya i mas mannginge' na features yan "
 "interface na manhumåyi."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Mungnga i fiho' yan chule' nu faya i mas mannginge' na features yan "
-"interface na manhumåyi."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Mungnga i fiho' yan chule' nu faya i mas mannginge' na features yan "
+#~ "interface na manhumåyi."

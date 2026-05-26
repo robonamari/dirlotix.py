@@ -9,11 +9,11 @@ msgstr "Direktori induk"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Cari..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Senarai direktori"
 
@@ -33,7 +33,7 @@ msgstr "Saiz"
 msgid "Last Modified"
 msgstr "Perubahan terakhir"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Lihat dan muat turun fail serta lain-lain dengan ciri canggih dan antara "
 "muka yang mudah serta mesra pengguna."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Lihat dan muat turun fail serta lain-lain dengan ciri canggih dan antara "
-"muka yang mudah serta mesra pengguna."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Lihat dan muat turun fail serta lain-lain dengan ciri canggih dan antara "
+#~ "muka yang mudah serta mesra pengguna."

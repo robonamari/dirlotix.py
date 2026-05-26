@@ -9,11 +9,11 @@ msgstr "Babban fayil"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Nema..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Jerin manyan fayiloli"
 
@@ -33,7 +33,7 @@ msgstr "Girma"
 msgid "Last Modified"
 msgstr "Karshe an gyara"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin amfani, "
 "mai amfani da keɓaɓɓen fuska."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin amfani, "
-"mai amfani da keɓaɓɓen fuska."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin "
+#~ "amfani, mai amfani da keɓaɓɓen fuska."

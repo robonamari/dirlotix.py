@@ -9,11 +9,11 @@ msgstr "Γονικός φάκελος"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Αναζήτηση..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Λίστα φακέλων"
 
@@ -33,7 +33,7 @@ msgstr "Μέγεθος"
 msgid "Last Modified"
 msgstr "Τελευταία τροποποίηση"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Δείτε και κατεβάστε αρχεία και άλλα με βελτιωμένες δυνατότητες και μια απλή, "
 "φιλική προς τον χρήστη διεπαφή."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Δείτε και κατεβάστε αρχεία και άλλα με βελτιωμένες δυνατότητες και μια απλή, "
-"φιλική προς τον χρήστη διεπαφή."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Δείτε και κατεβάστε αρχεία και άλλα με βελτιωμένες δυνατότητες και μια "
+#~ "απλή, φιλική προς τον χρήστη διεπαφή."

@@ -9,11 +9,11 @@ msgstr "Ahenfo Nkyerɛaseɛ"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Hwehwɛ..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Nkyerɛaseɛ Akwankyerɛ"
 
@@ -33,7 +33,7 @@ msgstr "Dɔɔso"
 msgid "Last Modified"
 msgstr "Akwan no a wɔsesɛɛ"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Hwɛ na kɔ fa afidie, ne nneɛma a ɛkɔ so, sɛnea ɛda ho adi, ne ho nsɛm a ɛyɛ "
 "mfe a wode bɛyɛ adwuma."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Hwɛ na kɔ fa afidie, ne nneɛma a ɛkɔ so, sɛnea ɛda ho adi, ne ho nsɛm a ɛyɛ "
-"mfe a wode bɛyɛ adwuma."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Hwɛ na kɔ fa afidie, ne nneɛma a ɛkɔ so, sɛnea ɛda ho adi, ne ho nsɛm a "
+#~ "ɛyɛ mfe a wode bɛyɛ adwuma."

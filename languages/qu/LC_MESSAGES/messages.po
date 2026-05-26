@@ -9,11 +9,11 @@ msgstr "Ñawpaq ruwanapaq"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Riqsiy..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Ñawpaqmi ruwanapaq"
 
@@ -33,7 +33,7 @@ msgstr "Ñawpaq"
 msgid "Last Modified"
 msgstr "Ñawpaqmi ruwanapaq"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Ñawpaqmi rurasqaykuchis qillqaykuna, waña mayninakuykuna, chaymanta "
 "rikhurqaykuna, ñawpaq chaykuna tukuy ñawpa ruwanapaq."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Ñawpaqmi rurasqaykuchis qillqaykuna, waña mayninakuykuna, chaymanta "
-"rikhurqaykuna, ñawpaq chaykuna tukuy ñawpa ruwanapaq."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Ñawpaqmi rurasqaykuchis qillqaykuna, waña mayninakuykuna, chaymanta "
+#~ "rikhurqaykuna, ñawpaq chaykuna tukuy ñawpa ruwanapaq."

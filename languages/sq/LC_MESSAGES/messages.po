@@ -9,11 +9,11 @@ msgstr "Dosja Para"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Kërko..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista e Drejtimeve"
 
@@ -33,7 +33,7 @@ msgstr "Madhësia"
 msgid "Last Modified"
 msgstr "E modifikuar për herë të fundit"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një "
 "ndërfaqe përdoruesi të thjeshtë dhe efikase."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një "
-"ndërfaqe përdoruesi të thjeshtë dhe efikase."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Shiko dhe shkarko skedarë, etj., me karakteristika të avancuara dhe një "
+#~ "ndërfaqe përdoruesi të thjeshtë dhe efikase."

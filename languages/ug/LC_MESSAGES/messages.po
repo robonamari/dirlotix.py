@@ -9,11 +9,11 @@ msgstr "ئاتا كاتالوگ"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "ئىزدەش..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "كەسپىي كاتالوگ"
 
@@ -33,7 +33,7 @@ msgstr "ئۆلچىمى"
 msgid "Last Modified"
 msgstr "ئاخىرقى ئۆزگەرتىش"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "فایللار ۋە باشقا مەنبەلەرنى كۆرۈش ۋە چۈشۈرۈش، ئالغا سۈرۈلگەن ئالاھىدىلىكلەر "
 "ۋە ئاددىي، قولايلىق ئىشلەتكۈچى مۇنەۋۋەرلىكى بىلەن."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"فایللار ۋە باشقا مەنبەلەرنى كۆرۈش ۋە چۈشۈرۈش، ئالغا سۈرۈلگەن ئالاھىدىلىكلەر "
-"ۋە ئاددىي، قولايلىق ئىشلەتكۈچى مۇنەۋۋەرلىكى بىلەن."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "فایللار ۋە باشقا مەنبەلەرنى كۆرۈش ۋە چۈشۈرۈش، ئالغا سۈرۈلگەن "
+#~ "ئالاھىدىلىكلەر ۋە ئاددىي، قولايلىق ئىشلەتكۈچى مۇنەۋۋەرلىكى بىلەن."

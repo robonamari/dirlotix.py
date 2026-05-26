@@ -9,11 +9,11 @@ msgstr "Bovegelegde map"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Zeuk..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Maplijst"
 
@@ -33,7 +33,7 @@ msgstr "Grootte"
 msgid "Last Modified"
 msgstr "Lètste wieziging"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Bekiek en downloodj bestanden en angere zaken mit geavange funksies en 'n "
 "einvoudige, gebruuksvrundelike sjnitte."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Bekiek en downloodj bestanden en angere zaken mit geavange funksies en 'n "
-"einvoudige, gebruuksvrundelike sjnitte."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Bekiek en downloodj bestanden en angere zaken mit geavange funksies en 'n "
+#~ "einvoudige, gebruuksvrundelike sjnitte."

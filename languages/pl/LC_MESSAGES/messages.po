@@ -9,11 +9,11 @@ msgstr "Folder nadrzędny"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Szukaj..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista folderów"
 
@@ -33,7 +33,7 @@ msgstr "Rozmiar"
 msgid "Last Modified"
 msgstr "Ostatnia modyfikacja"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Przeglądaj i pobieraj pliki oraz inne zasoby z zaawansowanymi funkcjami i "
 "prostym, przyjaznym interfejsem użytkownika."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Przeglądaj i pobieraj pliki oraz inne zasoby z zaawansowanymi funkcjami i "
-"prostym, przyjaznym interfejsem użytkownika."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Przeglądaj i pobieraj pliki oraz inne zasoby z zaawansowanymi funkcjami i "
+#~ "prostym, przyjaznym interfejsem użytkownika."

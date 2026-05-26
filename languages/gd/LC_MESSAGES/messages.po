@@ -9,11 +9,11 @@ msgstr "Pasgan pàrant"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Rannsachadh..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Liosta nan pasganan"
 
@@ -33,7 +33,7 @@ msgstr "Meud"
 msgid "Last Modified"
 msgstr "Mu dheireadh air atharrachadh"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas "
 "fheàrr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas "
-"fheàrr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Coimhead agus luchdaich sìos faidhlichean agus barrachd le feartan nas "
+#~ "fheàrr agus eadar-aghaidh sìmplidh agus furasta a chleachdadh."

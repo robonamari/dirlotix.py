@@ -9,11 +9,11 @@ msgstr "Ridant måjhon"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Cweri..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Djivêye des ridants"
 
@@ -33,7 +33,7 @@ msgstr "Grandeu"
 msgid "Last Modified"
 msgstr "Dierin candjmint"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, "
 "eyet ene intrface simpl' et ezåy åyidî."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di pus, "
-"eyet ene intrface simpl' et ezåy åyidî."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Veyoz et batez des fitchîs et ôtes rsources avou des fonccionålités di "
+#~ "pus, eyet ene intrface simpl' et ezåy åyidî."

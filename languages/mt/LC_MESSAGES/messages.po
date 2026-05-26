@@ -9,11 +9,11 @@ msgstr "Direttorju preċedenti"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Fittex..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista tal-fajls"
 
@@ -33,7 +33,7 @@ msgstr "Daqs"
 msgid "Last Modified"
 msgstr "L-aħħar modifika"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
 "sempliċi u faċli għall-utent."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u interfejs "
-"sempliċi u faċli għall-utent."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Ara u tniżżel fajls u kontenut ieħor b’karatteristiċi avvanzati u "
+#~ "interfejs sempliċi u faċli għall-utent."

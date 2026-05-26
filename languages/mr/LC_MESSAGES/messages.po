@@ -9,11 +9,11 @@ msgstr "अधिभूत डायरेक्टरी"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "शोधा..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "डायरेक्टरी लिस्टिंग"
 
@@ -33,7 +33,7 @@ msgstr "आकार"
 msgid "Last Modified"
 msgstr "शेवटची बदल"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि "
 "वापरकर्ता अनुकूल इंटरफेस."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि "
-"वापरकर्ता अनुकूल इंटरफेस."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "फाइल्स आणि इतर सामग्री पाहा आणि डाउनलोड करा, प्रगत वैशिष्ट्यांसह आणि सोपी आणि "
+#~ "वापरकर्ता अनुकूल इंटरफेस."

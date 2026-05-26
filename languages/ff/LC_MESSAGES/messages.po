@@ -9,11 +9,11 @@ msgstr "Diiwande ɗiɗi"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Suudu..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lestooje ɗiɗi"
 
@@ -33,7 +33,7 @@ msgstr "Leemsa"
 msgid "Last Modified"
 msgstr "Jokkude ɗiɗi"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e binndi "
 "ndiyam."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e binndi "
-"ndiyam."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Njaɓɓe e naɗɗe faayel e jooɗiiɗe e hoore mum, e hoore ɓe hokkaade e "
+#~ "binndi ndiyam."

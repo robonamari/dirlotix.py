@@ -9,11 +9,11 @@ msgstr "Överordnad katalog"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Sök..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Kataloglista"
 
@@ -33,7 +33,7 @@ msgstr "Storlek"
 msgid "Last Modified"
 msgstr "Senast ändrad"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Visa och ladda ner filer och andra resurser med avancerade funktioner och "
 "ett enkelt och användarvänligt gränssnitt."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Visa och ladda ner filer och andra resurser med avancerade funktioner och "
-"ett enkelt och användarvänligt gränssnitt."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Visa och ladda ner filer och andra resurser med avancerade funktioner och "
+#~ "ett enkelt och användarvänligt gränssnitt."

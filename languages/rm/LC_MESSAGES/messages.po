@@ -9,11 +9,11 @@ msgstr "Directari precedent"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Cercar..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lista da directaris"
 
@@ -33,7 +33,7 @@ msgstr "Grössa"
 msgid "Last Modified"
 msgstr "Ultima midada"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Visualisai e scargar files e auters resursas cun funcziunalitads avanzadas e "
 "ina interfaccia simplicha e simpatica."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Visualisai e scargar files e auters resursas cun funcziunalitads avanzadas e "
-"ina interfaccia simplicha e simpatica."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Visualisai e scargar files e auters resursas cun funcziunalitads "
+#~ "avanzadas e ina interfaccia simplicha e simpatica."

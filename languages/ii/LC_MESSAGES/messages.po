@@ -9,11 +9,11 @@ msgstr "ꀀꎿꑘ"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "ꌠꈤ..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "ꂿꑘꎿꑘ"
 
@@ -33,15 +33,14 @@ msgstr "ꑘꂿ"
 msgid "Last Modified"
 msgstr "ꀋꎿꑘꄿ"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user"
 msgstr "ꋍꄿꀋꉆꌠꀋꎿꑘꁧꂿꁨꌠ, ꀊꎿꀋꑘꀀꂿꑘꈩꄉꀋꎿꑘꀋꁧꌠ."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr "ꋍꄿꀋꉆꌠꀋꎿꑘꁧꂿꁨꌠ, ꀊꎿꀋꑘꀀꂿꑘꈩꄉꀋꎿꑘꀋꁧꌠ."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr "ꋍꄿꀋꉆꌠꀋꎿꑘꁧꂿꁨꌠ, ꀊꎿꀋꑘꀀꂿꑘꈩꄉꀋꎿꑘꀋꁧꌠ."

@@ -9,11 +9,11 @@ msgstr "Ylempi hakemisto"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Hae..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Hakemiston luettelo"
 
@@ -33,7 +33,7 @@ msgstr "Koko"
 msgid "Last Modified"
 msgstr "Viimeksi muokattu"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Katso ja lataa tiedostoja ja muuta, parannetuilla ominaisuuksilla ja "
 "yksinkertaisella, käyttäjäystävällisellä käyttöliittymällä."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Katso ja lataa tiedostoja ja muuta, parannetuilla ominaisuuksilla ja "
-"yksinkertaisella, käyttäjäystävällisellä käyttöliittymällä."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Katso ja lataa tiedostoja ja muuta, parannetuilla ominaisuuksilla ja "
+#~ "yksinkertaisella, käyttäjäystävällisellä käyttöliittymällä."

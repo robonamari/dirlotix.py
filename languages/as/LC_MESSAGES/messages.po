@@ -9,11 +9,11 @@ msgstr "আগৰ ফোল্ডাৰ"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "অনুসন্ধান কৰক..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "ডাইৰেক্টৰী তালিকা"
 
@@ -33,7 +33,7 @@ msgstr "আকাৰ"
 msgid "Last Modified"
 msgstr "অন্তিম সম্পাদিত"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী ব্যৱহাৰকাৰী "
 "ইণ্টাৰফেইচৰ সৈতে।"
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী ব্যৱহাৰকাৰী "
-"ইণ্টাৰফেইচৰ সৈতে।"
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "ফাইলসমূহ চাওক আৰু ডাউনলোড কৰক, আদি, উন্নত বৈশিষ্ট্য আৰু এক সৰল, কাৰ্যকৰী "
+#~ "ব্যৱহাৰকাৰী ইণ্টাৰফেইচৰ সৈতে।"

@@ -9,11 +9,11 @@ msgstr "상위 디렉토리"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "검색..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "디렉토리 목록"
 
@@ -33,7 +33,7 @@ msgstr "크기"
 msgid "Last Modified"
 msgstr "마지막 수정"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "파일 및 기타 콘텐츠를 고급 기능과 간단하며 사용자 친화적인 인터페이스를 통해 "
 "보고 다운로드하세요."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"파일 및 기타 콘텐츠를 고급 기능과 간단하며 사용자 친화적인 인터페이스를 통해 "
-"보고 다운로드하세요."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "파일 및 기타 콘텐츠를 고급 기능과 간단하며 사용자 친화적인 인터페이스를 통"
+#~ "해 보고 다운로드하세요."

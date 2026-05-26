@@ -9,11 +9,11 @@ msgstr "Bouxndaw doekdaeuj"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Caeuq..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Ndawmbuk doekdaeuj"
 
@@ -33,7 +33,7 @@ msgstr "Lajmban"
 msgid "Last Modified"
 msgstr "Gvangq daengz"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
 "dangq suij, goengq ndaej rox baeuj."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
-"dangq suij, goengq ndaej rox baeuj."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Cingz、daeuj loh ndawmbuk, daeuj ndaej yawj daemq haeq loq, daengz daih "
+#~ "dangq suij, goengq ndaej rox baeuj."

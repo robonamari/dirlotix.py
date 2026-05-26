@@ -9,11 +9,11 @@ msgstr "Æнæнæн фолдер"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Ирыккæ..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Фолдерæн лæстæн"
 
@@ -33,7 +33,7 @@ msgstr "Улæш"
 msgid "Last Modified"
 msgstr "Фыдæлды æвзæнæг"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -41,9 +41,8 @@ msgid ""
 msgstr ""
 "Файлæн и хуызæнæн æвзæнæг æнæнæ иæнæнæ, дзæуджынæн фыдыстæнæн иуссыстæнæн."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Файлæн и хуызæнæн æвзæнæг æнæнæ иæнæнæ, дзæуджынæн фыдыстæнæн иуссыстæнæн."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Файлæн и хуызæнæн æвзæнæг æнæнæ иæнæнæ, дзæуджынæн фыдыстæнæн иуссыстæнæн."

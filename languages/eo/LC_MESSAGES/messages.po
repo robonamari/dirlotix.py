@@ -9,11 +9,11 @@ msgstr "Supra dosierujo"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Serĉi..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Dosierujo-listo"
 
@@ -33,7 +33,7 @@ msgstr "Grando"
 msgid "Last Modified"
 msgstr "Laste ŝanĝita"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Vidu kaj elŝutu dosierojn kaj pli kun plibonigitaj funkcioj kaj simpla, "
 "uzant-amika interfaco."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Vidu kaj elŝutu dosierojn kaj pli kun plibonigitaj funkcioj kaj simpla, "
-"uzant-amika interfaco."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Vidu kaj elŝutu dosierojn kaj pli kun plibonigitaj funkcioj kaj simpla, "
+#~ "uzant-amika interfaco."

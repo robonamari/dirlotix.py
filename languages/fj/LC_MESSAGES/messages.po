@@ -9,11 +9,11 @@ msgstr "Vakatavulici ni veivakatau"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Sogo..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lisi ni veivakatau"
 
@@ -33,7 +33,7 @@ msgstr "Bale"
 msgid "Last Modified"
 msgstr "Sega ni vakadewataka"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -43,11 +43,10 @@ msgstr ""
 "vakacakacaka ena i tukutuku ni veika tale eso kei na nodra vakaibalebale na "
 "veika."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Raica ka kauta tani na faile kei na kena veika tale eso e na veika "
-"vakacakacaka ena i tukutuku ni veika tale eso kei na nodra vakaibalebale na "
-"veika."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Raica ka kauta tani na faile kei na kena veika tale eso e na veika "
+#~ "vakacakacaka ena i tukutuku ni veika tale eso kei na nodra vakaibalebale "
+#~ "na veika."

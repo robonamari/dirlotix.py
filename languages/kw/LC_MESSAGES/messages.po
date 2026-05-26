@@ -9,11 +9,11 @@ msgstr "Raglyver prys"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Kledh..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Raglyver dyrekter"
 
@@ -33,7 +33,7 @@ msgstr "Meur"
 msgid "Last Modified"
 msgstr "Glastowgh diworth"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
 "omro dhe worthevyans ynterfeyns siwynn."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh a'n "
-"omro dhe worthevyans ynterfeyns siwynn."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Gweles ha dawndhys ow feylow ha re bell yn kyns a venowghs owter a'nferh "
+#~ "a'n omro dhe worthevyans ynterfeyns siwynn."

@@ -9,11 +9,11 @@ msgstr "Szülőmappa"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Keresés..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Mappák listája"
 
@@ -33,7 +33,7 @@ msgstr "Méret"
 msgid "Last Modified"
 msgstr "Utoljára módosítva"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Fájlok megtekintése és letöltése, fejlettebb funkciókkal és egyszerű, "
 "felhasználóbarát felülettel."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Fájlok megtekintése és letöltése, fejlettebb funkciókkal és egyszerű, "
-"felhasználóbarát felülettel."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Fájlok megtekintése és letöltése, fejlettebb funkciókkal és egyszerű, "
+#~ "felhasználóbarát felülettel."

@@ -9,11 +9,11 @@ msgstr "Iwwergeuerdneten Dossier"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Sichen..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Dossier-Lëscht"
 
@@ -33,7 +33,7 @@ msgstr "Gréisst"
 msgid "Last Modified"
 msgstr "Lescht Ännerung"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Kuckt a lued Fichieren erof mat fortgeschrattene Funktiounen an enger "
 "einfacher, userfrëndlecher Interface."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Kuckt a lued Fichieren erof mat fortgeschrattene Funktiounen an enger "
-"einfacher, userfrëndlecher Interface."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Kuckt a lued Fichieren erof mat fortgeschrattene Funktiounen an enger "
+#~ "einfacher, userfrëndlecher Interface."

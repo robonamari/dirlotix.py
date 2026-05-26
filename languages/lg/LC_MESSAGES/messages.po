@@ -9,11 +9,11 @@ msgstr "Amaaka agasooka"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Londa..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Lukuusi lw'amaaka"
 
@@ -33,7 +33,7 @@ msgstr "Obungi"
 msgid "Last Modified"
 msgstr "Okuddeko okw'omuwendo"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
 "egy'enjawulo n'enkolagana etali n'ekyangu."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
-"egy'enjawulo n'enkolagana etali n'ekyangu."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Labaako era okuteeka ne okugabira amafaayiro n'ebirala n'emirimu "
+#~ "egy'enjawulo n'enkolagana etali n'ekyangu."

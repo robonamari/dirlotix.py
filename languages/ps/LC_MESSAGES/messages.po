@@ -9,11 +9,11 @@ msgstr "مخکینی فولډر"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "لټون..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "د فولډر لیست"
 
@@ -33,7 +33,7 @@ msgstr "اندازه"
 msgid "Last Modified"
 msgstr "وروستی بدلون"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "د فایلونو او نورو موادو کتنه او ډاونلوډ کول د پرمختللو ځانګړتیاوو او یو ساده "
 "او کارن دوستانه انٹرفیس سره."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"د فایلونو او نورو موادو کتنه او ډاونلوډ کول د پرمختللو ځانګړتیاوو او یو ساده "
-"او کارن دوستانه انٹرفیس سره."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "د فایلونو او نورو موادو کتنه او ډاونلوډ کول د پرمختللو ځانګړتیاوو او یو "
+#~ "ساده او کارن دوستانه انٹرفیس سره."

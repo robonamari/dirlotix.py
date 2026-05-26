@@ -9,11 +9,11 @@ msgstr "הויפּט טעקע"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "זוכן..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "טעקעס רשימה"
 
@@ -33,7 +33,7 @@ msgstr "גרייס"
 msgid "Last Modified"
 msgstr "לעצטע ענדערונג"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "באַזוכן און אראפקלאָזן טעקעס און מער, מיט פֿאַרבעסערטע פֿונקציעס און אַ פּשוט און "
 "עפעקטיוו באַניצער-אינטערפֿייס."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"באַזוכן און אראפקלאָזן טעקעס און מער, מיט פֿאַרבעסערטע פֿונקציעס און אַ פּשוט און "
-"עפעקטיוו באַניצער-אינטערפֿייס."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "באַזוכן און אראפקלאָזן טעקעס און מער, מיט פֿאַרבעסערטע פֿונקציעס און אַ פּשוט "
+#~ "און עפעקטיוו באַניצער-אינטערפֿייס."

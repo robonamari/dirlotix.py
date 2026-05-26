@@ -9,11 +9,11 @@ msgstr "Naiunang Direktoryo"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Maghanap..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Listahan ng Direktoryo"
 
@@ -33,7 +33,7 @@ msgstr "Laki"
 msgid "Last Modified"
 msgstr "Huling Binago"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Tingnan at i-download ang mga file at iba pang mga mapagkukunan na may mga "
 "advanced na tampok at isang simpleng at user-friendly na interface."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Tingnan at i-download ang mga file at iba pang mga mapagkukunan na may mga "
-"advanced na tampok at isang simpleng at user-friendly na interface."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Tingnan at i-download ang mga file at iba pang mga mapagkukunan na may "
+#~ "mga advanced na tampok at isang simpleng at user-friendly na interface."

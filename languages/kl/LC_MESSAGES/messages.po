@@ -9,11 +9,11 @@ msgstr "Pissutsit"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Suliat..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Mappi Akissut"
 
@@ -33,7 +33,7 @@ msgstr "Qinnuk"
 msgid "Last Modified"
 msgstr "Piffissalerniussineq"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -43,11 +43,10 @@ msgstr ""
 "allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
 "atuisinnaasinnaasunngortuuvoq."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Oqaluttuaqarluni faili kiisalu assigiinngitsunik taaneqartunik "
-"allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
-"atuisinnaasinnaasunngortuuvoq."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Oqaluttuaqarluni faili kiisalu assigiinngitsunik taaneqartunik "
+#~ "allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
+#~ "atuisinnaasinnaasunngortuuvoq."

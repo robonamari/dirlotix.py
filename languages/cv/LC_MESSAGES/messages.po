@@ -9,11 +9,11 @@ msgstr "Эрӑн папкă"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Пӑхӑрӑш..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Папкăнĕ сӑнӑрӑш"
 
@@ -33,7 +33,7 @@ msgstr "Пура"
 msgid "Last Modified"
 msgstr "Пӑрҫӑнӑп ҫирешетӑн"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -41,9 +41,8 @@ msgid ""
 msgstr ""
 "Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."

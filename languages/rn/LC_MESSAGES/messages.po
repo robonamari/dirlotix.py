@@ -9,11 +9,11 @@ msgstr "Dosiye ya mbere"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Shaka..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Urutonde rw'amadosiye"
 
@@ -33,7 +33,7 @@ msgstr "Ingano"
 msgid "Last Modified"
 msgstr "Guhindurwa nyuma"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Reba na kubika amafayili hamwe n'ibindi bikoresho bifise ubushobozi bwo "
 "hejuru n'uburyo bworoshye kandi bw'umukoresha."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Reba na kubika amafayili hamwe n'ibindi bikoresho bifise ubushobozi bwo "
-"hejuru n'uburyo bworoshye kandi bw'umukoresha."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Reba na kubika amafayili hamwe n'ibindi bikoresho bifise ubushobozi bwo "
+#~ "hejuru n'uburyo bworoshye kandi bw'umukoresha."

@@ -9,11 +9,11 @@ msgstr "Yfirskrá"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Leita..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Skráaskrá"
 
@@ -33,7 +33,7 @@ msgstr "Stærð"
 msgid "Last Modified"
 msgstr "Síðast breytt"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Skoðaðu og hlaðið niður skrám og fleiru með auknum eiginleikum og einfaldri, "
 "notendavænni viðmóti."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Skoðaðu og hlaðið niður skrám og fleiru með auknum eiginleikum og einfaldri, "
-"notendavænni viðmóti."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Skoðaðu og hlaðið niður skrám og fleiru með auknum eiginleikum og "
+#~ "einfaldri, notendavænni viðmóti."

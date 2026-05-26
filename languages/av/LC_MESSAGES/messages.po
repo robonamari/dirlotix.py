@@ -9,11 +9,11 @@ msgstr "Юкъуйан Фолдер"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Йуьзга..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Директори листи"
 
@@ -33,7 +33,7 @@ msgstr "Размер"
 msgid "Last Modified"
 msgstr "Ньина лаьмолаьш"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн "
 "хъалаалаьш."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн "
-"хъалаалаьш."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Файлоьш яхьдалъулга, хьуна, йуьзгукъан  хьунгал аизтубе сийрехьийчоьн "
+#~ "хъалаалаьш."

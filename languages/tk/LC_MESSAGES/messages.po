@@ -9,11 +9,11 @@ msgstr "Ýerine görkezilen katalog"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Gözle..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Katalok sanawy"
 
@@ -33,7 +33,7 @@ msgstr "Ölçegi"
 msgid "Last Modified"
 msgstr "Soňky üýtgeşiklik"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs bilen "
 "faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs bilen "
-"faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Öňdebaryjy aýratynlyklary we ýönekeý, ulanyjy dostlukly interfeýs bilen "
+#~ "faýllary we beýleki çeşmeleri görmek we ýokarlandyrmak."

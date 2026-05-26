@@ -9,11 +9,11 @@ msgstr "Urutonde rw'ababyeyi"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Shaka..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Urutonde rw'ibikoresho"
 
@@ -33,7 +33,7 @@ msgstr "Ingano"
 msgid "Last Modified"
 msgstr "Havuguruwe bwa nyuma"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Reba no gukurura amafayile n'ibindi bifite imikorere igezweho hamwe "
 "n'interface yoroshye kandi ikorohereza abakoresha."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Reba no gukurura amafayile n'ibindi bifite imikorere igezweho hamwe "
-"n'interface yoroshye kandi ikorohereza abakoresha."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Reba no gukurura amafayile n'ibindi bifite imikorere igezweho hamwe "
+#~ "n'interface yoroshye kandi ikorohereza abakoresha."

@@ -9,11 +9,11 @@ msgstr "Thư mục cha"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Tìm kiếm..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Danh sách thư mục"
 
@@ -33,7 +33,7 @@ msgstr "Kích thước"
 msgid "Last Modified"
 msgstr "Lần sửa đổi cuối"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Xem và tải xuống các tệp và tài nguyên khác với các tính năng nâng cao và "
 "giao diện người dùng đơn giản, dễ sử dụng."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Xem và tải xuống các tệp và tài nguyên khác với các tính năng nâng cao và "
-"giao diện người dùng đơn giản, dễ sử dụng."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Xem và tải xuống các tệp và tài nguyên khác với các tính năng nâng cao và "
+#~ "giao diện người dùng đơn giản, dễ sử dụng."

@@ -9,11 +9,11 @@ msgstr "Onyena ye directory oshitji"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Tsha..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Onyena ye directory"
 
@@ -33,7 +33,7 @@ msgstr "Uupole"
 msgid "Last Modified"
 msgstr "Ondjila ooshipi"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa she "
 "pooneke uungama."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa she "
-"pooneke uungama."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Vona kandi dhipa oondjila kwenda nawa kwenda nehi sha shilonga shi nawa "
+#~ "she pooneke uungama."

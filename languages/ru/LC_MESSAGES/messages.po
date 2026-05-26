@@ -9,11 +9,11 @@ msgstr "Родительская директория"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Поиск..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Список директорий"
 
@@ -33,7 +33,7 @@ msgstr "Размер"
 msgid "Last Modified"
 msgstr "Последнее изменение"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Просматривайте и загружайте файлы и другие ресурсы с расширенными функциями "
 "и простым и удобным интерфейсом."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Просматривайте и загружайте файлы и другие ресурсы с расширенными функциями "
-"и простым и удобным интерфейсом."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Просматривайте и загружайте файлы и другие ресурсы с расширенными "
+#~ "функциями и простым и удобным интерфейсом."

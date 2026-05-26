@@ -9,11 +9,11 @@ msgstr "Yvirmappu"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Leita..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Listi yvir mappir"
 
@@ -33,7 +33,7 @@ msgstr "Stødd"
 msgid "Last Modified"
 msgstr "Síðst broytt"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Sjá og niðurloada skrøttum og meira við betri dygdum og einføldum, "
 "brúkaravinarligum grensesni."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Sjá og niðurloada skrøttum og meira við betri dygdum og einføldum, "
-"brúkaravinarligum grensesni."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Sjá og niðurloada skrøttum og meira við betri dygdum og einføldum, "
+#~ "brúkaravinarligum grensesni."

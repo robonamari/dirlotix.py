@@ -9,11 +9,11 @@ msgstr "Агәра-аплан"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Ашахәаратә..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Ашәҟәы аусԥара"
 
@@ -33,15 +33,14 @@ msgstr "Аҧсах"
 msgid "Last Modified"
 msgstr "Ахаԥынтылгатә"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
 "efficient user"
 msgstr "Аӡәы иҧсыфыргәа еизыҩуп, арыбжьаратә аԥшшарақәа иуазыруам."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr "Аӡәы иҧсыфыргәа еизыҩуп, арыбжьаратә аԥшшарақәа иуазыруам."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr "Аӡәы иҧсыфыргәа еизыҩуп, арыбжьаратә аԥшшарақәа иуазыруам."

@@ -9,11 +9,11 @@ msgstr "Chikwatu choyambirira"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Saka..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Mndandanda wa mafoloda"
 
@@ -33,7 +33,7 @@ msgstr "Kukula"
 msgid "Last Modified"
 msgstr "Zasinthidwa komaliza"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso "
 "mawonekedwe osavuta kugwiritsa ntchito."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo komanso "
-"mawonekedwe osavuta kugwiritsa ntchito."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Onani ndi kutsitsa mafayilo ndi zina ndi zinthu zopitilira patsogolo "
+#~ "komanso mawonekedwe osavuta kugwiritsa ntchito."

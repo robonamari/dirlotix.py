@@ -9,11 +9,11 @@ msgstr "Kōpaki matua"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Rapu..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Rārangi kōpaki"
 
@@ -33,7 +33,7 @@ msgstr "Rahi"
 msgid "Last Modified"
 msgstr "Hōtaka whakamutunga"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Tirohia me tango kōnae me ētahi atu rauemi me ngā āheinga matatini me te "
 "atanga whakamahi pātea me māmā."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Tirohia me tango kōnae me ētahi atu rauemi me ngā āheinga matatini me te "
-"atanga whakamahi pātea me māmā."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Tirohia me tango kōnae me ētahi atu rauemi me ngā āheinga matatini me te "
+#~ "atanga whakamahi pātea me māmā."

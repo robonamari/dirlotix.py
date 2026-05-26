@@ -9,11 +9,11 @@ msgstr "Ukhamañani"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Uñt'aya..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Direktoriyu liwpi"
 
@@ -33,7 +33,7 @@ msgstr "Suma"
 msgid "Last Modified"
 msgstr "Ñawpaq sartasiña"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman wawanaka, "
 "q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman wawanaka, "
-"q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Wasiñani, uñt'ayasiñani ukhamarak jak'achasiñani, ukhamaraki suman "
+#~ "wawanaka, q'uchu, ukat mä jach'a, jach'a utjawi uñt'awi."

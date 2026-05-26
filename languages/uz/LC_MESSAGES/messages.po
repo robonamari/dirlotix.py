@@ -9,11 +9,11 @@ msgstr "Ota katalogi"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Izlash..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Katalog ro'yxati"
 
@@ -33,7 +33,7 @@ msgstr "Hajmi"
 msgid "Last Modified"
 msgstr "Oxirgi o'zgartirish"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Yaxshilangan funksiyalar va oddiy, foydalanuvchi uchun qulay interfeys bilan "
 "fayllarni va boshqa manbalarni ko'rish va yuklab olish."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Yaxshilangan funksiyalar va oddiy, foydalanuvchi uchun qulay interfeys bilan "
-"fayllarni va boshqa manbalarni ko'rish va yuklab olish."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Yaxshilangan funksiyalar va oddiy, foydalanuvchi uchun qulay interfeys "
+#~ "bilan fayllarni va boshqa manbalarni ko'rish va yuklab olish."

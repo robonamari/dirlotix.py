@@ -9,11 +9,11 @@ msgstr "Parent directory"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Cercar..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Liste de directories"
 
@@ -33,7 +33,7 @@ msgstr "Grandezza"
 msgid "Last Modified"
 msgstr "Ultim modification"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Vider e descargar files e altri coses con avansat functiones e un simplic e "
 "amical interfacie."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Vider e descargar files e altri coses con avansat functiones e un simplic e "
-"amical interfacie."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Vider e descargar files e altri coses con avansat functiones e un simplic "
+#~ "e amical interfacie."

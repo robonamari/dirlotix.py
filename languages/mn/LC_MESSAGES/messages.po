@@ -9,11 +9,11 @@ msgstr "Өмнөх фолдер"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Хайх..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Фолдерын жагсаалт"
 
@@ -33,7 +33,7 @@ msgstr "Хэмжээ"
 msgid "Last Modified"
 msgstr "Сүүлд өөрчлөгдсөн"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
 "хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
-"хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Файлууд болон бусад агуулгыг дэвшилтэт функцүүдтэй, энгийн бөгөөд "
+#~ "хэрэглэгчдэд ээлтэй интерфейсээр харах, татаж авах."

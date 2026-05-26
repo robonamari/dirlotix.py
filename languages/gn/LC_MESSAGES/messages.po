@@ -9,11 +9,11 @@ msgstr "Mba'e"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Ñemboja..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Oîvo hína"
 
@@ -33,7 +33,7 @@ msgstr "Aña"
 msgid "Last Modified"
 msgstr "Ojejuhu pyahu"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme ha "
 "ojapo mbopi."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme ha "
-"ojapo mbopi."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Ehecha ha e descarga arandukue ha ambue mba'e, oñemohendáva mba'e porãme "
+#~ "ha ojapo mbopi."

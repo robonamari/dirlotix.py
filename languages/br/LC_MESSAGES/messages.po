@@ -9,11 +9,11 @@ msgstr "C'havadezh dad"
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Klask..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Roll ar c'havadennoù"
 
@@ -33,7 +33,7 @@ msgstr "Ment"
 msgid "Last Modified"
 msgstr "Dernière disoc'h"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Sell hag dilezhet fileoù ha muioc'h gant obererezhioù aet war-raok hag ur "
 "mod aes da implijout."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Sell hag dilezhet fileoù ha muioc'h gant obererezhioù aet war-raok hag ur "
-"mod aes da implijout."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Sell hag dilezhet fileoù ha muioc'h gant obererezhioù aet war-raok hag ur "
+#~ "mod aes da implijout."

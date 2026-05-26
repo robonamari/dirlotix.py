@@ -9,11 +9,11 @@ msgstr "Direktori induk"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Golek..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Daftar direktori"
 
@@ -33,7 +33,7 @@ msgstr "Ukuran"
 msgid "Last Modified"
 msgstr "Pungkasan diowahi"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Deleng lan undhuh file lan liyane kanthi fitur sing luwih maju lan antarmuka "
 "sing prasaja lan ramah pangguna."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Deleng lan undhuh file lan liyane kanthi fitur sing luwih maju lan antarmuka "
-"sing prasaja lan ramah pangguna."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Deleng lan undhuh file lan liyane kanthi fitur sing luwih maju lan "
+#~ "antarmuka sing prasaja lan ramah pangguna."

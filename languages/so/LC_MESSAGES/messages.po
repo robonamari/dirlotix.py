@@ -9,11 +9,11 @@ msgstr "Galka waalidka"
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:1
+#: templates/index.html:2 templates/index.min.html:2
 msgid "Search..."
 msgstr "Raadi..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:1
+#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
 msgid "Directory Listing"
 msgstr "Liiska galalka"
 
@@ -33,7 +33,7 @@ msgstr "Cabbirka"
 msgid "Last Modified"
 msgstr "Wax ka beddelka ugu dambeeyay"
 
-#: templates/index.html:3
+#: templates/index.html:3 templates/index.min.html:3
 #, fuzzy
 msgid ""
 "View and download files, etc., with advanced features and a simple, "
@@ -42,10 +42,9 @@ msgstr ""
 "Eeg oo soo degso faylasha iyo ilaha kale oo leh astaamo horumarsan iyo "
 "interface fudud oo saaxiibtinimo leh."
 
-#: templates/index.min.html:1
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user interface."
-msgstr ""
-"Eeg oo soo degso faylasha iyo ilaha kale oo leh astaamo horumarsan iyo "
-"interface fudud oo saaxiibtinimo leh."
+#~ msgid ""
+#~ "View and download files, etc., with advanced features and a simple, "
+#~ "efficient user interface."
+#~ msgstr ""
+#~ "Eeg oo soo degso faylasha iyo ilaha kale oo leh astaamo horumarsan iyo "
+#~ "interface fudud oo saaxiibtinimo leh."
