@@ -9,9 +9,8 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
-from werkzeug.wrappers import Response
-
 from utils.i18n import get_translator
+from werkzeug.wrappers import Response
 
 load_dotenv(".env")
 
