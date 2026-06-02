@@ -5,24 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "תיקייה הורה"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "rtl"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "חיפוש..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "רשימת תיקיות"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr "צפה והורד קבצים ועוד עם תכונות משודרגות וממשק פשוט וידידותי למשתמש."
 
 #: templates/index.html:185
 msgid "File"
@@ -39,6 +32,13 @@ msgstr "גודל"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "עודכן לאחרונה"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr "צפה והורד קבצים ועוד עם תכונות משודרגות וממשק פשוט וידידותי למשתמש."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

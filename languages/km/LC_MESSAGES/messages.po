@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "ថតបង្អួត"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "ស្វែងរក..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "បញ្ជីថត"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"មើល និងបញ្ចូលឯកសារនិងផ្សេងៗទៀតជាមួយនឹងលក្ខណៈពិសេសដែលបានធ្វើឱ្យប្រសើរឡើង "
-"និងមុខងារពាក្យចចកដ៏សាមញ្ញ និងមានភាពងាយស្រួលសម្រាប់អ្នកប្រើប្រាស់។"
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "ទំហំ"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "កំណែចុងក្រោយ"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"មើល និងបញ្ចូលឯកសារនិងផ្សេងៗទៀតជាមួយនឹងលក្ខណៈពិសេសដែលបានធ្វើឱ្យប្រសើរឡើង "
+"និងមុខងារពាក្យចចកដ៏សាមញ្ញ និងមានភាពងាយស្រួលសម្រាប់អ្នកប្រើប្រាស់។"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

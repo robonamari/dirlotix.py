@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Dossier parent"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Rechercher..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Liste des dossiers"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Voir et télécharger des fichiers et plus encore avec des fonctionnalités "
-"améliorées et une interface simple et conviviale."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Taille"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Dernière modification"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Voir et télécharger des fichiers et plus encore avec des fonctionnalités "
+"améliorées et une interface simple et conviviale."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

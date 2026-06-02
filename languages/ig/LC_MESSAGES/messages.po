@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Ngalaba Nna"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Chọọ..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Ndepụta ndekọ"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Lelee na budata faịlụ na ihe ndị ọzọ, nwere atụmatụ ka mma na mfe, ihu ọma "
-"onye ọrụ."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Nha"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Mgbanwe ikpeazụ"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Lelee na budata faịlụ na ihe ndị ọzọ, nwere atụmatụ ka mma na mfe, ihu ọma "
+"onye ọrụ."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

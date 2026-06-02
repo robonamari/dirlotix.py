@@ -5,24 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "མིང་གི་འགྲེལ"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "འཚོལ་བ..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "ཁ་ལོ་མིང་བཀོད"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr "ལྷུང་ལེན་མཁས་ལུགས་འདིའི་གསར་བསྡུས་བྱ་བའི་སྣང་གི་ཡི་བའི་ཕེབས་འདིར་འབད་ཡོད།"
 
 #: templates/index.html:185
 msgid "File"
@@ -39,6 +32,13 @@ msgstr "འགྱུར"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "མིང་འདི་ཡང་བསྡུས"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr "ལྷུང་ལེན་མཁས་ལུགས་འདིའི་གསར་བསྡུས་བྱ་བའི་སྣང་གི་ཡི་བའི་ཕེབས་འདིར་འབད་ཡོད།"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
