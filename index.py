@@ -9,8 +9,10 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 from flask import Flask, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
-from utils.i18n import get_translator
+from werkzeug.exceptions import HTTPException
 from werkzeug.wrappers import Response
+
+from utils.i18n import get_translator
 
 load_dotenv(".env")
 
@@ -170,13 +172,13 @@ async def download_file(requested_filename: str) -> Response:
     return send_file(str(entry_path), as_attachment=True, conditional=True)
 
 
-@app.errorhandler(Exception)
-async def handle_error(exception: Exception) -> Response:
+@app.errorhandler(HTTPException)
+async def handle_error(exception: HTTPException) -> Response:
     """
     Handle exceptions by returning an appropriate error page based on the status code.
 
     Args:
-        exception (Exception): The exception that occurred.
+        exception (HTTPException): The HTTP exception that occurred.
 
     Returns:
         Response: Flask response containing the rendered error page with the appropriate status code.
