@@ -6,11 +6,11 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+import htmlmin
 from dotenv import load_dotenv
-from flask import Flask, abort, redirect, render_template, request, send_file
+from flask import Flask, Response, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
 from werkzeug.exceptions import HTTPException
-from werkzeug.wrappers import Response
 
 from utils.i18n import get_translator
 
@@ -54,7 +54,7 @@ async def index(language_code: str) -> Response:
         current_directory
     ):
         return abort(404)
-    _: Any = get_translator(language_code).gettext
+    translator = get_translator(language_code)
     items: list[dict[str, Any]] = []
     if current_directory != root_directory:
         parent_directory: str = os.path.dirname(current_directory)
@@ -66,7 +66,7 @@ async def index(language_code: str) -> Response:
         items.append(
             {
                 "icon": "fas fa-level-up-alt",
-                "name": _("Previous Folder"),
+                "name": translator.gettext("Previous Folder"),
                 "link": link,
             }
         )
@@ -127,10 +127,10 @@ async def index(language_code: str) -> Response:
             )
     return Response(
         render_template(
-            "index.min.html",
+            "index.html",
             file_list=items,
             lang=language_code,
-            _=get_translator(language_code).gettext,
+            _=translator.gettext,
             font_family=os.getenv("FONT_FAMILY"),
             favicon=os.getenv("FAVICON"),
             theme_color=os.getenv("THEME_COLOR"),
@@ -194,6 +194,28 @@ async def handle_error(exception: HTTPException) -> Response:
         status=status_code,
         mimetype="text/html",
     )
+
+
+@app.after_request
+def minify_html(response: Response) -> Response:
+    """
+    Minify HTML responses to reduce size and improve load times.
+
+    Args:
+        response (Response): The Flask response object to be potentially minified.
+
+    Returns:
+        Response: The original or minified Flask response object, depending on the content type.
+    """
+    if response.mimetype == "text/html" and not response.direct_passthrough:
+        response.set_data(
+            htmlmin.minify(
+                response.get_data(as_text=True),
+                remove_comments=True,
+                remove_empty_space=True,
+            )
+        )
+    return response
 
 
 if __name__ == "__main__":
