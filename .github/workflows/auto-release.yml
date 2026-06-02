@@ -9,36 +9,33 @@ permissions:
   contents: write
 
 jobs:
-  create_release:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 1
-      - name: Get tag name
-        run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
-      - name: Convert .po to .mo files
+      - name: Install gettext (compile translations)
+        run: sudo apt-get install -y gettext
+      - name: Build .mo files (clean rebuild)
         run: |
-          sudo apt-get install -y gettext
           find languages -name "*.po" | while read -r po; do
             mo="${po%.po}.mo"
+            rm -f "$mo"
             msgfmt "$po" -o "$mo"
           done
-      - name: Build release assets
+      - name: Create clean release archive
         run: |
+          set -e
           mkdir -p dist
-          ZIPNAME="Dirlotix-${TAG_NAME}.zip"
-          TARNAME="Dirlotix-${TAG_NAME}.tar.gz"
-          zip -rq "dist/$ZIPNAME" . -x ".git/*" ".github/*" "README.md" ".gitignore" "dist/*" "languages/**/*.po"
-          tar --exclude='.git' --exclude='.github' --exclude='README.md' \
-              --exclude='.gitignore' --exclude='dist/*' --exclude='languages/**/*.po' \
-              -czf "dist/$TARNAME" .
-      - name: Upload GitHub release
+          zip -rq "dist/Dirlotix-${GITHUB_REF_NAME}.zip" . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x "dist/*" \
+            -x "languages/**/*.po" \
+            -x "languages/**/*.pot" \
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: ${{ env.TAG_NAME }}
-          name: "${{ env.TAG_NAME }}"
-          files: |
-            dist/Dirlotix-${{ env.TAG_NAME }}.zip
-            dist/Dirlotix-${{ env.TAG_NAME }}.tar.gz
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          files: dist/Dirlotix-${{ github.ref_name }}.zip
