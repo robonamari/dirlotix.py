@@ -5,17 +5,26 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Dhairekitori Yepamusoro"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "Tsvaga..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Runyorwa rwemafolda"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Tarisa uye dhawunirodha mafaira nemimwe midziyo ine mabasa epamusoro uye "
+"chikuva chakareruka uye chakanaka."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,15 +41,6 @@ msgstr "Ukuru"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Chakapedzisira kuchinjwa"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Tarisa uye dhawunirodha mafaira nemimwe midziyo ine mabasa epamusoro uye "
-"chikuva chakareruka uye chakanaka."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

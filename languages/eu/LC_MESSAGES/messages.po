@@ -5,17 +5,26 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Aurreko Karpeta"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "Bilatu..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Direktorio-zerrenda"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Ikusi eta deskargatu fitxategiak, etab., Ezaugarri aurreratuekin eta "
+"erabiltzaile-interfaze sinple eta eraginkorrarekin."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,15 +41,6 @@ msgstr "Tamaina"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Azken aldaketa"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Ikusi eta deskargatu fitxategiak, etab., Ezaugarri aurreratuekin eta "
-"erabiltzaile-interfaze sinple eta eraginkorrarekin."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

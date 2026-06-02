@@ -5,17 +5,26 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Nadređeni direktorijum"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "Pretraga..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lista direktorijuma"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Pogledajte i preuzmite fajlove i druge resurse sa naprednim funkcijama i "
+"jednostavnim i korisnički prijateljskim interfejsom."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,15 +41,6 @@ msgstr "Veličina"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Poslednja izmena"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Pogledajte i preuzmite fajlove i druge resurse sa naprednim funkcijama i "
-"jednostavnim i korisnički prijateljskim interfejsom."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

@@ -5,17 +5,25 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Отец директори"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "Ытшӧм..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Директори систимы"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Файлы иныт та ôзымны кодӧн пылискод лаӧн йӧтӧлӧн, но интерфейс ямӧтшӧлыт."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,14 +40,6 @@ msgstr "Размер"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Итышкалыны кӧррыты"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Файлы иныт та ôзымны кодӧн пылискод лаӧн йӧтӧлӧн, но интерфейс ямӧтшӧлыт."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

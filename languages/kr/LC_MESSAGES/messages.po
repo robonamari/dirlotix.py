@@ -5,17 +5,26 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Kundin adireshin mahaifi"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "Nema..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Jerin kundin adireshi"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
+"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,15 +41,6 @@ msgstr "Girma"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Ƙarshe canza"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Badi na loda faayel ɗo da kuma wasu abubuwa tare da fasali masu ci gaba da "
-"kuma mai sauƙi da mai amfani da keɓaɓɓen fuska."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

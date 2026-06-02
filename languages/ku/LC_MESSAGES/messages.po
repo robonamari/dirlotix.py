@@ -5,17 +5,26 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "بوخچەی سەرەکی"
 
-#: templates/index.html:1 templates/index.min.html:1
+#: templates/index.min.html:1 templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.html:2 templates/index.min.html:2
+#: templates/index.min.html:2 templates/index.html:2
 msgid "Search..."
 msgstr "گەڕان..."
 
-#: templates/index.html:10 templates/index.html:175 templates/index.min.html:5
+#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "لیستی بوخچەکان"
+
+#: templates/index.min.html:3 templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"پەڕگەکان ببینە و داگرتن، لەگەڵ تایبەتمەندییە باشترەکان و ڕووکاری بەکارهێنانی "
+"سادە و ئاسان."
 
 #: templates/index.html:185
 msgid "File"
@@ -32,15 +41,6 @@ msgstr "قەبارە"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "دوایین گۆڕانکاری"
-
-#: templates/index.html:3 templates/index.min.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"پەڕگەکان ببینە و داگرتن، لەگەڵ تایبەتمەندییە باشترەکان و ڕووکاری بەکارهێنانی "
-"سادە و ئاسان."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
