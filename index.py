@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
-import htmlmin
+import minify_html
 from dotenv import load_dotenv
 from flask import Flask, Response, abort, redirect, render_template, request, send_file
 from flask_compress import Compress
@@ -197,7 +197,7 @@ async def handle_error(exception: HTTPException) -> Response:
 
 
 @app.after_request
-def minify_html(response: Response) -> Response:
+async def minify_html_response(response: Response) -> Response:
     """
     Minify HTML responses to reduce size and improve load times.
 
@@ -205,14 +205,15 @@ def minify_html(response: Response) -> Response:
         response (Response): The Flask response object to be potentially minified.
 
     Returns:
-        Response: The original or minified Flask response object, depending on the content type.
+        Response: The modified Flask response object with minified HTML if applicable.
     """
     if response.mimetype == "text/html" and not response.direct_passthrough:
         response.set_data(
-            htmlmin.minify(
+            minify_html.minify(
                 response.get_data(as_text=True),
-                remove_comments=True,
-                remove_empty_space=True,
+                keep_comments=False,
+                minify_css=True,
+                minify_js=True,
             )
         )
     return response
