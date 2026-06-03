@@ -46,22 +46,22 @@ def index(language_code: str) -> Response:
     }
     if language_code not in available_languages:
         return download_file(language_code)
-    root_directory: str = os.path.join(os.path.dirname(__file__), "downloads")
-    current_directory: str = os.path.normpath(
-        os.path.join(root_directory, request.args.get("dir", ""))
-    )
-    if not current_directory.startswith(root_directory) or not os.path.isdir(
-        current_directory
-    ):
+    root_directory: Path = (Path(__file__).parent / "downloads").resolve()
+    current_directory: Path = (root_directory / request.args.get("dir", "")).resolve()
+    try:
+        current_directory.relative_to(root_directory)
+    except ValueError:
+        return abort(404)
+    if not current_directory.is_dir():
         return abort(404)
     translator = get_translator(language_code)
     items: list[dict[str, Any]] = []
     if current_directory != root_directory:
-        parent_directory: str = os.path.dirname(current_directory)
+        parent_directory: Path = current_directory.parent
         link: str = (
             f"/{language_code}"
             if parent_directory == root_directory
-            else f"/{language_code}?dir={os.path.relpath(parent_directory, root_directory)}"
+            else f"/{language_code}?dir={quote(str(parent_directory.relative_to(root_directory)))}"
         )
         items.append(
             {
@@ -71,17 +71,16 @@ def index(language_code: str) -> Response:
             }
         )
     ignored_files: set[str] = set(os.getenv("IGNORE_FILES", "").split(","))
-    entries = [
-        f
-        for f in os.listdir(current_directory)
-        if not f.startswith(".") and f not in ignored_files
+    entries: list[Path] = [
+        entry
+        for entry in current_directory.iterdir()
+        if not entry.name.startswith(".") and entry.name not in ignored_files
     ]
-    entries.sort(key=lambda x: x.lower())
-    entries.sort(key=lambda x: os.path.isfile(os.path.join(current_directory, x)))
-    for entry_name in entries:
-        entry_path: str = os.path.join(current_directory, entry_name)
-        if os.path.isfile(entry_path):
-            mime_type, _ = mimetypes.guess_type(entry_path)
+    entries.sort(key=lambda entry: entry.name.lower())
+    entries.sort(key=lambda entry: entry.is_file())
+    for entry_path in entries:
+        if entry_path.is_file():
+            mime_type, _ = mimetypes.guess_type(str(entry_path))
             mime_main_type: str = mime_type.split("/")[0] if mime_type else ""
             mime_icon_map: dict[str, str] = {
                 "video": "fas fa-video",
@@ -100,20 +99,22 @@ def index(language_code: str) -> Response:
                 "text/plain": "fas fa-file-alt",
             }
             icon: str = mime_icon_map.get(
-                mime_type or "", mime_icon_map.get(mime_main_type, "fas fa-file")
+                mime_type or "",
+                mime_icon_map.get(mime_main_type, "fas fa-file"),
             )
-            file_size_bytes: int = os.path.getsize(entry_path)
+            file_size_bytes: int = entry_path.stat().st_size
             size_index: int = min(4, max(0, (file_size_bytes.bit_length() - 1) // 10))
             size_unit_labels: list[str] = ["B", "KB", "MB", "GB", "TB"]
             file_size: float = file_size_bytes / (1024**size_index)
             items.append(
                 {
                     "icon": icon,
-                    "name": entry_name,
-                    "link": f"/{quote(os.path.relpath(entry_path, root_directory))}",
+                    "name": entry_path.name,
+                    "link": f"/{quote(str(entry_path.relative_to(root_directory)))}",
                     "size": f"{file_size:.2f}{size_unit_labels[size_index]}",
                     "date": datetime.datetime.fromtimestamp(
-                        os.path.getmtime(entry_path), zoneinfo.ZoneInfo("UTC")
+                        entry_path.stat().st_mtime,
+                        zoneinfo.ZoneInfo("UTC"),
                     ).isoformat(timespec="seconds"),
                 }
             )
@@ -121,8 +122,8 @@ def index(language_code: str) -> Response:
             items.append(
                 {
                     "icon": "fas fa-folder-open",
-                    "name": entry_name,
-                    "link": f"/{language_code}?dir={quote(os.path.relpath(entry_path, root_directory))}",
+                    "name": entry_path.name,
+                    "link": f"/{language_code}?dir={quote(str(entry_path.relative_to(root_directory)))}",
                 }
             )
     return Response(
