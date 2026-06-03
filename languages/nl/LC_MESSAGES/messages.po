@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Bovenliggend map"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Zoeken..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Mappenlijst"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Bekijk en download bestanden en meer met verbeterde functies en een "
-"eenvoudig, gebruiksvriendelijke interface."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Grootte"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Laatst gewijzigd"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Bekijk en download bestanden en meer met verbeterde functies en een "
+"eenvoudig, gebruiksvriendelijke interface."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

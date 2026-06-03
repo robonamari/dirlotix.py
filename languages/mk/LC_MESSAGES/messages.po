@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Претходна папка"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Пребарување..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Листа на папки"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Прегледајте и преземете датотеки и други содржини со напредни функции и "
-"едноставен, кориснички пријателски интерфејс."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Големина"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Последна измена"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Прегледајте и преземете датотеки и други содржини со напредни функции и "
+"едноставен, кориснички пријателски интерфејс."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

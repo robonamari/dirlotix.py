@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Fare Māmā"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Fa’ahora..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Rāpare o te mau fare"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Afa’i e te fa’ahora i te mau faile e te tahi atu mau rauhanga e te mau "
-"hi’oraa piha e te hoê hoê i’a’a e noaa."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Rahi"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Hope o te hoê atu"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Afa’i e te fa’ahora i te mau faile e te tahi atu mau rauhanga e te mau "
+"hi’oraa piha e te hoê hoê i’a’a e noaa."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

@@ -5,26 +5,17 @@ msgstr ""
 msgid "Previous Folder"
 msgstr "Chur-fohryn as ooilley"
 
-#: templates/index.min.html:1 templates/index.html:1
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
-#: templates/index.min.html:2 templates/index.html:2
+#: templates/index.html:2
 msgid "Search..."
 msgstr "Chaarj..."
 
-#: templates/index.min.html:5 templates/index.html:10 templates/index.html:175
+#: templates/index.html:10 templates/index.html:175
 msgid "Directory Listing"
 msgstr "Lhistey chur-fohryn"
-
-#: templates/index.min.html:3 templates/index.html:3
-#, fuzzy
-msgid ""
-"View and download files, etc., with advanced features and a simple, "
-"efficient user"
-msgstr ""
-"Fliughey as dowanloud ehyn fayllyn as ooilley cooishyn rish feashley yn "
-"obbyr as cur magh er-lhiam y usseree."
 
 #: templates/index.html:185
 msgid "File"
@@ -41,6 +32,15 @@ msgstr "Troo"
 #: templates/index.html:188
 msgid "Last Modified"
 msgstr "Yn jiu cur magh"
+
+#: templates/index.html:3
+#, fuzzy
+msgid ""
+"View and download files, etc., with advanced features and a simple, "
+"efficient user"
+msgstr ""
+"Fliughey as dowanloud ehyn fayllyn as ooilley cooishyn rish feashley yn "
+"obbyr as cur magh er-lhiam y usseree."
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
