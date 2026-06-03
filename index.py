@@ -29,15 +29,15 @@ Compress(app)
 
 
 @app.get("/<language_code>")
-async def index(language_code: str) -> Response:
+def index(language_code: str) -> Response:
     """
-    Serve the index page for a given language code, displaying files and directories.
+    Serve the main index page for a given language, displaying the contents of the downloads directory.
 
     Args:
-        language_code (str): The language code for localization.
+        language_code (str): The language code for which to serve the index page.
 
     Returns:
-        Response: Flask response containing the rendered index page with file listings.
+        Response: Flask response containing the rendered index page with the file list and appropriate translations.
     """
     available_languages: set[str] = {
         d.name
@@ -45,7 +45,7 @@ async def index(language_code: str) -> Response:
         if d.is_dir() and (d / "LC_MESSAGES" / "messages.mo").exists()
     }
     if language_code not in available_languages:
-        return await download_file(language_code)
+        return download_file(language_code)
     root_directory: str = os.path.join(os.path.dirname(__file__), "downloads")
     current_directory: str = os.path.normpath(
         os.path.join(root_directory, request.args.get("dir", ""))
@@ -140,26 +140,26 @@ async def index(language_code: str) -> Response:
 
 
 @app.get("/LICENSE")
-async def show_license() -> Response:
+def show_license() -> Response:
     """
     Serve the LICENSE file as plain text.
 
     Returns:
-        Response: Flask response containing the LICENSE file content with text/plain MIME type.
+        Response: Flask response containing the contents of the LICENSE file with a text/plain MIME type.
     """
     return send_file("LICENSE", mimetype="text/plain")
 
 
 @app.get("/<path:requested_filename>")
-async def download_file(requested_filename: str) -> Response:
+def download_file(requested_filename: str) -> Response:
     """
-    Serve a file for download, ensuring that the requested file is within the allowed directory.
+    Serve a file for download, ensuring that the requested file is within the allowed downloads directory.
 
     Args:
-        requested_filename (str): The relative path of the requested file.
+        requested_filename (str): The relative path of the file to be downloaded.
 
     Returns:
-        Response: Flask response containing the requested file for download, or an error if the file is not found or access is forbidden.
+        Response: Flask response containing the file for download, or an appropriate error if the file is not found or access is forbidden.
     """
     root_directory: Path = Path(
         os.path.join(os.path.dirname(__file__), "downloads")
@@ -173,15 +173,15 @@ async def download_file(requested_filename: str) -> Response:
 
 
 @app.errorhandler(HTTPException)
-async def handle_error(exception: HTTPException) -> Response:
+def handle_error(exception: HTTPException) -> Response:
     """
-    Handle exceptions by returning an appropriate error page based on the status code.
+    Handle HTTP exceptions by rendering a custom error page based on the status code.
 
     Args:
-        exception (HTTPException): The HTTP exception that occurred.
+        exception (HTTPException): The HTTP exception that was raised.
 
     Returns:
-        Response: Flask response containing the rendered error page with the appropriate status code.
+        Response: Flask response containing the rendered error page with the appropriate status code and MIME type.
     """
     status_code: int = getattr(exception, "code", 500)
     match status_code:
@@ -197,15 +197,15 @@ async def handle_error(exception: HTTPException) -> Response:
 
 
 @app.after_request
-async def minify_html_response(response: Response) -> Response:
+def minify_html_response(response: Response) -> Response:
     """
-    Minify HTML responses to reduce size and improve load times.
+    Minify HTML responses to reduce payload size and improve load times. This function checks if the response is of type text/html and not a direct passthrough, then uses the minify_html library to minify the HTML content while also minifying any embedded CSS and JavaScript.
 
     Args:
-        response (Response): The Flask response object to be potentially minified.
+        response (Response): The Flask response object to be potentially modified.
 
     Returns:
-        Response: The modified Flask response object with minified HTML if applicable.
+        Response: The modified Flask response object with minified HTML content if applicable, or the original
     """
     if response.mimetype == "text/html" and not response.direct_passthrough:
         response.set_data(
