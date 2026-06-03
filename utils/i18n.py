@@ -7,18 +7,16 @@ from typing import Any
 @lru_cache(maxsize=None)
 def get_translator(language: str = "en") -> gettext.NullTranslations:
     """
-    Get a gettext translation object for the specified language.
-    Uses caching to avoid reloading translations on each call.
+    Get a gettext translation object for the specified language. This function uses caching to avoid reloading translations multiple times for the same language. It attempts to load the translation files from the "languages" directory relative to the current file's location. If the specified language is not found or an error occurs during loading, it falls back to a NullTranslations object, which will return the original strings without translation.
 
     Args:
-        language (str): Two-letter language code (default: "en").
+        language (str): The language code for which to load the translation (e.g., "en" for English, "es" for Spanish). The default is "en".
 
     Returns:
-        gettext.NullTranslations: Translation object for the specified language.
+        gettext.NullTranslations: A translation object that can be used to translate strings based on the specified language. If the translation files are not found, it returns a NullTranslations object that will return the original strings.
     """
     try:
         languages_dir: Path = (Path(__file__).parent.parent / "languages").resolve()
-
         return gettext.translation(
             domain="messages",
             localedir=str(languages_dir),
