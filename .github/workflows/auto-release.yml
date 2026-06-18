@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install gettext (compile translations)
         run: sudo apt-get install -y gettext
       - name: Build .mo files (clean rebuild)
