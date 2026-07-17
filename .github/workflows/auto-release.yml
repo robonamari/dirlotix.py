@@ -33,7 +33,7 @@ jobs:
             -x ".gitignore" \
             -x "dist/*" \
             -x "languages/**/*.po" \
-            -x "languages/**/*.pot" \
+            -x "languages/**/*.pot"
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
         with:
