@@ -22,7 +22,7 @@ app.add_url_rule(
     "/",
     endpoint="root_redirect",
     view_func=lambda: redirect(
-        "/en" + (f"?{request.query_string.decode()}" if request.query_string else "")
+        "/en" + (f"?{request.query_string.decode()}" if request.query_string else ""),
     ),
 )
 Compress(app)
@@ -49,14 +49,14 @@ UTC = zoneinfo.ZoneInfo("UTC")
 
 @app.get("/<language_code>")
 def index(language_code: str) -> Response:
-    """
-    Display the contents of the downloads directory in a web interface, allowing users to navigate through folders and download files. The function checks for available translations based on the language code provided in the URL, and if the language is not available, it redirects to the file download route. It also ensures that users cannot access directories outside of the designated downloads folder by validating the requested path. The function generates a list of items (files and folders) to be displayed on the page, including their icons, names, links, sizes, and modification dates, and renders an HTML template with this information.
+    """Display the downloads directory with localized navigation.
 
     Args:
-        language_code (str): The language code extracted from the URL, used to determine the translation to be applied to the interface.
+        language_code (str): The language code for the interface.
 
     Returns:
-        Response: A Flask response object containing the rendered HTML page with the list of files and folders, or a redirect to the file download route if the language is not available.
+        Response: The rendered file browser page or a file download response.
+
     """
     available_languages: set[str] = {
         d.name
@@ -80,14 +80,17 @@ def index(language_code: str) -> Response:
         link: str = (
             f"/{language_code}"
             if parent_directory == root_directory
-            else f"/{language_code}?dir={quote(str(parent_directory.relative_to(root_directory)))}"
+            else (
+                f"/{language_code}?dir="
+                f"{quote(str(parent_directory.relative_to(root_directory)))}"
+            )
         )
         items.append(
             {
                 "icon": "fas fa-level-up-alt",
                 "name": translator.gettext("Previous Folder"),
                 "link": link,
-            }
+            },
         )
     ignored_files: set[str] = set(os.getenv("IGNORE_FILES", "").split(","))
     entries: list[Path] = [
@@ -102,7 +105,8 @@ def index(language_code: str) -> Response:
             mime_type, _ = mimetypes.guess_type(str(entry_path))
             mime_main_type: str = mime_type.split("/")[0] if mime_type else ""
             icon: str = MIME_ICON_MAP.get(
-                mime_type or "", MIME_ICON_MAP.get(mime_main_type, "fas fa-file")
+                mime_type or "",
+                MIME_ICON_MAP.get(mime_main_type, "fas fa-file"),
             )
 
             file_size_bytes: int = file_stat.st_size
@@ -115,17 +119,21 @@ def index(language_code: str) -> Response:
                     "link": f"/{quote(str(entry_path.relative_to(root_directory)))}",
                     "size": f"{file_size:.2f}{SIZE_UNITS[size_index]}",
                     "date": datetime.datetime.fromtimestamp(
-                        file_stat.st_mtime, UTC
+                        file_stat.st_mtime,
+                        UTC,
                     ).isoformat(timespec="seconds"),
-                }
+                },
             )
         else:
             items.append(
                 {
                     "icon": "fas fa-folder-open",
                     "name": entry_path.name,
-                    "link": f"/{language_code}?dir={quote(str(entry_path.relative_to(root_directory)))}",
-                }
+                    "link": (
+                        f"/{language_code}?dir="
+                        f"{quote(str(entry_path.relative_to(root_directory)))}"
+                    ),
+                },
             )
     return Response(
         render_template(
@@ -143,25 +151,25 @@ def index(language_code: str) -> Response:
 
 @app.get("/LICENSE")
 def show_license() -> Response:
-    """
-    Serve the LICENSE file as plain text when the /LICENSE route is accessed. This allows users to view the license information directly in their browser without needing to download the file.
+    """Serve the LICENSE file as plain text.
 
     Returns:
-        Response: A Flask response object containing the contents of the LICENSE file with a MIME type of "text/plain".
+        Response: The LICENSE file as a plain-text response.
+
     """
     return send_file("LICENSE", mimetype="text/plain")
 
 
 @app.get("/<path:requested_filename>")
 def download_file(requested_filename: str) -> Response:
-    """
-    Serve a file for download when a specific filename is requested. The function checks if the requested file exists within the designated downloads directory and ensures that the path is valid to prevent unauthorized access to files outside of this directory. If the file exists and is valid, it is sent to the user as an attachment for download. If the file does not exist or the path is invalid, appropriate HTTP error responses are returned.
+    """Serve a requested file from the downloads directory.
 
     Args:
-        requested_filename (str): The filename extracted from the URL, representing the file that the user wants to download.
+        requested_filename (str): The name of the file to download.
 
     Returns:
-        Response: A Flask response object that either contains the requested file for download or an error message if the file does not exist or the path is invalid.
+        Response: The requested file as a downloadable response.
+
     """
     root_directory: Path = (Path(__file__).parent / "downloads").resolve()
     entry_path: Path = (root_directory / requested_filename).resolve()
@@ -176,14 +184,14 @@ def download_file(requested_filename: str) -> Response:
 
 @app.errorhandler(HTTPException)
 def handle_error(exception: HTTPException) -> Response:
-    """
-    Handle HTTP exceptions by rendering a custom error page based on the status code of the exception. The function checks the status code of the exception and selects an appropriate HTML template to display a user-friendly error message. If the status code is not one of the predefined ones (400, 401, 403, 404, 500, 503), it defaults to using the template for a 500 Internal Server Error.
+    """Handle HTTP exceptions and render the appropriate error page.
 
     Args:
-        exception (HTTPException): The HTTP exception that was raised during the request handling process.
+        exception (HTTPException): The HTTP exception that was raised.
 
     Returns:
-        Response: A Flask response object containing the rendered error page with the appropriate status code and MIME type of "text/html".
+        Response: The rendered error page with the corresponding status code.
+
     """
     status_code: int = getattr(exception, "code", 500)
     template_name: str = (
@@ -198,14 +206,14 @@ def handle_error(exception: HTTPException) -> Response:
 
 @app.after_request
 def minify_html_response(response: Response) -> Response:
-    """
-    Minify HTML responses to reduce the size of the content sent to the client. This function checks if the response's MIME type is "text/html" and if it is not a direct passthrough response. If both conditions are met, it uses the minify_html library to minify the HTML content by removing unnecessary whitespace, comments, and optionally minifying embedded CSS and JavaScript. The minified HTML is then set as the new response data before being returned to the client.
+    """Minify HTML responses before sending them to the client.
 
     Args:
-        response (Response): The Flask response object that is being processed after the request has been handled.
+        response (Response): The Flask response to process.
 
     Returns:
-        Response: The modified Flask response object with minified HTML content if applicable, or the original response if the conditions for minification are not met.
+        Response: The minified HTML response or the original response.
+
     """
     if response.mimetype == "text/html" and not response.direct_passthrough:
         response.set_data(
@@ -214,7 +222,7 @@ def minify_html_response(response: Response) -> Response:
                 keep_comments=False,
                 minify_css=True,
                 minify_js=True,
-            )
+            ),
         )
     return response
 
