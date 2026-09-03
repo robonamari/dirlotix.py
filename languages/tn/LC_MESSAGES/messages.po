@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Dikitjana tsa batlhophi"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Bona le go tswa ka faele le resources tse dingwe ka ditshwanelo tsa go "
 "oketsa le go tlhola sesebediswa se se bonolo le se se ikemetseng"
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Dikitjana tsa batlhophi"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

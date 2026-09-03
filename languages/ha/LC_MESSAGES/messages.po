@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Babban fayil"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "rtl"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Duba da sauke fayiloli da ƙari tare da ingantattun fasali da sauƙin amfani, "
 "mai amfani da keɓaɓɓen fuska."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Babban fayil"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

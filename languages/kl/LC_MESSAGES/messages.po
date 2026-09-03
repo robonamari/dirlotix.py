@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Pissutsit"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -38,10 +42,6 @@ msgstr ""
 "Oqaluttuaqarluni faili kiisalu assigiinngitsunik taaneqartunik "
 "allaqqinnermik aaqqissuussinikkullu, atuisut amigaarpassuarminik "
 "atuisinnaasinnaasunngortuuvoq."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Pissutsit"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

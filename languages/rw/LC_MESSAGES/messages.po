@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Urutonde rw'ababyeyi"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Reba no gukurura amafayile n'ibindi bifite imikorere igezweho hamwe "
 "n'interface yoroshye kandi ikorohereza abakoresha."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Urutonde rw'ababyeyi"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

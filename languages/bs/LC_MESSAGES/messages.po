@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Prethodni direktorij"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "rtl"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Pogledajte i preuzmite datoteke i više sa unaprijeđenim značajkama i "
 "jednostavnim, korisnički prijateljskim sučeljem."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Prethodni direktorij"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Эрӑн папкă"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "rtl"
 
@@ -36,10 +40,6 @@ msgid ""
 "efficient user"
 msgstr ""
 "Файлне çыннепере и çирешетсем тӑваннеçен таçҫӑн пӑрҫӑнӑ, чӑнӑшӑн хӑтӑнӑ."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Эрӑн папкă"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
