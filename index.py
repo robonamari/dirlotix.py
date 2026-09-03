@@ -1,7 +1,6 @@
-import datetime
 import mimetypes
 import os
-import zoneinfo
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -44,7 +43,6 @@ MIME_ICON_MAP: dict[str, str] = {
     "text/plain": "fas fa-file-alt",
 }
 SIZE_UNITS: list[str] = ["B", "KB", "MB", "GB", "TB"]
-UTC = zoneinfo.ZoneInfo("UTC")
 
 
 @app.get("/<language_code>")
@@ -70,9 +68,9 @@ def index(language_code: str) -> Response:
     try:
         current_directory.relative_to(root_directory)
     except ValueError:
-        return abort(404)
+        abort(404)
     if not current_directory.is_dir():
-        return abort(404)
+        abort(404)
     translator = get_translator(language_code)
     items: list[dict[str, Any]] = []
     if current_directory != root_directory:
@@ -103,13 +101,12 @@ def index(language_code: str) -> Response:
         file_stat = entry_path.stat()
         if entry_path.is_file():
             mime_type, _ = mimetypes.guess_type(str(entry_path))
-            mime_main_type: str = mime_type.split("/")[0] if mime_type else ""
+            mime_main_type = mime_type.split("/")[0] if mime_type else ""
             icon: str = MIME_ICON_MAP.get(
                 mime_type or "",
                 MIME_ICON_MAP.get(mime_main_type, "fas fa-file"),
             )
-
-            file_size_bytes: int = file_stat.st_size
+            file_size_bytes = file_stat.st_size
             size_index: int = min(4, max(0, (file_size_bytes.bit_length() - 1) // 10))
             file_size: float = file_size_bytes / (1024**size_index)
             items.append(
@@ -118,10 +115,9 @@ def index(language_code: str) -> Response:
                     "name": entry_path.name,
                     "link": f"/{quote(str(entry_path.relative_to(root_directory)))}",
                     "size": f"{file_size:.2f}{SIZE_UNITS[size_index]}",
-                    "date": datetime.datetime.fromtimestamp(
-                        file_stat.st_mtime,
-                        UTC,
-                    ).isoformat(timespec="seconds"),
+                    "date": datetime.fromtimestamp(file_stat.st_mtime, UTC).isoformat(
+                        timespec="seconds",
+                    ),
                 },
             )
         else:
@@ -178,7 +174,7 @@ def download_file(requested_filename: str) -> Response:
     except ValueError:
         abort(403)
     if not entry_path.is_file():
-        return abort(404)
+        abort(404)
     return send_file(str(entry_path), as_attachment=True, conditional=True)
 
 
