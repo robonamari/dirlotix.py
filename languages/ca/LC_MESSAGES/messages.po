@@ -2,10 +2,6 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Directori superior"
-
-#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -41,6 +37,10 @@ msgid ""
 msgstr ""
 "Vegeu i descarregueu fitxers i més amb característiques millorades i una "
 "interfície senzilla i fàcil d'usar."
+
+#: index.py:89
+msgid "Previous Folder"
+msgstr "Directori superior"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
