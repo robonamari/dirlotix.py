@@ -2,10 +2,6 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "Fa'amaoniga matua"
-
-#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -41,6 +37,10 @@ msgid ""
 msgstr ""
 "Fa'amaoniga ma le la'uina o fa'amaoniga ma isi meafaigaluega ma fa'amaoniga "
 "sili ma se fa'avae faigofie ma masani i tagata."
+
+#: index.py:89
+msgid "Previous Folder"
+msgstr "Fa'amaoniga matua"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
