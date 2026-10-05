@@ -2,10 +2,6 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-msgid "Previous Folder"
-msgstr "ಪೋಷಕ ಡೈರೆಕ್ಟರಿ"
-
-#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -41,6 +37,10 @@ msgid ""
 msgstr ""
 "ಫೈಲ್‌ಗಳು ಮತ್ತು ಇತರೆಗಳನ್ನು ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಮತ್ತು ಸರಳ, ಬಳಕೆದಾರ ಸ್ನೇಹಿ "
 "ಇಂಟರ್ಫೇಸ್‌ನೊಂದಿಗೆ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+
+#: index.py:89
+msgid "Previous Folder"
+msgstr "ಪೋಷಕ ಡೈರೆಕ್ಟರಿ"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
