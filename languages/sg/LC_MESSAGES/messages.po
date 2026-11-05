@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Bâko to file"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Gbé yé kî ngâli to file na lingbi a bâko à ndânga na hîngo to meko a ngâli "
 "na sângo na zîngo."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Bâko to file"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

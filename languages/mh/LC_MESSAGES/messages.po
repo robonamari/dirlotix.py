@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Dirēktoir eo elañ"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Ejjab in rejjeļ in files im ñan an kotto im meļeļe ke ejjeļ aolep ad iñin ko "
 "im kōntrōl in ke mweo."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Dirēktoir eo elañ"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

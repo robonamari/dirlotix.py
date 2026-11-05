@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Ifolda engaphezulu"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Buka futhi ulayishe amafayela nokunye okuningi, ngezici ezithuthukisiwe "
 "nesixhumi esibonakalayo esilula nesisebenziseka kalula."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Ifolda engaphezulu"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "

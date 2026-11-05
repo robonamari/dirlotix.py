@@ -2,6 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+msgid "Previous Folder"
+msgstr "Faako a edi kan no"
+
+#: templates/index.html:1
 msgid "ltr"
 msgstr "ltr"
 
@@ -37,10 +41,6 @@ msgid ""
 msgstr ""
 "Hwɛ ne to faayil ne nneɛma foforo so, na yɛ adwuma wɔ nneɛma a ɛda ho yiye "
 "ne adwumakuo a ɛyɛ nkɔsoɔ."
-
-#: index.py:89
-msgid "Previous Folder"
-msgstr "Faako a edi kan no"
 
 #~ msgid ""
 #~ "View and download files, etc., with advanced features and a simple, "
