@@ -4,7 +4,7 @@
 
 ![Code Size](https://img.shields.io/github/languages/code-size/robonamari/Dirlotix-py?style=flat)
 ![Total lines](https://tokei.rs/b1/github/robonamari/Dirlotix-py?style=flat)
-![Python Versions](https://img.shields.io/badge/python-%5E3.10-blue)
+![Python Versions](https://img.shields.io/badge/python-%5E3.13-blue)
 ![GitHub license](https://img.shields.io/github/license/robonamari/Dirlotix-py)
 
 ---
@@ -45,8 +45,8 @@ pip install -r requirements.txt
 
 ### 3. Configure the Script
 
-1. Rename **.env.example** to **.env**.
-2. The full descriptions of the environment variables are written inside the `.env` file, and you need to fill them out accordingly.
+1. Rename `.env.example` to `.env`
+2. Edit the configuration values in `.env`
 3. Create a folder named `downloads` and put all files, directories, or anything you want to make downloadable inside that folder.
 
 ### 4. Run the Script
